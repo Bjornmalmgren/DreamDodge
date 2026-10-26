@@ -6,7 +6,7 @@ enum EMovementDirection{
     Right
 }
 
-enum EBulletType{
+enum EDimension{
     Dream,
     Nightmare,
     Normal
@@ -30,7 +30,7 @@ class ABullet : AActor{
     UPROPERTY()
     EMovementDirection DirectionToMoveIn = EMovementDirection::Left;
     UPROPERTY()
-    EBulletType BulletType = EBulletType::Normal;
+    EDimension BulletType = EDimension::Dream;
     UPROPERTY()
     EAttackType TypeOfAttack = EAttackType::Normal;
 
@@ -65,7 +65,7 @@ class ABullet : AActor{
     void ActorBeginOverlap(AActor OtherActor)
     {
         if(OtherActor.ActorHasTag(n"Player")){
-            //damage player
+            //cast to player and check player "dimension" to see if a hit should register
             Destroy();
         }
     }
