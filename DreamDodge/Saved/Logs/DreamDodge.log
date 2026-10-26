@@ -13664,3 +13664,220 @@ Sampler Limit: 32
 [2026.10.26-15.17.51:403][944]Angelscript: old module cleanup took 0.149 ms
 [2026.10.26-15.17.51:403][944]Angelscript: update module cache took 0.000 ms
 [2026.10.26-15.17.51:403][944]Angelscript: ==script reload total == took 1.881 ms
+[2026.10.26-15.22.24:778][764]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15904.718750
+[2026.10.26-15.22.25:777][767]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.26-15.22.25:778][767]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15905.386719, Update Interval: 335.065765
+[2026.10.26-15.28.33:075][904]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16272.860352
+[2026.10.26-15.28.34:076][907]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.26-15.28.34:076][907]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16273.526367, Update Interval: 316.729034
+[2026.10.26-15.30.43:402][268]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-15.30.43:462][268]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/BP_Bullet] ([2] browsable assets)...
+[2026.10.26-15.30.43:471][268]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/BP_Bullet.BP_Bullet]
+[2026.10.26-15.30.43:472][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_Bullet]
+[2026.10.26-15.30.43:472][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Bullet" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset" SILENT=true
+[2026.10.26-15.30.43:485][268]LogSavePackage: Moving output files for package: /Game/BluePrints/BP_Bullet
+[2026.10.26-15.30.43:486][268]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/BP_Bullet3444C45F4DCB2F8AE0F0958402EBC2D1.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset'
+[2026.10.26-15.30.43:496][268]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.710 ms (total: 9.63 sec)
+[2026.10.26-15.30.43:544][268]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.26-15.30.43:544][268]LogContentValidation: Enabled validators:
+[2026.10.26-15.30.43:544][268]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-15.30.43:545][268]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-15.30.43:545][268]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-15.30.43:545][268]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-15.30.43:545][268]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-15.30.43:545][268]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-15.30.43:545][268]AssetCheck: /Game/BluePrints/BP_Bullet Validating asset
+[2026.10.26-15.31.04:957][ 27]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.10.26-15.31.10:206][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-15.31.10:269][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/MainLVL.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.26-15.31.10:320][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.10.26-15.31.10:340][470]LogSavePackage: Moving output files for package: /Game/MainLVL
+[2026.10.26-15.31.10:341][470]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/MainLVLFA1E31AB4255C61F674625B29E495880.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/MainLVL.umap'
+[2026.10.26-15.31.10:351][470]LogFileHelpers: Saving map 'MainLVL' took 0.084
+[2026.10.26-15.31.10:362][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 155.654 ms (total: 9.79 sec)
+[2026.10.26-15.31.10:418][470]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.26-15.31.10:418][470]LogContentValidation: Enabled validators:
+[2026.10.26-15.31.10:418][470]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-15.31.10:418][470]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-15.31.10:418][470]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-15.31.10:418][470]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-15.31.10:418][470]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-15.31.10:418][470]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-15.31.10:418][470]AssetCheck: /Game/MainLVL Validating asset
+[2026.10.26-15.31.12:513][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.10.26-15.31.14:002][750]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-15.31.14:056][750]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/BP_Bullet] ([2] browsable assets)...
+[2026.10.26-15.31.14:065][750]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/BP_Bullet.BP_Bullet]
+[2026.10.26-15.31.14:065][750]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_Bullet]
+[2026.10.26-15.31.14:065][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Bullet" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset" SILENT=true
+[2026.10.26-15.31.14:077][750]LogSavePackage: Moving output files for package: /Game/BluePrints/BP_Bullet
+[2026.10.26-15.31.14:078][750]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/BP_Bullet5A3023FF47CD48E8CFC34FB1623D3939.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset'
+[2026.10.26-15.31.14:087][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.583 ms (total: 9.87 sec)
+[2026.10.26-15.31.14:137][750]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.26-15.31.14:137][750]LogContentValidation: Enabled validators:
+[2026.10.26-15.31.14:137][750]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-15.31.14:137][750]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-15.31.14:137][750]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-15.31.14:137][750]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-15.31.14:137][750]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-15.31.14:137][750]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-15.31.14:137][750]AssetCheck: /Game/BluePrints/BP_Bullet Validating asset
+[2026.10.26-15.31.26:281][247]Angelscript: preprocessing took 0.015 ms
+[2026.10.26-15.31.26:281][247]Angelscript: script compilation stage1 and stage2 took 0.025 ms
+[2026.10.26-15.31.26:281][247]Angelscript: script compilation class layouting took 0.002 ms
+[2026.10.26-15.31.26:281][247]Angelscript: Compiling (structural): GameManager
+[2026.10.26-15.31.26:281][247]Angelscript: script compilation stage3 took 0.002 ms
+[2026.10.26-15.31.26:281][247]Angelscript: script compilation stage4 took 0.001 ms
+[2026.10.26-15.31.26:281][247]Angelscript: script compilation total took 0.037 ms
+[2026.10.26-15.31.26:281][247]Angelscript: class generator analysis took 0.002 ms
+[2026.10.26-15.31.26:281][247]Angelscript: new module swap-in took 0.010 ms
+[2026.10.26-15.31.26:281][247]Angelscript: class generator reload took 0.002 ms
+[2026.10.26-15.31.26:281][247]Angelscript: post soft reload took 0.005 ms
+[2026.10.26-15.31.26:281][247]Angelscript: old module cleanup took 0.125 ms
+[2026.10.26-15.31.26:281][247]Angelscript: update module cache took 0.001 ms
+[2026.10.26-15.31.26:281][247]Angelscript: ==script reload total == took 0.567 ms
+[2026.10.26-15.31.42:284][295]Angelscript: preprocessing took 0.056 ms
+[2026.10.26-15.31.42:284][295]Angelscript: script compilation stage1 and stage2 took 0.111 ms
+[2026.10.26-15.31.42:284][295]Angelscript: script compilation class layouting took 0.012 ms
+[2026.10.26-15.31.42:284][295]Angelscript: Compiling (code only): GameManager
+[2026.10.26-15.31.42:284][295]Angelscript: script compilation stage3 took 0.099 ms
+[2026.10.26-15.31.42:284][295]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.26-15.31.42:284][295]Angelscript: script compilation total took 0.238 ms
+[2026.10.26-15.31.42:284][295]Angelscript: class generator analysis took 0.018 ms
+[2026.10.26-15.31.42:284][295]Angelscript: new module swap-in took 0.010 ms
+[2026.10.26-15.31.42:284][295]Angelscript: class generator reload took 0.162 ms
+[2026.10.26-15.31.42:313][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.10.26-15.31.42:343][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.10.26-15.31.42:456][295]Angelscript: new class propagation took 0.026 ms
+[2026.10.26-15.31.42:457][295]Angelscript: post full reload took 172.220 ms
+[2026.10.26-15.31.42:457][295]Angelscript: old module cleanup took 0.062 ms
+[2026.10.26-15.31.42:457][295]Angelscript: update module cache took 0.001 ms
+[2026.10.26-15.31.42:457][295]Angelscript: ==script reload total == took 173.210 ms
+[2026.10.26-15.32.29:118][686]Angelscript: preprocessing took 0.055 ms
+[2026.10.26-15.32.29:118][686]Angelscript: script compilation stage1 and stage2 took 0.108 ms
+[2026.10.26-15.32.29:118][686]Angelscript: script compilation class layouting took 0.012 ms
+[2026.10.26-15.32.29:118][686]Angelscript: Compiling (structural): GameManager
+[2026.10.26-15.32.29:118][686]Angelscript: script compilation stage3 took 0.115 ms
+[2026.10.26-15.32.29:118][686]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.26-15.32.29:118][686]Angelscript: script compilation total took 0.254 ms
+[2026.10.26-15.32.29:118][686]Angelscript: class generator analysis took 0.021 ms
+[2026.10.26-15.32.29:118][686]Angelscript: new module swap-in took 0.011 ms
+[2026.10.26-15.32.29:118][686]Angelscript: Soft Reload: AGameManager
+[2026.10.26-15.32.29:118][686]Angelscript: class generator reload took 0.095 ms
+[2026.10.26-15.32.29:118][686]Angelscript: post soft reload took 0.004 ms
+[2026.10.26-15.32.29:118][686]Angelscript: old module cleanup took 0.071 ms
+[2026.10.26-15.32.29:118][686]Angelscript: update module cache took 0.000 ms
+[2026.10.26-15.32.29:118][686]Angelscript: ==script reload total == took 0.902 ms
+[2026.10.26-15.32.37:785][712]Angelscript: preprocessing took 0.058 ms
+[2026.10.26-15.32.37:785][712]Angelscript: script compilation stage1 and stage2 took 0.118 ms
+[2026.10.26-15.32.37:785][712]Angelscript: script compilation class layouting took 0.012 ms
+[2026.10.26-15.32.37:785][712]Angelscript: Compiling (code only): GameManager
+[2026.10.26-15.32.37:785][712]Angelscript: script compilation stage3 took 0.123 ms
+[2026.10.26-15.32.37:785][712]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.26-15.32.37:785][712]Angelscript: script compilation total took 0.273 ms
+[2026.10.26-15.32.37:785][712]Angelscript: class generator analysis took 0.021 ms
+[2026.10.26-15.32.37:785][712]Angelscript: new module swap-in took 0.010 ms
+[2026.10.26-15.32.37:785][712]Angelscript: Soft Reload: AGameManager
+[2026.10.26-15.32.37:785][712]Angelscript: class generator reload took 0.094 ms
+[2026.10.26-15.32.37:785][712]Angelscript: post soft reload took 0.004 ms
+[2026.10.26-15.32.37:785][712]Angelscript: old module cleanup took 0.067 ms
+[2026.10.26-15.32.37:785][712]Angelscript: update module cache took 0.000 ms
+[2026.10.26-15.32.37:785][712]Angelscript: ==script reload total == took 0.947 ms
+[2026.10.26-15.32.42:119][725]Angelscript: preprocessing took 0.080 ms
+[2026.10.26-15.32.42:119][725]Angelscript: script compilation stage1 and stage2 took 0.129 ms
+[2026.10.26-15.32.42:119][725]Angelscript: script compilation class layouting took 0.014 ms
+[2026.10.26-15.32.42:119][725]Angelscript: Compiling (code only): GameManager
+[2026.10.26-15.32.42:119][725]Angelscript: script compilation stage3 took 0.145 ms
+[2026.10.26-15.32.42:119][725]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.26-15.32.42:119][725]Angelscript: script compilation total took 0.310 ms
+[2026.10.26-15.32.42:120][725]Angelscript: class generator analysis took 0.045 ms
+[2026.10.26-15.32.42:120][725]Angelscript: new module swap-in took 0.010 ms
+[2026.10.26-15.32.42:120][725]Angelscript: Full Reload: AGameManager
+[2026.10.26-15.32.42:120][725]Angelscript: class generator reload took 0.257 ms
+[2026.10.26-15.32.42:209][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.10.26-15.32.42:249][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.10.26-15.32.42:364][725]Angelscript: new class propagation took 0.027 ms
+[2026.10.26-15.32.42:364][725]Angelscript: post full reload took 188.774 ms
+[2026.10.26-15.32.42:372][725]Angelscript: old module cleanup took 0.078 ms
+[2026.10.26-15.32.42:372][725]Angelscript: update module cache took 0.001 ms
+[2026.10.26-15.32.42:372][725]Angelscript: ==script reload total == took 253.267 ms
+[2026.10.26-15.32.42:492][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.10.26-15.32.46:120][737]Angelscript: preprocessing took 0.060 ms
+[2026.10.26-15.32.46:120][737]Angelscript: script compilation stage1 and stage2 took 0.110 ms
+[2026.10.26-15.32.46:120][737]Angelscript: script compilation class layouting took 0.013 ms
+[2026.10.26-15.32.46:120][737]Angelscript: Compiling (code only): GameManager
+[2026.10.26-15.32.46:120][737]Angelscript: script compilation stage3 took 0.128 ms
+[2026.10.26-15.32.46:120][737]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.26-15.32.46:120][737]Angelscript: script compilation total took 0.270 ms
+[2026.10.26-15.32.46:120][737]Angelscript: class generator analysis took 0.023 ms
+[2026.10.26-15.32.46:120][737]Angelscript: new module swap-in took 0.009 ms
+[2026.10.26-15.32.46:120][737]Angelscript: Full Reload: AGameManager
+[2026.10.26-15.32.46:120][737]Angelscript: class generator reload took 0.223 ms
+[2026.10.26-15.32.46:211][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.10.26-15.32.46:251][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.10.26-15.32.46:363][737]Angelscript: new class propagation took 0.026 ms
+[2026.10.26-15.32.46:363][737]Angelscript: post full reload took 185.582 ms
+[2026.10.26-15.32.46:371][737]Angelscript: old module cleanup took 0.081 ms
+[2026.10.26-15.32.46:371][737]Angelscript: update module cache took 0.001 ms
+[2026.10.26-15.32.46:371][737]Angelscript: ==script reload total == took 251.925 ms
+[2026.10.26-15.32.46:498][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.10.26-15.32.50:120][749]Angelscript: preprocessing took 0.059 ms
+[2026.10.26-15.32.50:120][749]Angelscript: script compilation stage1 and stage2 took 0.112 ms
+[2026.10.26-15.32.50:120][749]Angelscript: script compilation class layouting took 0.013 ms
+[2026.10.26-15.32.50:120][749]Angelscript: Compiling (code only): GameManager
+[2026.10.26-15.32.50:121][749]Angelscript: script compilation stage3 took 0.129 ms
+[2026.10.26-15.32.50:121][749]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.26-15.32.50:121][749]Angelscript: script compilation total took 0.272 ms
+[2026.10.26-15.32.50:121][749]Angelscript: class generator analysis took 0.026 ms
+[2026.10.26-15.32.50:121][749]Angelscript: new module swap-in took 0.009 ms
+[2026.10.26-15.32.50:121][749]Angelscript: Soft Reload: AGameManager
+[2026.10.26-15.32.50:121][749]Angelscript: class generator reload took 0.096 ms
+[2026.10.26-15.32.50:121][749]Angelscript: post soft reload took 0.004 ms
+[2026.10.26-15.32.50:121][749]Angelscript: old module cleanup took 0.068 ms
+[2026.10.26-15.32.50:121][749]Angelscript: update module cache took 0.000 ms
+[2026.10.26-15.32.50:121][749]Angelscript: ==script reload total == took 0.966 ms
+[2026.10.26-15.32.52:949][751]LogSlate: Window 'Create Blueprint of AGameManager' being destroyed
+[2026.10.26-15.32.52:964][751]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.26-15.32.53:021][751]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BP_GameManager] ([2] browsable assets)...
+[2026.10.26-15.32.53:021][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_GameManager]
+[2026.10.26-15.32.53:021][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_GameManager" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_GameManager.uasset" SILENT=true
+[2026.10.26-15.32.53:033][751]LogSavePackage: Moving output files for package: /Game/BluePrints/BP_GameManager
+[2026.10.26-15.32.53:033][751]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/BP_GameManager15526B30440C3AEF069E0AA601C20968.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_GameManager.uasset'
+[2026.10.26-15.32.53:069][751]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.421 ms (total: 9.98 sec)
+[2026.10.26-15.32.53:069][751]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_GameManager.BP_GameManager
+[2026.10.26-15.32.53:069][751]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2026.10.26-15.32.53:241][751]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.26-15.32.53:403][752]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.26-15.32.53:403][752]LogContentValidation: Enabled validators:
+[2026.10.26-15.32.53:403][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.26-15.32.53:403][752]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.26-15.32.53:403][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.26-15.32.53:403][752]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.26-15.32.53:403][752]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.26-15.32.53:403][752]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.26-15.32.53:403][752]AssetCheck: /Game/BluePrints/BP_GameManager Validating asset
+[2026.10.26-15.32.59:675][254]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_GameManager.BP_GameManager_C
+[2026.10.26-15.32.59:675][254]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_GameManager.BP_GameManager_C
+[2026.10.26-15.32.59:676][254]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_GameManager.BP_GameManager as actor: BP_GameManager_C /Game/MainLVL.MainLVL:PersistentLevel.BP_GameManager_C_0
+[2026.10.26-15.32.59:677][254]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_GameManager.BP_GameManager as actor: BP_GameManager_C /Game/MainLVL.MainLVL:PersistentLevel.BP_GameManager_C_0
+[2026.10.26-15.32.59:843][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.10.26-15.32.59:846][266]LogEditorActor: Deleted 0 Actors (0.049 secs)
+[2026.10.26-15.32.59:852][266]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_GameManager.BP_GameManager_C
+[2026.10.26-15.32.59:852][266]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_GameManager.BP_GameManager_C
+[2026.10.26-15.32.59:855][266]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_GameManager.BP_GameManager as actor: BP_GameManager_C /Game/MainLVL.MainLVL:PersistentLevel.BP_GameManager_C_1
+[2026.10.26-15.32.59:855][266]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_GameManager.BP_GameManager as actor: BP_GameManager_C /Game/MainLVL.MainLVL:PersistentLevel.BP_GameManager_C_1
+[2026.10.26-15.33.01:595][387]Angelscript: preprocessing took 0.062 ms
+[2026.10.26-15.33.01:595][387]Angelscript: script compilation stage1 and stage2 took 0.116 ms
+[2026.10.26-15.33.01:595][387]Angelscript: script compilation class layouting took 0.013 ms
+[2026.10.26-15.33.01:595][387]Angelscript: Compiling (code only): GameManager
+[2026.10.26-15.33.01:595][387]Angelscript: script compilation stage3 took 0.124 ms
+[2026.10.26-15.33.01:595][387]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.26-15.33.01:595][387]Angelscript: script compilation total took 0.271 ms
+[2026.10.26-15.33.01:595][387]Angelscript: class generator analysis took 0.021 ms
+[2026.10.26-15.33.01:595][387]Angelscript: new module swap-in took 0.009 ms
+[2026.10.26-15.33.01:595][387]Angelscript: Soft Reload: AGameManager
+[2026.10.26-15.33.01:595][387]Angelscript: class generator reload took 0.111 ms
+[2026.10.26-15.33.01:595][387]Angelscript: post soft reload took 0.004 ms
+[2026.10.26-15.33.01:596][387]Angelscript: old module cleanup took 0.067 ms
+[2026.10.26-15.33.01:596][387]Angelscript: update module cache took 0.000 ms
+[2026.10.26-15.33.01:596][387]Angelscript: ==script reload total == took 0.935 ms
