@@ -18,7 +18,12 @@
 				"C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Content/Input/BP_PlayerGameMode.uasset",
 				"C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Content/Input/IA_Jump.uasset",
 				"C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Content/Input/IA_Space.uasset",
-				"C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset"
+				"C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset",
+				"C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Content/Input/IA_E.uasset",
+				"C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Content/Materials/PlayerMaterial.uasset",
+				"C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Content/Input/IA_LMB.uasset",
+				"C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_HeadsUpDisplay.uasset",
+				"C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_GameManager.uasset"
 			]
 		}
 	]
