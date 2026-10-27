@@ -15,7 +15,11 @@ class APlayer : ACharacter{
     UHeadsUpDisplay HUD;
 
     UPROPERTY()
-    float DodgeMeter = 50;
+    float DodgeMeter = 200;
+
+    AWeapon DreamCatcher;
+
+    AGameManager GameManager;
 
     UPROPERTY()
     bool StartedHealing = false;
@@ -24,6 +28,7 @@ class APlayer : ACharacter{
     {
         HealthComponent.SetHealth(6);
         ChangeMeter();
+        Setup();
     }
 
     UFUNCTION(BlueprintOverride)
@@ -32,6 +37,21 @@ class APlayer : ACharacter{
 
     }
 
+
+    UFUNCTION()
+    void Setup(){
+        TArray<AGameManager> GameManagers;
+        GetAllActorsOfClass(AGameManager,GameManagers);
+        GameManager = GameManagers[0];
+
+        TArray<AWeapon> Weapons;
+        GetAllActorsOfClass(AWeapon, Weapons);
+        DreamCatcher = Weapons[0];
+
+        
+
+        Cast<APlayerController>(GetController()).bShowMouseCursor = true;
+    }
 
     void ChangeMeter(){
 
@@ -80,6 +100,7 @@ class APlayer : ACharacter{
         }else if (CurrentDimension == EDimension::Nightmare){
             if(DodgeMeter > 20){
                 Attack();
+                DodgeMeter -=20;
             }
         }
         ChangeMeter();
@@ -87,7 +108,7 @@ class APlayer : ACharacter{
 
     //beam attack
     void Attack(){
-        //spawn an attack area to check if attack hit
+        DreamCatcher.BeamAttack();
     }
 
     //jump
@@ -97,7 +118,7 @@ class APlayer : ACharacter{
             Jump();
     }
 
-    //main function of game swaping between dimensions
+    //main function of game swaping between dimensions needs some more work like changing enviorment and similar
     UFUNCTION()
     void SwapDimensions(){
         if(StartedHealing){
@@ -106,11 +127,11 @@ class APlayer : ACharacter{
         DynamicMaterial = CharacterMesh.CreateDynamicMaterialInstance(0);
         if(CurrentDimension == EDimension::Dream){
             CurrentDimension = EDimension::Nightmare;
-            DynamicMaterial.SetVectorParameterValue(n"Color", FLinearColor(0.5,0,0,1));
+            DynamicMaterial.SetVectorParameterValue(n"Color", GameManager.Nightmare);
         }
         else if(CurrentDimension == EDimension::Nightmare){
             CurrentDimension = EDimension::Dream;
-            DynamicMaterial.SetVectorParameterValue(n"Color", FLinearColor(0.875,0.127,0.568,1));
+            DynamicMaterial.SetVectorParameterValue(n"Color", GameManager.Dream);
         }
     }
 
