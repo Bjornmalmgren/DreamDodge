@@ -34,6 +34,7 @@ class AEnviormentManager : AActor{
             }
         }
         HidePlatforms(EDimension::Dream);
+       
     }
     UFUNCTION()
     void HidePlatforms(EDimension CurrentDimension){

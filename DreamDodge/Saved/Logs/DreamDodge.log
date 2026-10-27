@@ -16224,3 +16224,1368 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.10.27-14.08.18:148][229]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25226.142578
 [2026.10.27-14.08.19:146][232]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.10.27-14.08.19:146][232]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25226.808594, Update Interval: 353.091217
+[2026.10.27-14.09.22:327][922]LogDerivedDataCache: C:/Users/bjmall-3-local/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.10.27-14.11.37:199][326]Angelscript: preprocessing took 0.079 ms
+[2026.10.27-14.11.37:199][326]Angelscript: script compilation stage1 and stage2 took 0.163 ms
+[2026.10.27-14.11.37:199][326]Angelscript: script compilation class layouting took 0.013 ms
+[2026.10.27-14.11.37:199][326]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.11.37:199][326]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.11.37:199][326]Angelscript:  (13:5): Compiling void AJesterBoss::DecideAttack()
+[2026.10.27-14.11.37:199][326]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.11.37:199][326]Angelscript: Warning:  (14:9): Result of function RandRange() is unused, and function is nodiscard
+[2026.10.27-14.11.37:199][326]Angelscript: script compilation stage3 took 0.129 ms
+[2026.10.27-14.11.37:200][326]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.27-14.11.37:200][326]Angelscript: script compilation total took 0.323 ms
+[2026.10.27-14.11.37:200][326]Angelscript: class generator analysis took 0.044 ms
+[2026.10.27-14.11.37:200][326]Angelscript: new module swap-in took 0.015 ms
+[2026.10.27-14.11.37:200][326]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.11.37:200][326]Angelscript: class generator reload took 0.201 ms
+[2026.10.27-14.11.37:200][326]Angelscript: post soft reload took 0.005 ms
+[2026.10.27-14.11.37:200][326]Angelscript: old module cleanup took 0.080 ms
+[2026.10.27-14.11.37:200][326]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.11.37:200][326]Angelscript: ==script reload total == took 1.189 ms
+[2026.10.27-14.11.42:868][343]Angelscript: preprocessing took 0.085 ms
+[2026.10.27-14.11.42:868][343]Angelscript: script compilation stage1 and stage2 took 0.180 ms
+[2026.10.27-14.11.42:868][343]Angelscript: script compilation class layouting took 0.020 ms
+[2026.10.27-14.11.42:868][343]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.11.42:868][343]Angelscript: script compilation stage3 took 0.119 ms
+[2026.10.27-14.11.42:868][343]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.27-14.11.42:868][343]Angelscript: script compilation total took 0.344 ms
+[2026.10.27-14.11.42:868][343]Angelscript: class generator analysis took 0.040 ms
+[2026.10.27-14.11.42:868][343]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.11.42:868][343]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.11.42:868][343]Angelscript: class generator reload took 0.174 ms
+[2026.10.27-14.11.42:868][343]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.11.42:868][343]Angelscript: old module cleanup took 0.072 ms
+[2026.10.27-14.11.42:868][343]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.11.42:868][343]Angelscript: ==script reload total == took 1.153 ms
+[2026.10.27-14.11.59:536][393]Angelscript: preprocessing took 0.107 ms
+[2026.10.27-14.11.59:536][393]Angelscript: script compilation stage1 and stage2 took 0.168 ms
+[2026.10.27-14.11.59:536][393]Angelscript: script reload reference replacement took 0.036 ms
+[2026.10.27-14.11.59:536][393]Angelscript: script compilation class layouting took 0.036 ms
+[2026.10.27-14.11.59:536][393]Angelscript: Compiling (code only): EnviormentManager
+[2026.10.27-14.11.59:537][393]Angelscript: script compilation stage3 took 0.433 ms
+[2026.10.27-14.11.59:537][393]Angelscript: script compilation stage4 took 0.006 ms
+[2026.10.27-14.11.59:537][393]Angelscript: script compilation total took 0.706 ms
+[2026.10.27-14.11.59:537][393]Angelscript: class generator analysis took 0.043 ms
+[2026.10.27-14.11.59:537][393]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.11.59:537][393]Angelscript: Soft Reload: AEnviormentManager
+[2026.10.27-14.11.59:537][393]Angelscript: class generator reload took 0.162 ms
+[2026.10.27-14.11.59:537][393]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.11.59:537][393]Angelscript: old module cleanup took 0.085 ms
+[2026.10.27-14.11.59:537][393]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.11.59:537][393]Angelscript: ==script reload total == took 1.563 ms
+[2026.10.27-14.12.00:535][396]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-14.12.00:545][396]LogPlayLevel: [PlayLevel] Compiling BP_BulletSpawner before play...
+[2026.10.27-14.12.00:846][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2026.10.27-14.12.00:849][396]LogPlayLevel: PlayLevel: Blueprint regeneration took 305 ms (1 blueprints)
+[2026.10.27-14.12.00:850][396]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.12.00:864][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013536s)
+[2026.10.27-14.12.00:864][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.013578s)
+[2026.10.27-14.12.00:893][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.10.27-14.12.00:895][396]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.27-14.12.00:897][396]LogPlayLevel: PIE: World Init took: (0.001943s)
+[2026.10.27-14.12.00:898][396]LogAudio: Display: Creating Audio Device:                 Id: 140, Scope: Unique, Realtime: True
+[2026.10.27-14.12.00:898][396]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-14.12.00:898][396]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-14.12.00:898][396]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-14.12.00:898][396]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-14.12.00:898][396]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-14.12.00:898][396]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-14.12.00:898][396]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-14.12.00:898][396]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-14.12.00:898][396]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-14.12.00:898][396]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-14.12.00:898][396]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-14.12.00:901][396]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-14.12.00:920][396]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.27-14.12.00:920][396]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-14.12.00:920][396]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-14.12.00:920][396]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-14.12.00:921][396]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=140
+[2026.10.27-14.12.00:921][396]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=140
+[2026.10.27-14.12.00:924][396]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=140
+[2026.10.27-14.12.00:924][396]LogInit: FAudioDevice initialized with ID 140.
+[2026.10.27-14.12.00:924][396]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=140
+[2026.10.27-14.12.00:924][396]LogAudio: Display: Audio Device (ID: 140) registered with world 'MainLVL'.
+[2026.10.27-14.12.00:924][396]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 140
+[2026.10.27-14.12.00:929][396]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.27-14.12.00:935][396]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.27-15.12.00
+[2026.10.27-14.12.00:935][396]LogWorld: Bringing up level for play took: 0.005129
+[2026.10.27-14.12.00:937][396]LogOnline: OSS: Created online subsystem instance for: :Context_163
+[2026.10.27-14.12.00:938][396]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.12.00:938][396]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.12.00:938][396]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.12.00:939][396]LogBlueprintUserMessages: [BP_EnviormentManager_C_1] 41
+[2026.10.27-14.12.00:940][396]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.12.00:941][396]PIE: Server logged in
+[2026.10.27-14.12.00:943][396]PIE: Play in editor total start time 0.399 seconds.
+[2026.10.27-14.12.02:145][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.12.02:145][469]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.12.02:145][469]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-14.12.02:148][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.12.02:153][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-14.12.02:159][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.12.02:190][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.12.02:191][469]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 140
+[2026.10.27-14.12.02:191][469]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=140, StreamState=4
+[2026.10.27-14.12.02:194][469]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=140, StreamState=2
+[2026.10.27-14.12.02:205][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.10.27-14.12.02:244][470]LogPlayLevel: Display: Destroying online subsystem :Context_163
+[2026.10.27-14.12.02:635][514]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-14.12.02:642][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-14.12.02:643][514]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.12.02:655][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013346s)
+[2026.10.27-14.12.02:656][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.013381s)
+[2026.10.27-14.12.02:685][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.27-14.12.02:689][514]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.27-14.12.02:691][514]LogPlayLevel: PIE: World Init took: (0.001759s)
+[2026.10.27-14.12.02:692][514]LogAudio: Display: Creating Audio Device:                 Id: 141, Scope: Unique, Realtime: True
+[2026.10.27-14.12.02:692][514]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-14.12.02:692][514]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-14.12.02:692][514]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-14.12.02:692][514]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-14.12.02:692][514]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-14.12.02:692][514]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-14.12.02:692][514]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-14.12.02:692][514]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-14.12.02:692][514]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-14.12.02:692][514]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-14.12.02:692][514]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-14.12.02:694][514]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-14.12.02:711][514]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.27-14.12.02:712][514]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-14.12.02:712][514]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-14.12.02:712][514]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-14.12.02:712][514]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=141
+[2026.10.27-14.12.02:712][514]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=141
+[2026.10.27-14.12.02:716][514]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=141
+[2026.10.27-14.12.02:716][514]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=141
+[2026.10.27-14.12.02:717][514]LogInit: FAudioDevice initialized with ID 141.
+[2026.10.27-14.12.02:717][514]LogAudio: Display: Audio Device (ID: 141) registered with world 'MainLVL'.
+[2026.10.27-14.12.02:717][514]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 141
+[2026.10.27-14.12.02:721][514]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.27-14.12.02:726][514]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.27-15.12.02
+[2026.10.27-14.12.02:727][514]LogWorld: Bringing up level for play took: 0.005763
+[2026.10.27-14.12.02:729][514]LogOnline: OSS: Created online subsystem instance for: :Context_164
+[2026.10.27-14.12.02:730][514]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.12.02:730][514]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.12.02:730][514]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.12.02:732][514]LogBlueprintUserMessages: [BP_EnviormentManager_C_1] 61
+[2026.10.27-14.12.02:733][514]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.12.02:734][514]PIE: Server logged in
+[2026.10.27-14.12.02:736][514]PIE: Play in editor total start time 0.094 seconds.
+[2026.10.27-14.12.03:704][589]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.12.03:704][589]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.12.03:704][589]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-14.12.03:707][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.12.03:712][589]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-14.12.03:718][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.12.03:748][589]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.12.03:749][589]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 141
+[2026.10.27-14.12.03:749][589]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=141, StreamState=4
+[2026.10.27-14.12.03:751][589]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=141, StreamState=2
+[2026.10.27-14.12.03:762][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.10.27-14.12.03:800][590]LogPlayLevel: Display: Destroying online subsystem :Context_164
+[2026.10.27-14.12.04:064][621]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-14.12.04:072][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-14.12.04:072][621]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.12.04:085][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013102s)
+[2026.10.27-14.12.04:085][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.013138s)
+[2026.10.27-14.12.04:113][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.10.27-14.12.04:117][621]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.27-14.12.04:119][621]LogPlayLevel: PIE: World Init took: (0.001744s)
+[2026.10.27-14.12.04:120][621]LogAudio: Display: Creating Audio Device:                 Id: 142, Scope: Unique, Realtime: True
+[2026.10.27-14.12.04:120][621]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-14.12.04:120][621]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-14.12.04:120][621]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-14.12.04:120][621]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-14.12.04:120][621]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-14.12.04:120][621]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-14.12.04:120][621]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-14.12.04:120][621]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-14.12.04:120][621]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-14.12.04:120][621]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-14.12.04:120][621]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-14.12.04:122][621]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-14.12.04:139][621]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.27-14.12.04:139][621]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-14.12.04:140][621]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-14.12.04:140][621]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-14.12.04:140][621]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=142
+[2026.10.27-14.12.04:140][621]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=142
+[2026.10.27-14.12.04:144][621]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=142
+[2026.10.27-14.12.04:144][621]LogInit: FAudioDevice initialized with ID 142.
+[2026.10.27-14.12.04:144][621]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=142
+[2026.10.27-14.12.04:144][621]LogAudio: Display: Audio Device (ID: 142) registered with world 'MainLVL'.
+[2026.10.27-14.12.04:144][621]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 142
+[2026.10.27-14.12.04:148][621]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.27-14.12.04:153][621]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.27-15.12.04
+[2026.10.27-14.12.04:153][621]LogWorld: Bringing up level for play took: 0.005314
+[2026.10.27-14.12.04:156][621]LogOnline: OSS: Created online subsystem instance for: :Context_165
+[2026.10.27-14.12.04:156][621]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.12.04:156][621]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.12.04:156][621]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.12.04:158][621]LogBlueprintUserMessages: [BP_EnviormentManager_C_1] 4
+[2026.10.27-14.12.04:159][621]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.12.04:160][621]PIE: Server logged in
+[2026.10.27-14.12.04:162][621]PIE: Play in editor total start time 0.09 seconds.
+[2026.10.27-14.12.05:095][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.12.05:095][696]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.12.05:095][696]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-14.12.05:098][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.12.05:102][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-14.12.05:109][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.12.05:139][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.12.05:140][696]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 142
+[2026.10.27-14.12.05:140][696]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=142, StreamState=4
+[2026.10.27-14.12.05:141][696]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=142, StreamState=2
+[2026.10.27-14.12.05:153][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.10.27-14.12.05:191][697]LogPlayLevel: Display: Destroying online subsystem :Context_165
+[2026.10.27-14.12.09:475][ 13]Angelscript: preprocessing took 0.108 ms
+[2026.10.27-14.12.09:475][ 13]Angelscript: script compilation stage1 and stage2 took 0.165 ms
+[2026.10.27-14.12.09:475][ 13]Angelscript: script reload reference replacement took 0.028 ms
+[2026.10.27-14.12.09:475][ 13]Angelscript: script compilation class layouting took 0.032 ms
+[2026.10.27-14.12.09:475][ 13]Angelscript: Compiling (code only): EnviormentManager
+[2026.10.27-14.12.09:476][ 13]Angelscript: script compilation stage3 took 0.325 ms
+[2026.10.27-14.12.09:476][ 13]Angelscript: script compilation stage4 took 0.007 ms
+[2026.10.27-14.12.09:476][ 13]Angelscript: script compilation total took 0.580 ms
+[2026.10.27-14.12.09:476][ 13]Angelscript: class generator analysis took 0.043 ms
+[2026.10.27-14.12.09:476][ 13]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.12.09:476][ 13]Angelscript: Soft Reload: AEnviormentManager
+[2026.10.27-14.12.09:476][ 13]Angelscript: class generator reload took 0.166 ms
+[2026.10.27-14.12.09:476][ 13]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.12.09:476][ 13]Angelscript: old module cleanup took 0.077 ms
+[2026.10.27-14.12.09:476][ 13]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.12.09:476][ 13]Angelscript: ==script reload total == took 1.418 ms
+[2026.10.27-14.12.30:563][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.10.27-14.12.30:568][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/Autosaves/Game/MainLVL_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2026.10.27-14.12.30:607][ 76]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MainLVL_Auto5
+[2026.10.27-14.12.30:608][ 76]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/MainLVL_Auto5CFF4C3B840ACBDD352EA138CDC20A95E.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/Autosaves/Game/MainLVL_Auto5.umap'
+[2026.10.27-14.12.30:610][ 76]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLVL' took 0.075
+[2026.10.27-14.12.30:610][ 76]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.075
+[2026.10.27-14.13.03:471][175]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=130.240.100.41:59395, Sequence=0
+[2026.10.27-14.13.03:471][175]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=130.240.100.41:59395, Sequence=0
+[2026.10.27-14.13.36:159][273]Angelscript: preprocessing took 0.084 ms
+[2026.10.27-14.13.36:159][273]Angelscript: script compilation stage1 and stage2 took 0.149 ms
+[2026.10.27-14.13.36:159][273]Angelscript: script compilation class layouting took 0.014 ms
+[2026.10.27-14.13.36:159][273]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.13.36:159][273]Angelscript: script compilation stage3 took 0.103 ms
+[2026.10.27-14.13.36:159][273]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.27-14.13.36:159][273]Angelscript: script compilation total took 0.285 ms
+[2026.10.27-14.13.36:159][273]Angelscript: class generator analysis took 0.052 ms
+[2026.10.27-14.13.36:159][273]Angelscript: new module swap-in took 0.015 ms
+[2026.10.27-14.13.36:159][273]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.13.36:159][273]Angelscript: class generator reload took 0.209 ms
+[2026.10.27-14.13.36:195][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.10.27-14.13.36:228][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.10.27-14.13.36:920][273]Angelscript: new class propagation took 548.196 ms
+[2026.10.27-14.13.36:920][273]Angelscript: post full reload took 759.955 ms
+[2026.10.27-14.13.36:972][273]Angelscript: old module cleanup took 0.148 ms
+[2026.10.27-14.13.36:972][273]Angelscript: update module cache took 0.002 ms
+[2026.10.27-14.13.36:976][273]Angelscript: ==script reload total == took 817.691 ms
+[2026.10.27-14.13.40:653][285]Angelscript: preprocessing took 0.070 ms
+[2026.10.27-14.13.40:653][285]Angelscript: script compilation stage1 and stage2 took 0.146 ms
+[2026.10.27-14.13.40:653][285]Angelscript: script compilation class layouting took 0.014 ms
+[2026.10.27-14.13.40:653][285]Angelscript: Compiling (structural): Boss
+[2026.10.27-14.13.40:653][285]Angelscript: script compilation stage3 took 0.098 ms
+[2026.10.27-14.13.40:653][285]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.27-14.13.40:653][285]Angelscript: script compilation total took 0.275 ms
+[2026.10.27-14.13.40:653][285]Angelscript: class generator analysis took 0.048 ms
+[2026.10.27-14.13.40:653][285]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.13.40:653][285]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.13.40:653][285]Angelscript: class generator reload took 0.204 ms
+[2026.10.27-14.13.40:753][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.10.27-14.13.40:813][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.10.27-14.13.41:501][285]Angelscript: new class propagation took 539.935 ms
+[2026.10.27-14.13.41:501][285]Angelscript: post full reload took 848.312 ms
+[2026.10.27-14.13.41:559][285]Angelscript: old module cleanup took 0.089 ms
+[2026.10.27-14.13.41:559][285]Angelscript: update module cache took 0.001 ms
+[2026.10.27-14.13.41:563][285]Angelscript: ==script reload total == took 912.074 ms
+[2026.10.27-14.14.30:911][434]Angelscript: preprocessing took 0.070 ms
+[2026.10.27-14.14.30:912][434]Angelscript: script compilation stage1 and stage2 took 0.150 ms
+[2026.10.27-14.14.30:912][434]Angelscript: script compilation class layouting took 0.014 ms
+[2026.10.27-14.14.30:912][434]Angelscript: Compiling (structural): Boss
+[2026.10.27-14.14.30:912][434]Angelscript: script compilation stage3 took 0.106 ms
+[2026.10.27-14.14.30:912][434]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.27-14.14.30:912][434]Angelscript: script compilation total took 0.287 ms
+[2026.10.27-14.14.30:912][434]Angelscript: class generator analysis took 0.051 ms
+[2026.10.27-14.14.30:912][434]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.14.30:912][434]Angelscript: Full Reload: FAttack
+[2026.10.27-14.14.30:912][434]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.14.30:912][434]Angelscript: class generator reload took 0.212 ms
+[2026.10.27-14.14.31:047][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.10.27-14.14.31:080][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.10.27-14.14.31:757][434]Angelscript: new class propagation took 536.081 ms
+[2026.10.27-14.14.31:757][434]Angelscript: post full reload took 790.250 ms
+[2026.10.27-14.14.31:799][434]Angelscript: old module cleanup took 0.085 ms
+[2026.10.27-14.14.31:799][434]Angelscript: update module cache took 0.001 ms
+[2026.10.27-14.14.31:804][434]Angelscript: ==script reload total == took 892.852 ms
+[2026.10.27-14.14.31:925][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.10.27-14.15.07:488][542]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25635.769531
+[2026.10.27-14.15.08:488][545]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-14.15.08:488][545]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25636.437500, Update Interval: 329.854431
+[2026.10.27-14.15.19:483][578]Angelscript: preprocessing took 0.088 ms
+[2026.10.27-14.15.19:483][578]Angelscript: script compilation stage1 and stage2 took 0.161 ms
+[2026.10.27-14.15.19:483][578]Angelscript: script compilation class layouting took 0.018 ms
+[2026.10.27-14.15.19:483][578]Angelscript: Compiling (structural): Boss
+[2026.10.27-14.15.19:483][578]Angelscript: script compilation stage3 took 0.116 ms
+[2026.10.27-14.15.19:483][578]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.27-14.15.19:483][578]Angelscript: script compilation total took 0.313 ms
+[2026.10.27-14.15.19:484][578]Angelscript: class generator analysis took 0.060 ms
+[2026.10.27-14.15.19:484][578]Angelscript: new module swap-in took 0.015 ms
+[2026.10.27-14.15.19:484][578]Angelscript: Full Reload: AJesterBoss
+[2026.10.27-14.15.19:484][578]Angelscript: class generator reload took 0.335 ms
+[2026.10.27-14.15.19:552][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.10.27-14.15.19:632][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.10.27-14.15.19:823][578]Angelscript: new class propagation took 0.037 ms
+[2026.10.27-14.15.19:823][578]Angelscript: post full reload took 301.034 ms
+[2026.10.27-14.15.19:830][578]Angelscript: old module cleanup took 0.104 ms
+[2026.10.27-14.15.19:830][578]Angelscript: update module cache took 0.001 ms
+[2026.10.27-14.15.19:830][578]Angelscript: ==script reload total == took 347.055 ms
+[2026.10.27-14.15.19:886][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.10.27-14.15.24:880][594]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_JesterBoss.BP_JesterBoss_C
+[2026.10.27-14.15.24:880][594]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_JesterBoss.BP_JesterBoss_C
+[2026.10.27-14.15.24:881][594]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_JesterBoss.BP_JesterBoss as actor: BP_JesterBoss_C /Game/MainLVL.MainLVL:PersistentLevel.BP_JesterBoss_C_0
+[2026.10.27-14.15.24:881][594]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_JesterBoss.BP_JesterBoss as actor: BP_JesterBoss_C /Game/MainLVL.MainLVL:PersistentLevel.BP_JesterBoss_C_0
+[2026.10.27-14.15.26:030][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.10.27-14.15.26:034][689]LogEditorActor: Deleted 0 Actors (0.027 secs)
+[2026.10.27-14.15.26:039][689]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_JesterBoss.BP_JesterBoss_C
+[2026.10.27-14.15.26:039][689]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BluePrints/BP_JesterBoss.BP_JesterBoss_C
+[2026.10.27-14.15.26:041][689]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_JesterBoss.BP_JesterBoss as actor: BP_JesterBoss_C /Game/MainLVL.MainLVL:PersistentLevel.BP_JesterBoss_C_1
+[2026.10.27-14.15.26:041][689]LogActorFactory: Actor Factory spawned Blueprint /Game/BluePrints/BP_JesterBoss.BP_JesterBoss as actor: BP_JesterBoss_C /Game/MainLVL.MainLVL:PersistentLevel.BP_JesterBoss_C_1
+[2026.10.27-14.15.39:249][302]Angelscript: preprocessing took 0.138 ms
+[2026.10.27-14.15.39:249][302]Angelscript: script compilation stage1 and stage2 took 0.160 ms
+[2026.10.27-14.15.39:249][302]Angelscript: script compilation class layouting took 0.015 ms
+[2026.10.27-14.15.39:249][302]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.15.39:249][302]Angelscript: script compilation stage3 took 0.110 ms
+[2026.10.27-14.15.39:249][302]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.27-14.15.39:249][302]Angelscript: script compilation total took 0.302 ms
+[2026.10.27-14.15.39:249][302]Angelscript: class generator analysis took 0.060 ms
+[2026.10.27-14.15.39:249][302]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.15.39:249][302]Angelscript: Full Reload: FAttack
+[2026.10.27-14.15.39:249][302]Angelscript: Full Reload: AJesterBoss
+[2026.10.27-14.15.39:249][302]Angelscript: class generator reload took 0.316 ms
+[2026.10.27-14.15.39:330][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.27-14.15.39:428][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.10.27-14.15.40:189][302]Angelscript: new class propagation took 543.358 ms
+[2026.10.27-14.15.40:189][302]Angelscript: post full reload took 885.458 ms
+[2026.10.27-14.15.40:239][302]Angelscript: old module cleanup took 0.089 ms
+[2026.10.27-14.15.40:239][302]Angelscript: update module cache took 0.001 ms
+[2026.10.27-14.15.40:244][302]Angelscript: ==script reload total == took 995.867 ms
+[2026.10.27-14.15.40:402][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2026.10.27-14.17.14:535][702]Angelscript: preprocessing took 0.103 ms
+[2026.10.27-14.17.14:535][702]Angelscript: script compilation stage1 and stage2 took 0.181 ms
+[2026.10.27-14.17.14:535][702]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-14.17.14:535][702]Angelscript: Compiling (structural): Boss
+[2026.10.27-14.17.14:535][702]Angelscript: script compilation stage3 took 0.126 ms
+[2026.10.27-14.17.14:535][702]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.27-14.17.14:535][702]Angelscript: script compilation total took 0.343 ms
+[2026.10.27-14.17.14:535][702]Angelscript: class generator analysis took 0.068 ms
+[2026.10.27-14.17.14:535][702]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.17.14:535][702]Angelscript: Full Reload: AJesterBoss
+[2026.10.27-14.17.14:536][702]Angelscript: class generator reload took 0.344 ms
+[2026.10.27-14.17.14:620][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2026.10.27-14.17.14:738][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.27-14.17.14:953][702]Angelscript: new class propagation took 0.035 ms
+[2026.10.27-14.17.14:954][702]Angelscript: post full reload took 372.044 ms
+[2026.10.27-14.17.14:961][702]Angelscript: old module cleanup took 0.089 ms
+[2026.10.27-14.17.14:961][702]Angelscript: update module cache took 0.001 ms
+[2026.10.27-14.17.14:961][702]Angelscript: ==script reload total == took 426.797 ms
+[2026.10.27-14.17.15:054][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.10.27-14.17.45:342][794]Angelscript: preprocessing took 0.100 ms
+[2026.10.27-14.17.45:343][794]Angelscript: script compilation stage1 and stage2 took 0.162 ms
+[2026.10.27-14.17.45:343][794]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-14.17.45:343][794]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.17.45:343][794]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.17.45:343][794]Angelscript:  (39:5): Compiling void AJesterBoss::DecideAttack()
+[2026.10.27-14.17.45:343][794]Angelscript: Error: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.17.45:343][794]Angelscript: Error:  (41:5): Expected expression value
+[2026.10.27-14.17.45:343][794]Angelscript: Error:  (41:5): Instead found '}'
+[2026.10.27-14.17.45:343][794]Angelscript: script compilation stage3 took 0.133 ms
+[2026.10.27-14.17.45:343][794]Angelscript: script compilation stage4 took 0.001 ms
+[2026.10.27-14.17.45:343][794]Angelscript: script compilation total took 0.331 ms
+[2026.10.27-14.17.45:343][794]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2026.10.27-14.17.45:343][794]Angelscript: ==script reload total == took 0.832 ms
+[2026.10.27-14.17.49:009][805]Angelscript: preprocessing took 0.127 ms
+[2026.10.27-14.17.49:009][805]Angelscript: script compilation stage1 and stage2 took 0.179 ms
+[2026.10.27-14.17.49:009][805]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-14.17.49:009][805]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.17.49:009][805]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.17.49:010][805]Angelscript:  (39:5): Compiling void AJesterBoss::DecideAttack()
+[2026.10.27-14.17.49:010][805]Angelscript: Error: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.17.49:010][805]Angelscript: Error:  (41:5): Expected expression value
+[2026.10.27-14.17.49:010][805]Angelscript: Error:  (41:5): Instead found '}'
+[2026.10.27-14.17.49:010][805]Angelscript: script compilation stage3 took 0.149 ms
+[2026.10.27-14.17.49:010][805]Angelscript: script compilation stage4 took 0.001 ms
+[2026.10.27-14.17.49:010][805]Angelscript: script compilation total took 0.362 ms
+[2026.10.27-14.17.49:010][805]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2026.10.27-14.17.49:010][805]Angelscript: ==script reload total == took 1.043 ms
+[2026.10.27-14.17.57:677][831]Angelscript: preprocessing took 0.121 ms
+[2026.10.27-14.17.57:677][831]Angelscript: script compilation stage1 and stage2 took 0.177 ms
+[2026.10.27-14.17.57:677][831]Angelscript: script compilation class layouting took 0.016 ms
+[2026.10.27-14.17.57:677][831]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.17.57:677][831]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.17.57:677][831]Angelscript:  (39:5): Compiling void AJesterBoss::DecideAttack()
+[2026.10.27-14.17.57:677][831]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.17.57:677][831]Angelscript: Warning:  (40:53): Integer division causes precision loss due to truncation, convert the values to floats. If truncated integer division is really needed, explicitly use Math::IntegerDivisionTrunc() to avoid this warning
+[2026.10.27-14.17.57:677][831]Angelscript: script compilation stage3 took 0.174 ms
+[2026.10.27-14.17.57:677][831]Angelscript: script compilation stage4 took 0.001 ms
+[2026.10.27-14.17.57:677][831]Angelscript: script compilation total took 0.389 ms
+[2026.10.27-14.17.57:677][831]Angelscript: class generator analysis took 0.074 ms
+[2026.10.27-14.17.57:677][831]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.17.57:678][831]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.17.57:678][831]Angelscript: class generator reload took 0.281 ms
+[2026.10.27-14.17.57:678][831]Angelscript: post soft reload took 0.005 ms
+[2026.10.27-14.17.57:678][831]Angelscript: old module cleanup took 0.080 ms
+[2026.10.27-14.17.57:678][831]Angelscript: update module cache took 0.001 ms
+[2026.10.27-14.17.57:678][831]Angelscript: ==script reload total == took 1.499 ms
+[2026.10.27-14.18.03:677][849]Angelscript: preprocessing took 0.099 ms
+[2026.10.27-14.18.03:677][849]Angelscript: script compilation stage1 and stage2 took 0.166 ms
+[2026.10.27-14.18.03:677][849]Angelscript: script compilation class layouting took 0.016 ms
+[2026.10.27-14.18.03:677][849]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.18.03:677][849]Angelscript: script compilation stage3 took 0.143 ms
+[2026.10.27-14.18.03:677][849]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.27-14.18.03:677][849]Angelscript: script compilation total took 0.344 ms
+[2026.10.27-14.18.03:677][849]Angelscript: class generator analysis took 0.066 ms
+[2026.10.27-14.18.03:678][849]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.18.03:678][849]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.18.03:678][849]Angelscript: class generator reload took 0.240 ms
+[2026.10.27-14.18.03:678][849]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.18.03:678][849]Angelscript: old module cleanup took 0.075 ms
+[2026.10.27-14.18.03:678][849]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.18.03:678][849]Angelscript: ==script reload total == took 1.257 ms
+[2026.10.27-14.18.28:016][922]Angelscript: preprocessing took 0.097 ms
+[2026.10.27-14.18.28:016][922]Angelscript: script compilation stage1 and stage2 took 0.171 ms
+[2026.10.27-14.18.28:016][922]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-14.18.28:016][922]Angelscript: Compiling (structural): Boss
+[2026.10.27-14.18.28:016][922]Angelscript: script compilation stage3 took 0.152 ms
+[2026.10.27-14.18.28:016][922]Angelscript: script compilation stage4 took 0.002 ms
+[2026.10.27-14.18.28:016][922]Angelscript: script compilation total took 0.359 ms
+[2026.10.27-14.18.28:016][922]Angelscript: class generator analysis took 0.070 ms
+[2026.10.27-14.18.28:016][922]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.18.28:017][922]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.18.28:017][922]Angelscript: class generator reload took 0.274 ms
+[2026.10.27-14.18.28:017][922]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.18.28:017][922]Angelscript: old module cleanup took 0.140 ms
+[2026.10.27-14.18.28:017][922]Angelscript: update module cache took 0.001 ms
+[2026.10.27-14.18.28:017][922]Angelscript: ==script reload total == took 1.376 ms
+[2026.10.27-14.19.42:027][144]Angelscript: preprocessing took 0.097 ms
+[2026.10.27-14.19.42:028][144]Angelscript: script compilation stage1 and stage2 took 0.181 ms
+[2026.10.27-14.19.42:028][144]Angelscript: script compilation class layouting took 0.016 ms
+[2026.10.27-14.19.42:028][144]Angelscript: Compiling (structural): Boss
+[2026.10.27-14.19.42:028][144]Angelscript: script compilation stage3 took 0.204 ms
+[2026.10.27-14.19.42:028][144]Angelscript: script compilation stage4 took 0.006 ms
+[2026.10.27-14.19.42:028][144]Angelscript: script compilation total took 0.427 ms
+[2026.10.27-14.19.42:028][144]Angelscript: class generator analysis took 0.070 ms
+[2026.10.27-14.19.42:028][144]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.19.42:028][144]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.19.42:028][144]Angelscript: class generator reload took 0.262 ms
+[2026.10.27-14.19.42:028][144]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.19.42:028][144]Angelscript: old module cleanup took 0.074 ms
+[2026.10.27-14.19.42:028][144]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.19.42:028][144]Angelscript: ==script reload total == took 1.367 ms
+[2026.10.27-14.20.11:898][234]LogAudioMixer: Warning: FMixerPlatformXAudio2::OnCriticalError: 0x88880001: UNKNOWN
+[2026.10.27-14.20.11:921][234]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=PA278QV (NVIDIA High Definition Audio), InstanceID=1
+[2026.10.27-14.20.11:921][234]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{91c6bf5d-8751-451a-b733-e4c514b10af1}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.10.27-14.20.12:032][234]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{91c6bf5d-8751-451a-b733-e4c514b10af1}]
+[2026.10.27-14.20.12:032][234]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.10.27-14.20.12:032][234]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.10.27-14.20.12:367][235]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{91c6bf5d-8751-451a-b733-e4c514b10af1}, Name=PA278QV (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=13.51
+[2026.10.27-14.20.12:367][235]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.10.27-14.20.12:367][235]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.10.27-14.20.12:370][235]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.10.27-14.20.19:321][256]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (G435 Bluetooth Gaming Headset), InstanceID=1
+[2026.10.27-14.20.19:321][256]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{d4d0c458-b10d-4edf-8476-4a6dfc622087}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.10.27-14.20.19:403][256]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{d4d0c458-b10d-4edf-8476-4a6dfc622087}]
+[2026.10.27-14.20.19:403][256]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.10.27-14.20.19:403][256]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.10.27-14.20.19:737][257]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d4d0c458-b10d-4edf-8476-4a6dfc622087}, Name=Headphones (G435 Bluetooth Gaming Headset)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=32.09
+[2026.10.27-14.20.19:737][257]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.10.27-14.20.19:737][257]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.10.27-14.20.19:739][257]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.10.27-14.20.35:470][182]Angelscript: preprocessing took 0.099 ms
+[2026.10.27-14.20.35:471][182]Angelscript: script compilation stage1 and stage2 took 0.185 ms
+[2026.10.27-14.20.35:471][182]Angelscript: script compilation class layouting took 0.020 ms
+[2026.10.27-14.20.35:471][182]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.20.35:471][182]Angelscript: script compilation stage3 took 0.172 ms
+[2026.10.27-14.20.35:471][182]Angelscript: script compilation stage4 took 0.005 ms
+[2026.10.27-14.20.35:471][182]Angelscript: script compilation total took 0.404 ms
+[2026.10.27-14.20.35:471][182]Angelscript: class generator analysis took 0.070 ms
+[2026.10.27-14.20.35:471][182]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.20.35:471][182]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.20.35:471][182]Angelscript: class generator reload took 0.264 ms
+[2026.10.27-14.20.35:471][182]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.20.35:471][182]Angelscript: old module cleanup took 0.074 ms
+[2026.10.27-14.20.35:471][182]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.20.35:471][182]Angelscript: ==script reload total == took 1.435 ms
+[2026.10.27-14.20.51:139][229]Angelscript: preprocessing took 0.100 ms
+[2026.10.27-14.20.51:140][229]Angelscript: script compilation stage1 and stage2 took 0.184 ms
+[2026.10.27-14.20.51:140][229]Angelscript: script compilation class layouting took 0.016 ms
+[2026.10.27-14.20.51:140][229]Angelscript: Compiling (structural): Boss
+[2026.10.27-14.20.51:140][229]Angelscript: script compilation stage3 took 0.174 ms
+[2026.10.27-14.20.51:140][229]Angelscript: script compilation stage4 took 0.006 ms
+[2026.10.27-14.20.51:140][229]Angelscript: script compilation total took 0.396 ms
+[2026.10.27-14.20.51:140][229]Angelscript: class generator analysis took 0.069 ms
+[2026.10.27-14.20.51:140][229]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.20.51:140][229]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.20.51:140][229]Angelscript: class generator reload took 0.273 ms
+[2026.10.27-14.20.51:140][229]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.20.51:140][229]Angelscript: old module cleanup took 0.078 ms
+[2026.10.27-14.20.51:140][229]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.20.51:140][229]Angelscript: ==script reload total == took 1.365 ms
+[2026.10.27-14.21.21:482][320]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26009.816406
+[2026.10.27-14.21.22:484][323]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-14.21.22:484][323]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26010.484375, Update Interval: 341.601013
+[2026.10.27-14.22.33:244][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.10.27-14.22.33:248][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/Autosaves/Game/MainLVL_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2026.10.27-14.22.33:289][535]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MainLVL_Auto6
+[2026.10.27-14.22.33:290][535]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/MainLVL_Auto6A902702942076B4532640AB83F77F8DB.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/Autosaves/Game/MainLVL_Auto6.umap'
+[2026.10.27-14.22.33:292][535]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLVL' took 0.080
+[2026.10.27-14.22.33:292][535]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.080
+[2026.10.27-14.27.35:128][313]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26383.845703
+[2026.10.27-14.27.36:129][316]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-14.27.36:129][316]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26384.513672, Update Interval: 349.346588
+[2026.10.27-14.28.29:461][476]Angelscript: preprocessing took 0.120 ms
+[2026.10.27-14.28.29:462][476]Angelscript: script compilation stage1 and stage2 took 0.289 ms
+[2026.10.27-14.28.29:462][476]Angelscript: script compilation class layouting took 0.020 ms
+[2026.10.27-14.28.29:462][476]Angelscript: Compiling (structural): Boss
+[2026.10.27-14.28.29:462][476]Angelscript: script compilation stage3 took 0.215 ms
+[2026.10.27-14.28.29:462][476]Angelscript: script compilation stage4 took 0.007 ms
+[2026.10.27-14.28.29:462][476]Angelscript: script compilation total took 0.551 ms
+[2026.10.27-14.28.29:462][476]Angelscript: class generator analysis took 0.085 ms
+[2026.10.27-14.28.29:462][476]Angelscript: new module swap-in took 0.016 ms
+[2026.10.27-14.28.29:462][476]Angelscript: Full Reload: AJesterBoss
+[2026.10.27-14.28.29:463][476]Angelscript: class generator reload took 0.452 ms
+[2026.10.27-14.28.29:553][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2026.10.27-14.28.29:670][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.27-14.28.29:895][476]Angelscript: new class propagation took 0.034 ms
+[2026.10.27-14.28.29:895][476]Angelscript: post full reload took 377.827 ms
+[2026.10.27-14.28.29:902][476]Angelscript: old module cleanup took 0.158 ms
+[2026.10.27-14.28.29:902][476]Angelscript: update module cache took 0.001 ms
+[2026.10.27-14.28.29:902][476]Angelscript: ==script reload total == took 441.946 ms
+[2026.10.27-14.28.29:995][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.10.27-14.28.38:945][504]Angelscript: preprocessing took 0.107 ms
+[2026.10.27-14.28.38:945][504]Angelscript: script compilation stage1 and stage2 took 0.194 ms
+[2026.10.27-14.28.38:945][504]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-14.28.38:945][504]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.28.38:945][504]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.28.38:945][504]Angelscript:  (72:5): Compiling void AJesterBoss::Tick_Implementation(float)
+[2026.10.27-14.28.38:945][504]Angelscript: Error: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.28.38:945][504]Angelscript: Error:  (74:32): Cannot call non-const method from inside development-only function call to Print().
+[2026.10.27-14.28.38:945][504]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.28.38:945][504]Angelscript:  (74:32): Calling function:
+[2026.10.27-14.28.38:945][504]Angelscript:  (74:32): void TArray::Shuffle()
+[2026.10.27-14.28.38:945][504]Angelscript: script compilation stage3 took 0.232 ms
+[2026.10.27-14.28.38:945][504]Angelscript: script compilation stage4 took 0.005 ms
+[2026.10.27-14.28.38:945][504]Angelscript: script compilation total took 0.461 ms
+[2026.10.27-14.28.38:945][504]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2026.10.27-14.28.38:945][504]Angelscript: ==script reload total == took 0.987 ms
+[2026.10.27-14.28.41:618][673]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-14.28.41:627][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-14.28.41:627][673]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.28.41:640][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013466s)
+[2026.10.27-14.28.41:640][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.013509s)
+[2026.10.27-14.28.41:669][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.10.27-14.28.41:673][673]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.27-14.28.41:675][673]LogPlayLevel: PIE: World Init took: (0.002020s)
+[2026.10.27-14.28.41:676][673]LogAudio: Display: Creating Audio Device:                 Id: 143, Scope: Unique, Realtime: True
+[2026.10.27-14.28.41:676][673]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-14.28.41:676][673]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-14.28.41:676][673]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-14.28.41:676][673]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-14.28.41:676][673]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-14.28.41:676][673]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-14.28.41:676][673]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-14.28.41:676][673]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-14.28.41:676][673]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-14.28.41:676][673]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-14.28.41:676][673]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-14.28.41:678][673]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-14.28.41:698][673]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.27-14.28.41:698][673]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-14.28.41:698][673]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-14.28.41:698][673]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-14.28.41:699][673]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=143
+[2026.10.27-14.28.41:699][673]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=143
+[2026.10.27-14.28.41:701][673]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=143
+[2026.10.27-14.28.41:701][673]LogInit: FAudioDevice initialized with ID 143.
+[2026.10.27-14.28.41:702][673]LogAudio: Display: Audio Device (ID: 143) registered with world 'MainLVL'.
+[2026.10.27-14.28.41:702][673]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=143
+[2026.10.27-14.28.41:702][673]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 143
+[2026.10.27-14.28.41:706][673]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.27-14.28.41:712][673]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.27-15.28.41
+[2026.10.27-14.28.41:712][673]LogWorld: Bringing up level for play took: 0.005482
+[2026.10.27-14.28.41:714][673]LogOnline: OSS: Created online subsystem instance for: :Context_166
+[2026.10.27-14.28.41:715][673]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.28.41:715][673]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.28.41:715][673]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.28.41:718][673]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.28.41:719][673]PIE: Server logged in
+[2026.10.27-14.28.41:721][673]PIE: Play in editor total start time 0.096 seconds.
+[2026.10.27-14.28.43:236][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.28.43:236][797]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.28.43:236][797]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-14.28.43:239][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.28.43:245][797]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-14.28.43:251][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.28.43:282][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.28.43:283][797]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 143
+[2026.10.27-14.28.43:283][797]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=143, StreamState=4
+[2026.10.27-14.28.43:285][797]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=143, StreamState=2
+[2026.10.27-14.28.43:295][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.10.27-14.28.43:355][798]LogPlayLevel: Display: Destroying online subsystem :Context_166
+[2026.10.27-14.29.36:134][ 33]Angelscript: preprocessing took 0.106 ms
+[2026.10.27-14.29.36:134][ 33]Angelscript: script compilation stage1 and stage2 took 0.201 ms
+[2026.10.27-14.29.36:134][ 33]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-14.29.36:134][ 33]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.29.36:134][ 33]Angelscript: script compilation stage3 took 0.347 ms
+[2026.10.27-14.29.36:134][ 33]Angelscript: script compilation stage4 took 0.005 ms
+[2026.10.27-14.29.36:134][ 33]Angelscript: script compilation total took 0.589 ms
+[2026.10.27-14.29.36:134][ 33]Angelscript: class generator analysis took 0.076 ms
+[2026.10.27-14.29.36:134][ 33]Angelscript: new module swap-in took 0.013 ms
+[2026.10.27-14.29.36:136][ 33]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.29.36:136][ 33]Angelscript: class generator reload took 0.294 ms
+[2026.10.27-14.29.36:136][ 33]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.29.36:136][ 33]Angelscript: old module cleanup took 0.143 ms
+[2026.10.27-14.29.36:136][ 33]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.29.36:136][ 33]Angelscript: ==script reload total == took 1.663 ms
+[2026.10.27-14.29.37:802][ 38]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-14.29.37:810][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-14.29.37:810][ 38]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.29.37:823][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014143s)
+[2026.10.27-14.29.37:825][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.014186s)
+[2026.10.27-14.29.37:853][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.10.27-14.29.37:858][ 38]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.27-14.29.37:860][ 38]LogPlayLevel: PIE: World Init took: (0.001941s)
+[2026.10.27-14.29.37:861][ 38]LogAudio: Display: Creating Audio Device:                 Id: 144, Scope: Unique, Realtime: True
+[2026.10.27-14.29.37:861][ 38]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-14.29.37:861][ 38]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-14.29.37:861][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-14.29.37:861][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-14.29.37:861][ 38]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-14.29.37:861][ 38]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-14.29.37:861][ 38]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-14.29.37:861][ 38]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-14.29.37:861][ 38]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-14.29.37:861][ 38]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-14.29.37:861][ 38]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-14.29.37:863][ 38]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-14.29.37:881][ 38]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.27-14.29.37:881][ 38]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-14.29.37:881][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-14.29.37:881][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-14.29.37:882][ 38]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=144
+[2026.10.27-14.29.37:882][ 38]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=144
+[2026.10.27-14.29.37:886][ 38]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=144
+[2026.10.27-14.29.37:886][ 38]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=144
+[2026.10.27-14.29.37:886][ 38]LogInit: FAudioDevice initialized with ID 144.
+[2026.10.27-14.29.37:886][ 38]LogAudio: Display: Audio Device (ID: 144) registered with world 'MainLVL'.
+[2026.10.27-14.29.37:886][ 38]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 144
+[2026.10.27-14.29.37:890][ 38]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.27-14.29.37:894][ 38]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.27-15.29.37
+[2026.10.27-14.29.37:895][ 38]LogWorld: Bringing up level for play took: 0.005229
+[2026.10.27-14.29.37:898][ 38]LogOnline: OSS: Created online subsystem instance for: :Context_167
+[2026.10.27-14.29.37:898][ 38]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.29.37:899][ 38]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.29.37:899][ 38]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.29.37:901][ 38]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.29.37:902][ 38]PIE: Server logged in
+[2026.10.27-14.29.37:904][ 38]PIE: Play in editor total start time 0.094 seconds.
+[2026.10.27-14.29.37:905][ 38]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 0 2 3 1
+[2026.10.27-14.29.37:920][ 39]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 0 1 3 2
+[2026.10.27-14.29.38:154][ 40]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 3 4 2 1
+[2026.10.27-14.29.38:205][ 41]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 3 0 4 1
+[2026.10.27-14.29.38:260][ 42]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 4 1 2 0
+[2026.10.27-14.29.38:319][ 43]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 2 1 4 3
+[2026.10.27-14.29.38:348][ 44]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 1 3 0 2
+[2026.10.27-14.29.38:367][ 45]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 1 0 2 4
+[2026.10.27-14.29.38:377][ 46]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 3 1 2 4
+[2026.10.27-14.29.38:388][ 47]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 0 4 1 3
+[2026.10.27-14.29.38:397][ 48]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 1 2 0 4
+[2026.10.27-14.29.38:409][ 49]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 2 3 1 0
+[2026.10.27-14.29.38:418][ 50]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 2 1 0 3
+[2026.10.27-14.29.38:429][ 51]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 4 2 3 0
+[2026.10.27-14.29.38:439][ 52]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 1 4 3 2
+[2026.10.27-14.29.38:450][ 53]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 3 2 4 1
+[2026.10.27-14.29.38:461][ 54]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 4 0 2 1
+[2026.10.27-14.29.38:470][ 55]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 3 4 1 0
+[2026.10.27-14.29.38:480][ 56]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 4 2 1 3
+[2026.10.27-14.29.38:490][ 57]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 2 0 1 3
+[2026.10.27-14.29.38:499][ 58]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 3 2 1 0
+[2026.10.27-14.29.38:510][ 59]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 4 1 0 2
+[2026.10.27-14.29.38:520][ 60]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 3 0 4 2
+[2026.10.27-14.29.38:530][ 61]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 0 1 4 2
+[2026.10.27-14.29.38:539][ 62]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 3 0 4 2
+[2026.10.27-14.29.38:548][ 63]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 4 0 2 1
+[2026.10.27-14.29.38:558][ 64]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 3 4 2 0
+[2026.10.27-14.29.38:569][ 65]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 4 1 2 0
+[2026.10.27-14.29.38:578][ 66]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 3 0 2 4
+[2026.10.27-14.29.38:588][ 67]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 3 2 1 4
+[2026.10.27-14.29.38:598][ 68]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 3 1 2 4
+[2026.10.27-14.29.38:609][ 69]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 0 1 2 3
+[2026.10.27-14.29.38:620][ 70]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 3 4 0 1
+[2026.10.27-14.29.38:630][ 71]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 1 0 4 2
+[2026.10.27-14.29.38:641][ 72]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 3 0 4 2
+[2026.10.27-14.29.38:651][ 73]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 0 3 2 4
+[2026.10.27-14.29.38:660][ 74]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 4 3 2 0
+[2026.10.27-14.29.38:670][ 75]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 1 4 0 3
+[2026.10.27-14.29.38:681][ 76]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 3 0 1 2
+[2026.10.27-14.29.38:692][ 77]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 0 1 4 2
+[2026.10.27-14.29.38:701][ 78]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 2 1 0 4
+[2026.10.27-14.29.38:711][ 79]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 3 1 2 4
+[2026.10.27-14.29.38:720][ 80]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 1 2 3 4
+[2026.10.27-14.29.38:730][ 81]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 4 3 0 1
+[2026.10.27-14.29.38:740][ 82]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 1 2 3 0
+[2026.10.27-14.29.38:750][ 83]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 2 4 3 1
+[2026.10.27-14.29.38:760][ 84]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 3 4 1 0
+[2026.10.27-14.29.38:771][ 85]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 4 3 0 2
+[2026.10.27-14.29.38:781][ 86]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 1 4 0 2
+[2026.10.27-14.29.38:791][ 87]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 4 3 0 2
+[2026.10.27-14.29.38:801][ 88]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 2 4 3 0
+[2026.10.27-14.29.38:812][ 89]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 2 1 3 4
+[2026.10.27-14.29.38:822][ 90]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 3 1 2 0
+[2026.10.27-14.29.38:832][ 91]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 4 2 0 1
+[2026.10.27-14.29.38:843][ 92]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 1 2 4 0
+[2026.10.27-14.29.38:853][ 93]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 1 0 2 3
+[2026.10.27-14.29.38:863][ 94]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 3 4 2 0
+[2026.10.27-14.29.38:893][ 95]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 0 2 1 4
+[2026.10.27-14.29.38:905][ 96]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 1 3 0 2
+[2026.10.27-14.29.38:915][ 97]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 4 0 3 1
+[2026.10.27-14.29.38:926][ 98]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 0 4 1 2
+[2026.10.27-14.29.38:937][ 99]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 1 2 3 0
+[2026.10.27-14.29.38:947][100]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 3 0 4 1
+[2026.10.27-14.29.38:957][101]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 3 1 2 0
+[2026.10.27-14.29.38:969][102]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 1 3 0 4
+[2026.10.27-14.29.38:979][103]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 0 3 1 2
+[2026.10.27-14.29.38:989][104]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 1 3 2 4
+[2026.10.27-14.29.38:999][105]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 0 1 3 4
+[2026.10.27-14.29.39:010][106]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 1 2 0 3
+[2026.10.27-14.29.39:020][107]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 3 1 0 4
+[2026.10.27-14.29.39:031][108]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 0 2 1 3
+[2026.10.27-14.29.39:042][109]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 3 0 2 4
+[2026.10.27-14.29.39:051][110]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 2 1 3 0
+[2026.10.27-14.29.39:063][111]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 1 4 0 2
+[2026.10.27-14.29.39:075][112]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 2 3 0 4
+[2026.10.27-14.29.39:085][113]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 1 0 3 2
+[2026.10.27-14.29.39:096][114]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 2 0 3 1
+[2026.10.27-14.29.39:108][115]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 4 1 2 3
+[2026.10.27-14.29.39:118][116]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 2 3 4 1
+[2026.10.27-14.29.39:128][117]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 1 4 2 0
+[2026.10.27-14.29.39:139][118]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 0 2 4 1
+[2026.10.27-14.29.39:149][119]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 2 1 4 3
+[2026.10.27-14.29.39:160][120]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 1 3 0 2
+[2026.10.27-14.29.39:171][121]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 0 3 1 4
+[2026.10.27-14.29.39:181][122]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 4 3 2 0
+[2026.10.27-14.29.39:191][123]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 2 0 4 1
+[2026.10.27-14.29.39:202][124]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 2 3 4 1
+[2026.10.27-14.29.39:213][125]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 2 4 0 3
+[2026.10.27-14.29.39:223][126]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 0 3 4 1
+[2026.10.27-14.29.39:234][127]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 2 3 4 0
+[2026.10.27-14.29.39:244][128]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 1 4 0 3
+[2026.10.27-14.29.39:255][129]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 0 1 2 3
+[2026.10.27-14.29.39:266][130]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 3 0 1 2
+[2026.10.27-14.29.39:276][131]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 3 2 1 0
+[2026.10.27-14.29.39:288][132]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 1 0 3 4
+[2026.10.27-14.29.39:298][133]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 4 0 3 2
+[2026.10.27-14.29.39:309][134]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 0 2 4 3
+[2026.10.27-14.29.39:319][135]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 0 3 4 1
+[2026.10.27-14.29.39:330][136]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 3 1 4 2
+[2026.10.27-14.29.39:341][137]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 0 4 2 3
+[2026.10.27-14.29.39:351][138]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 2 0 4 1
+[2026.10.27-14.29.39:361][139]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 0 3 2 4
+[2026.10.27-14.29.39:370][140]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 2 4 0 3
+[2026.10.27-14.29.39:380][141]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 0 4 1 2
+[2026.10.27-14.29.39:390][142]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 2 1 4 0
+[2026.10.27-14.29.39:400][143]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 1 2 0 4
+[2026.10.27-14.29.39:411][144]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 1 3 2 0
+[2026.10.27-14.29.39:420][145]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 2 3 4 1
+[2026.10.27-14.29.39:430][146]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 1 2 4 3
+[2026.10.27-14.29.39:441][147]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 2 4 3 0
+[2026.10.27-14.29.39:452][148]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 0 1 4 2
+[2026.10.27-14.29.39:461][149]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 1 4 0 3
+[2026.10.27-14.29.39:471][150]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 3 4 2 1
+[2026.10.27-14.29.39:506][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.29.39:506][150]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.29.39:506][150]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-14.29.39:509][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.29.39:515][150]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-14.29.39:521][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.29.39:550][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.29.39:551][150]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 144
+[2026.10.27-14.29.39:551][150]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=144, StreamState=4
+[2026.10.27-14.29.39:553][150]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=144, StreamState=2
+[2026.10.27-14.29.39:565][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.10.27-14.29.39:620][151]LogPlayLevel: Display: Destroying online subsystem :Context_167
+[2026.10.27-14.29.40:866][287]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-14.29.40:873][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-14.29.40:875][287]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.29.40:888][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013458s)
+[2026.10.27-14.29.40:888][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.013498s)
+[2026.10.27-14.29.40:914][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.10.27-14.29.40:919][287]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.27-14.29.40:921][287]LogPlayLevel: PIE: World Init took: (0.001765s)
+[2026.10.27-14.29.40:922][287]LogAudio: Display: Creating Audio Device:                 Id: 145, Scope: Unique, Realtime: True
+[2026.10.27-14.29.40:922][287]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-14.29.40:922][287]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-14.29.40:922][287]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-14.29.40:922][287]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-14.29.40:922][287]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-14.29.40:922][287]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-14.29.40:922][287]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-14.29.40:922][287]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-14.29.40:922][287]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-14.29.40:922][287]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-14.29.40:922][287]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-14.29.40:923][287]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-14.29.40:941][287]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.27-14.29.40:942][287]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-14.29.40:942][287]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-14.29.40:942][287]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-14.29.40:942][287]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=145
+[2026.10.27-14.29.40:942][287]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=145
+[2026.10.27-14.29.40:945][287]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=145
+[2026.10.27-14.29.40:945][287]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=145
+[2026.10.27-14.29.40:945][287]LogInit: FAudioDevice initialized with ID 145.
+[2026.10.27-14.29.40:945][287]LogAudio: Display: Audio Device (ID: 145) registered with world 'MainLVL'.
+[2026.10.27-14.29.40:945][287]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 145
+[2026.10.27-14.29.40:949][287]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.27-14.29.40:955][287]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.27-15.29.40
+[2026.10.27-14.29.40:955][287]LogWorld: Bringing up level for play took: 0.005017
+[2026.10.27-14.29.40:957][287]LogOnline: OSS: Created online subsystem instance for: :Context_168
+[2026.10.27-14.29.40:957][287]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.29.40:957][287]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.27-14.29.40:957][287]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.29.40:960][287]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.27-14.29.40:960][287]PIE: Server logged in
+[2026.10.27-14.29.40:962][287]PIE: Play in editor total start time 0.088 seconds.
+[2026.10.27-14.29.40:963][287]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 2 3 1 4
+[2026.10.27-14.29.40:979][288]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 4 3 0 2
+[2026.10.27-14.29.41:094][289]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 0 1 3 2
+[2026.10.27-14.29.41:118][290]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 0 1 4 2
+[2026.10.27-14.29.41:129][291]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 0 1 2 3
+[2026.10.27-14.29.41:140][292]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 1 0 4 2
+[2026.10.27-14.29.41:151][293]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 0 3 4 1
+[2026.10.27-14.29.41:161][294]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 0 4 3 1
+[2026.10.27-14.29.41:171][295]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 1 0 2 3
+[2026.10.27-14.29.41:182][296]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 0 2 1 3
+[2026.10.27-14.29.41:195][297]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 2 3 0 4
+[2026.10.27-14.29.41:206][298]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 0 2 3 4
+[2026.10.27-14.29.41:217][299]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 3 2 4 0
+[2026.10.27-14.29.41:229][300]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 1 2 0 4
+[2026.10.27-14.29.41:240][301]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 3 2 0 4
+[2026.10.27-14.29.41:250][302]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 4 3 1 2
+[2026.10.27-14.29.41:261][303]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 2 4 1 0
+[2026.10.27-14.29.41:272][304]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 4 2 0 3
+[2026.10.27-14.29.41:282][305]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 3 2 0 1
+[2026.10.27-14.29.41:293][306]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 1 4 2 3
+[2026.10.27-14.29.41:303][307]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 3 4 0 2
+[2026.10.27-14.29.41:314][308]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 1 2 4 3
+[2026.10.27-14.29.41:324][309]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 3 2 0 4 1
+[2026.10.27-14.29.41:335][310]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 1 4 3 0
+[2026.10.27-14.29.41:344][311]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 4 1 3 0
+[2026.10.27-14.29.41:354][312]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 4 1 2 3
+[2026.10.27-14.29.41:364][313]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 1 3 0 2 4
+[2026.10.27-14.29.41:373][314]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 0 1 2 3 4
+[2026.10.27-14.29.41:382][315]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 4 1 0 3
+[2026.10.27-14.29.41:393][316]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 2 0 4 3 1
+[2026.10.27-14.29.44:223][644]LogBlueprintUserMessages: [BP_JesterBoss_C_1] 4 3 1 0 2
+[2026.10.27-14.29.44:257][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.29.44:257][644]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.27-14.29.44:257][644]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-14.29.44:260][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.29.44:265][644]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-14.29.44:272][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-14.29.44:302][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-14.29.44:303][644]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 145
+[2026.10.27-14.29.44:303][644]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=145, StreamState=4
+[2026.10.27-14.29.44:304][644]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=145, StreamState=2
+[2026.10.27-14.29.44:315][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.10.27-14.29.44:370][645]LogPlayLevel: Display: Destroying online subsystem :Context_168
+[2026.10.27-14.30.21:539][845]Angelscript: preprocessing took 0.114 ms
+[2026.10.27-14.30.21:540][845]Angelscript: script compilation stage1 and stage2 took 0.198 ms
+[2026.10.27-14.30.21:540][845]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-14.30.21:540][845]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.30.21:540][845]Angelscript: script compilation stage3 took 0.232 ms
+[2026.10.27-14.30.21:540][845]Angelscript: script compilation stage4 took 0.006 ms
+[2026.10.27-14.30.21:540][845]Angelscript: script compilation total took 0.475 ms
+[2026.10.27-14.30.21:540][845]Angelscript: class generator analysis took 0.076 ms
+[2026.10.27-14.30.21:540][845]Angelscript: new module swap-in took 0.015 ms
+[2026.10.27-14.30.21:540][845]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.30.21:540][845]Angelscript: class generator reload took 0.296 ms
+[2026.10.27-14.30.21:540][845]Angelscript: post soft reload took 0.005 ms
+[2026.10.27-14.30.21:540][845]Angelscript: old module cleanup took 0.084 ms
+[2026.10.27-14.30.21:541][845]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.30.21:541][845]Angelscript: ==script reload total == took 1.516 ms
+[2026.10.27-14.31.09:880][990]Angelscript: preprocessing took 0.121 ms
+[2026.10.27-14.31.09:880][990]Angelscript: script compilation stage1 and stage2 took 0.201 ms
+[2026.10.27-14.31.09:880][990]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-14.31.09:880][990]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.31.09:881][990]Angelscript: script compilation stage3 took 0.247 ms
+[2026.10.27-14.31.09:881][990]Angelscript: script compilation stage4 took 0.005 ms
+[2026.10.27-14.31.09:881][990]Angelscript: script compilation total took 0.489 ms
+[2026.10.27-14.31.09:881][990]Angelscript: class generator analysis took 0.076 ms
+[2026.10.27-14.31.09:881][990]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.31.09:881][990]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.31.09:881][990]Angelscript: class generator reload took 0.262 ms
+[2026.10.27-14.31.09:881][990]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.31.09:881][990]Angelscript: old module cleanup took 0.075 ms
+[2026.10.27-14.31.09:881][990]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.31.09:881][990]Angelscript: ==script reload total == took 1.476 ms
+[2026.10.27-14.32.41:287][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2026.10.27-14.32.41:292][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/Autosaves/Game/MainLVL_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2026.10.27-14.32.41:333][264]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MainLVL_Auto7
+[2026.10.27-14.32.41:334][264]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/MainLVL_Auto747269F274BE895B47408A2946224CA93.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/Autosaves/Game/MainLVL_Auto7.umap'
+[2026.10.27-14.32.41:336][264]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLVL' took 0.077
+[2026.10.27-14.32.41:336][264]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.077
+[2026.10.27-14.34.08:911][527]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26777.814453
+[2026.10.27-14.34.09:911][530]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-14.34.09:911][530]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26778.482422, Update Interval: 304.537506
+[2026.10.27-14.34.25:907][578]Angelscript: preprocessing took 0.117 ms
+[2026.10.27-14.34.25:907][578]Angelscript: script compilation stage1 and stage2 took 0.211 ms
+[2026.10.27-14.34.25:907][578]Angelscript: script compilation class layouting took 0.018 ms
+[2026.10.27-14.34.25:907][578]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.34.25:907][578]Angelscript:  (58:5): Compiling void AJesterBoss::DecideAttack()
+[2026.10.27-14.34.25:907][578]Angelscript: Error: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.34.25:908][578]Angelscript: Error:  (73:17): Expected ';'
+[2026.10.27-14.34.25:908][578]Angelscript: Error:  (73:17): Instead found '}'
+[2026.10.27-14.34.25:908][578]Angelscript: script compilation stage3 took 0.214 ms
+[2026.10.27-14.34.25:908][578]Angelscript: script compilation stage4 took 0.005 ms
+[2026.10.27-14.34.25:908][578]Angelscript: script compilation total took 0.468 ms
+[2026.10.27-14.34.25:908][578]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2026.10.27-14.34.25:908][578]Angelscript: ==script reload total == took 1.002 ms
+[2026.10.27-14.34.39:910][620]Angelscript: preprocessing took 0.116 ms
+[2026.10.27-14.34.39:910][620]Angelscript: script compilation stage1 and stage2 took 0.220 ms
+[2026.10.27-14.34.39:910][620]Angelscript: script compilation class layouting took 0.019 ms
+[2026.10.27-14.34.39:910][620]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.34.39:910][620]Angelscript: script compilation stage3 took 0.304 ms
+[2026.10.27-14.34.39:910][620]Angelscript: script compilation stage4 took 0.006 ms
+[2026.10.27-14.34.39:910][620]Angelscript: script compilation total took 0.571 ms
+[2026.10.27-14.34.39:910][620]Angelscript: class generator analysis took 0.092 ms
+[2026.10.27-14.34.39:911][620]Angelscript: new module swap-in took 0.016 ms
+[2026.10.27-14.34.39:911][620]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.34.39:911][620]Angelscript: class generator reload took 0.311 ms
+[2026.10.27-14.34.39:911][620]Angelscript: post soft reload took 0.005 ms
+[2026.10.27-14.34.39:911][620]Angelscript: old module cleanup took 0.080 ms
+[2026.10.27-14.34.39:911][620]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.34.39:911][620]Angelscript: ==script reload total == took 1.663 ms
+[2026.10.27-14.34.44:243][633]Angelscript: preprocessing took 0.125 ms
+[2026.10.27-14.34.44:243][633]Angelscript: script compilation stage1 and stage2 took 0.202 ms
+[2026.10.27-14.34.44:243][633]Angelscript: script compilation class layouting took 0.016 ms
+[2026.10.27-14.34.44:243][633]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.34.44:243][633]Angelscript: script compilation stage3 took 0.265 ms
+[2026.10.27-14.34.44:243][633]Angelscript: script compilation stage4 took 0.005 ms
+[2026.10.27-14.34.44:243][633]Angelscript: script compilation total took 0.507 ms
+[2026.10.27-14.34.44:244][633]Angelscript: class generator analysis took 0.078 ms
+[2026.10.27-14.34.44:244][633]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.34.44:244][633]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.34.44:244][633]Angelscript: class generator reload took 0.258 ms
+[2026.10.27-14.34.44:244][633]Angelscript: post soft reload took 0.005 ms
+[2026.10.27-14.34.44:245][633]Angelscript: old module cleanup took 0.103 ms
+[2026.10.27-14.34.44:245][633]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.34.44:245][633]Angelscript: ==script reload total == took 1.581 ms
+[2026.10.27-14.35.00:577][682]Angelscript: preprocessing took 0.119 ms
+[2026.10.27-14.35.00:578][682]Angelscript: script compilation stage1 and stage2 took 0.203 ms
+[2026.10.27-14.35.00:578][682]Angelscript: script compilation class layouting took 0.018 ms
+[2026.10.27-14.35.00:578][682]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.35.00:578][682]Angelscript: script compilation stage3 took 0.269 ms
+[2026.10.27-14.35.00:578][682]Angelscript: script compilation stage4 took 0.006 ms
+[2026.10.27-14.35.00:578][682]Angelscript: script compilation total took 0.516 ms
+[2026.10.27-14.35.00:578][682]Angelscript: class generator analysis took 0.076 ms
+[2026.10.27-14.35.00:578][682]Angelscript: new module swap-in took 0.013 ms
+[2026.10.27-14.35.00:578][682]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.35.00:578][682]Angelscript: class generator reload took 0.265 ms
+[2026.10.27-14.35.00:578][682]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.35.00:578][682]Angelscript: old module cleanup took 0.110 ms
+[2026.10.27-14.35.00:579][682]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.35.00:579][682]Angelscript: ==script reload total == took 1.523 ms
+[2026.10.27-14.40.07:627][603]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27136.855469
+[2026.10.27-14.40.08:627][606]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-14.40.08:627][606]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27137.523438, Update Interval: 331.200287
+[2026.10.27-14.46.25:678][737]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27515.238281
+[2026.10.27-14.46.26:678][740]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-14.46.26:678][740]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27515.906250, Update Interval: 318.367859
+[2026.10.27-14.48.39:351][138]Angelscript: preprocessing took 0.125 ms
+[2026.10.27-14.48.39:351][138]Angelscript: script compilation stage1 and stage2 took 0.232 ms
+[2026.10.27-14.48.39:352][138]Angelscript: script compilation class layouting took 0.018 ms
+[2026.10.27-14.48.39:352][138]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.48.39:352][138]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.48.39:352][138]Angelscript:  (58:5): Compiling void AJesterBoss::DecideAttack()
+[2026.10.27-14.48.39:352][138]Angelscript: Error: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.48.39:352][138]Angelscript: Error:  (78:20): Switch expressions must be integral numbers
+[2026.10.27-14.48.39:352][138]Angelscript: script compilation stage3 took 0.301 ms
+[2026.10.27-14.48.39:352][138]Angelscript: script compilation stage4 took 0.005 ms
+[2026.10.27-14.48.39:352][138]Angelscript: script compilation total took 0.574 ms
+[2026.10.27-14.48.39:352][138]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2026.10.27-14.48.39:352][138]Angelscript: ==script reload total == took 1.216 ms
+[2026.10.27-14.48.44:352][153]Angelscript: preprocessing took 0.113 ms
+[2026.10.27-14.48.44:353][153]Angelscript: script compilation stage1 and stage2 took 0.205 ms
+[2026.10.27-14.48.44:353][153]Angelscript: script compilation class layouting took 0.018 ms
+[2026.10.27-14.48.44:353][153]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.48.44:353][153]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.48.44:353][153]Angelscript:  (58:5): Compiling void AJesterBoss::DecideAttack()
+[2026.10.27-14.48.44:353][153]Angelscript: Error: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.48.44:353][153]Angelscript: Error:  (78:20): Switch expressions must be integral numbers
+[2026.10.27-14.48.44:353][153]Angelscript: script compilation stage3 took 0.278 ms
+[2026.10.27-14.48.44:353][153]Angelscript: script compilation stage4 took 0.004 ms
+[2026.10.27-14.48.44:353][153]Angelscript: script compilation total took 0.523 ms
+[2026.10.27-14.48.44:353][153]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2026.10.27-14.48.44:353][153]Angelscript: ==script reload total == took 1.071 ms
+[2026.10.27-14.48.45:686][157]Angelscript: preprocessing took 0.116 ms
+[2026.10.27-14.48.45:686][157]Angelscript: script compilation stage1 and stage2 took 0.210 ms
+[2026.10.27-14.48.45:686][157]Angelscript: script compilation class layouting took 0.019 ms
+[2026.10.27-14.48.45:686][157]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.48.45:686][157]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.48.45:686][157]Angelscript:  (58:5): Compiling void AJesterBoss::DecideAttack()
+[2026.10.27-14.48.45:686][157]Angelscript: Error: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.48.45:686][157]Angelscript: Error:  (78:20): Switch expressions must be integral numbers
+[2026.10.27-14.48.45:686][157]Angelscript: script compilation stage3 took 0.317 ms
+[2026.10.27-14.48.45:686][157]Angelscript: script compilation stage4 took 0.004 ms
+[2026.10.27-14.48.45:686][157]Angelscript: script compilation total took 0.572 ms
+[2026.10.27-14.48.45:686][157]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2026.10.27-14.48.45:686][157]Angelscript: ==script reload total == took 1.153 ms
+[2026.10.27-14.49.16:688][250]Angelscript: preprocessing took 0.117 ms
+[2026.10.27-14.49.16:688][250]Angelscript: script compilation stage1 and stage2 took 0.203 ms
+[2026.10.27-14.49.16:688][250]Angelscript: script compilation class layouting took 0.016 ms
+[2026.10.27-14.49.16:688][250]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.49.16:689][250]Angelscript: script compilation stage3 took 0.281 ms
+[2026.10.27-14.49.16:689][250]Angelscript: script compilation stage4 took 0.006 ms
+[2026.10.27-14.49.16:689][250]Angelscript: script compilation total took 0.525 ms
+[2026.10.27-14.49.16:689][250]Angelscript: class generator analysis took 0.091 ms
+[2026.10.27-14.49.16:689][250]Angelscript: new module swap-in took 0.016 ms
+[2026.10.27-14.49.16:689][250]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.49.16:689][250]Angelscript: class generator reload took 0.331 ms
+[2026.10.27-14.49.16:689][250]Angelscript: post soft reload took 0.005 ms
+[2026.10.27-14.49.16:689][250]Angelscript: old module cleanup took 0.146 ms
+[2026.10.27-14.49.16:689][250]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.49.16:689][250]Angelscript: ==script reload total == took 1.709 ms
+[2026.10.27-14.50.40:698][502]Angelscript: preprocessing took 0.123 ms
+[2026.10.27-14.50.40:698][502]Angelscript: script compilation stage1 and stage2 took 0.207 ms
+[2026.10.27-14.50.40:698][502]Angelscript: script compilation class layouting took 0.018 ms
+[2026.10.27-14.50.40:698][502]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.50.40:698][502]Angelscript: script compilation stage3 took 0.315 ms
+[2026.10.27-14.50.40:698][502]Angelscript: script compilation stage4 took 0.005 ms
+[2026.10.27-14.50.40:698][502]Angelscript: script compilation total took 0.564 ms
+[2026.10.27-14.50.40:698][502]Angelscript: class generator analysis took 0.075 ms
+[2026.10.27-14.50.40:699][502]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.50.40:699][502]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.50.40:699][502]Angelscript: class generator reload took 0.265 ms
+[2026.10.27-14.50.40:699][502]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.50.40:699][502]Angelscript: old module cleanup took 0.075 ms
+[2026.10.27-14.50.40:699][502]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.50.40:699][502]Angelscript: ==script reload total == took 1.566 ms
+[2026.10.27-14.50.54:366][543]Angelscript: preprocessing took 0.121 ms
+[2026.10.27-14.50.54:366][543]Angelscript: script compilation stage1 and stage2 took 0.207 ms
+[2026.10.27-14.50.54:366][543]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-14.50.54:366][543]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.50.54:367][543]Angelscript: script compilation stage3 took 0.335 ms
+[2026.10.27-14.50.54:367][543]Angelscript: script compilation stage4 took 0.005 ms
+[2026.10.27-14.50.54:367][543]Angelscript: script compilation total took 0.581 ms
+[2026.10.27-14.50.54:367][543]Angelscript: class generator analysis took 0.076 ms
+[2026.10.27-14.50.54:367][543]Angelscript: new module swap-in took 0.013 ms
+[2026.10.27-14.50.54:367][543]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.50.54:367][543]Angelscript: class generator reload took 0.282 ms
+[2026.10.27-14.50.54:367][543]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.50.54:367][543]Angelscript: old module cleanup took 0.081 ms
+[2026.10.27-14.50.54:367][543]Angelscript: update module cache took 0.001 ms
+[2026.10.27-14.50.54:367][543]Angelscript: ==script reload total == took 1.570 ms
+[2026.10.27-14.51.35:040][665]Angelscript: preprocessing took 0.121 ms
+[2026.10.27-14.51.35:040][665]Angelscript: script compilation stage1 and stage2 took 0.217 ms
+[2026.10.27-14.51.35:040][665]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-14.51.35:040][665]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.51.35:040][665]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.51.35:040][665]Angelscript:  (58:5): Compiling void AJesterBoss::DecideAttack()
+[2026.10.27-14.51.35:040][665]Angelscript: Error: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.51.35:040][665]Angelscript: Error:  (82:13): Expected ';'
+[2026.10.27-14.51.35:040][665]Angelscript: Error:  (82:13): Instead found '}'
+[2026.10.27-14.51.35:040][665]Angelscript: Error:  (86:13): Expected ';'
+[2026.10.27-14.51.35:040][665]Angelscript: Error:  (86:13): Instead found '}'
+[2026.10.27-14.51.35:041][665]Angelscript: script compilation stage3 took 0.221 ms
+[2026.10.27-14.51.35:041][665]Angelscript: script compilation stage4 took 0.005 ms
+[2026.10.27-14.51.35:041][665]Angelscript: script compilation total took 0.479 ms
+[2026.10.27-14.51.35:041][665]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2026.10.27-14.51.35:041][665]Angelscript: ==script reload total == took 0.956 ms
+[2026.10.27-14.51.43:708][691]Angelscript: preprocessing took 0.138 ms
+[2026.10.27-14.51.43:708][691]Angelscript: script compilation stage1 and stage2 took 0.233 ms
+[2026.10.27-14.51.43:708][691]Angelscript: script compilation class layouting took 0.019 ms
+[2026.10.27-14.51.43:708][691]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.51.43:708][691]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.51.43:709][691]Angelscript:  (58:5): Compiling void AJesterBoss::DecideAttack()
+[2026.10.27-14.51.43:709][691]Angelscript: Error: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-14.51.43:709][691]Angelscript: Error:  (82:13): Expected ';'
+[2026.10.27-14.51.43:709][691]Angelscript: Error:  (82:13): Instead found '}'
+[2026.10.27-14.51.43:709][691]Angelscript: script compilation stage3 took 0.229 ms
+[2026.10.27-14.51.43:709][691]Angelscript: script compilation stage4 took 0.004 ms
+[2026.10.27-14.51.43:709][691]Angelscript: script compilation total took 0.503 ms
+[2026.10.27-14.51.43:709][691]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2026.10.27-14.51.43:709][691]Angelscript: ==script reload total == took 1.111 ms
+[2026.10.27-14.51.46:710][700]Angelscript: preprocessing took 0.116 ms
+[2026.10.27-14.51.46:710][700]Angelscript: script compilation stage1 and stage2 took 0.215 ms
+[2026.10.27-14.51.46:710][700]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-14.51.46:710][700]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.51.46:710][700]Angelscript: script compilation stage3 took 0.335 ms
+[2026.10.27-14.51.46:710][700]Angelscript: script compilation stage4 took 0.006 ms
+[2026.10.27-14.51.46:710][700]Angelscript: script compilation total took 0.592 ms
+[2026.10.27-14.51.46:710][700]Angelscript: class generator analysis took 0.076 ms
+[2026.10.27-14.51.46:710][700]Angelscript: new module swap-in took 0.013 ms
+[2026.10.27-14.51.46:711][700]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.51.46:711][700]Angelscript: class generator reload took 0.279 ms
+[2026.10.27-14.51.46:711][700]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.51.46:711][700]Angelscript: old module cleanup took 0.083 ms
+[2026.10.27-14.51.46:711][700]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.51.46:711][700]Angelscript: ==script reload total == took 1.631 ms
+[2026.10.27-14.51.58:376][735]Angelscript: preprocessing took 0.124 ms
+[2026.10.27-14.51.58:377][735]Angelscript: script compilation stage1 and stage2 took 0.212 ms
+[2026.10.27-14.51.58:377][735]Angelscript: script compilation class layouting took 0.016 ms
+[2026.10.27-14.51.58:377][735]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.51.58:377][735]Angelscript: script compilation stage3 took 0.342 ms
+[2026.10.27-14.51.58:377][735]Angelscript: script compilation stage4 took 0.006 ms
+[2026.10.27-14.51.58:377][735]Angelscript: script compilation total took 0.599 ms
+[2026.10.27-14.51.58:377][735]Angelscript: class generator analysis took 0.078 ms
+[2026.10.27-14.51.58:377][735]Angelscript: new module swap-in took 0.013 ms
+[2026.10.27-14.51.58:377][735]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.51.58:377][735]Angelscript: class generator reload took 0.285 ms
+[2026.10.27-14.51.58:378][735]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-14.51.58:378][735]Angelscript: old module cleanup took 0.087 ms
+[2026.10.27-14.51.58:378][735]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.51.58:378][735]Angelscript: ==script reload total == took 1.606 ms
+[2026.10.27-14.52.37:054][851]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27886.945312
+[2026.10.27-14.52.38:055][854]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-14.52.38:055][854]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27887.613281, Update Interval: 338.222595
+[2026.10.27-14.55.08:395][305]Angelscript: preprocessing took 0.127 ms
+[2026.10.27-14.55.08:395][305]Angelscript: script compilation stage1 and stage2 took 0.233 ms
+[2026.10.27-14.55.08:395][305]Angelscript: script compilation class layouting took 0.019 ms
+[2026.10.27-14.55.08:395][305]Angelscript: Compiling (code only): Boss
+[2026.10.27-14.55.08:396][305]Angelscript: script compilation stage3 took 0.364 ms
+[2026.10.27-14.55.08:396][305]Angelscript: script compilation stage4 took 0.007 ms
+[2026.10.27-14.55.08:396][305]Angelscript: script compilation total took 0.641 ms
+[2026.10.27-14.55.08:396][305]Angelscript: class generator analysis took 0.086 ms
+[2026.10.27-14.55.08:396][305]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-14.55.08:396][305]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-14.55.08:396][305]Angelscript: class generator reload took 0.332 ms
+[2026.10.27-14.55.08:396][305]Angelscript: post soft reload took 0.005 ms
+[2026.10.27-14.55.08:396][305]Angelscript: old module cleanup took 0.084 ms
+[2026.10.27-14.55.08:396][305]Angelscript: update module cache took 0.000 ms
+[2026.10.27-14.55.08:396][305]Angelscript: ==script reload total == took 1.727 ms
+[2026.10.27-14.58.51:434][974]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28261.603516
+[2026.10.27-14.58.52:435][977]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-14.58.52:435][977]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28262.271484, Update Interval: 330.044861
+[2026.10.27-15.02.18:122][594]Angelscript: preprocessing took 0.133 ms
+[2026.10.27-15.02.18:122][594]Angelscript: script compilation stage1 and stage2 took 0.250 ms
+[2026.10.27-15.02.18:122][594]Angelscript: script compilation class layouting took 0.018 ms
+[2026.10.27-15.02.18:122][594]Angelscript: Compiling (code only): Boss
+[2026.10.27-15.02.18:122][594]Angelscript: script compilation stage3 took 0.378 ms
+[2026.10.27-15.02.18:122][594]Angelscript: script compilation stage4 took 0.007 ms
+[2026.10.27-15.02.18:123][594]Angelscript: script compilation total took 0.672 ms
+[2026.10.27-15.02.18:123][594]Angelscript: class generator analysis took 0.089 ms
+[2026.10.27-15.02.18:123][594]Angelscript: new module swap-in took 0.016 ms
+[2026.10.27-15.02.18:123][594]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-15.02.18:123][594]Angelscript: class generator reload took 0.332 ms
+[2026.10.27-15.02.18:123][594]Angelscript: post soft reload took 0.006 ms
+[2026.10.27-15.02.18:123][594]Angelscript: old module cleanup took 0.153 ms
+[2026.10.27-15.02.18:123][594]Angelscript: update module cache took 0.000 ms
+[2026.10.27-15.02.18:123][594]Angelscript: ==script reload total == took 1.869 ms
+[2026.10.27-15.02.24:125][612]Angelscript: preprocessing took 0.134 ms
+[2026.10.27-15.02.24:125][612]Angelscript: script compilation stage1 and stage2 took 0.220 ms
+[2026.10.27-15.02.24:125][612]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-15.02.24:125][612]Angelscript: Compiling (code only): Boss
+[2026.10.27-15.02.24:125][612]Angelscript: script compilation stage3 took 0.367 ms
+[2026.10.27-15.02.24:125][612]Angelscript: script compilation stage4 took 0.006 ms
+[2026.10.27-15.02.24:125][612]Angelscript: script compilation total took 0.628 ms
+[2026.10.27-15.02.24:125][612]Angelscript: class generator analysis took 0.077 ms
+[2026.10.27-15.02.24:126][612]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-15.02.24:126][612]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-15.02.24:126][612]Angelscript: class generator reload took 0.282 ms
+[2026.10.27-15.02.24:126][612]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-15.02.24:126][612]Angelscript: old module cleanup took 0.080 ms
+[2026.10.27-15.02.24:126][612]Angelscript: update module cache took 0.000 ms
+[2026.10.27-15.02.24:126][612]Angelscript: ==script reload total == took 1.658 ms
+[2026.10.27-15.03.08:800][746]Angelscript: preprocessing took 0.142 ms
+[2026.10.27-15.03.08:800][746]Angelscript: script compilation stage1 and stage2 took 0.240 ms
+[2026.10.27-15.03.08:800][746]Angelscript: script compilation class layouting took 0.017 ms
+[2026.10.27-15.03.08:800][746]Angelscript: Compiling (code only): Boss
+[2026.10.27-15.03.08:800][746]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-15.03.08:800][746]Angelscript:  (58:5): Compiling void AJesterBoss::DecideAttack()
+[2026.10.27-15.03.08:800][746]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.27-15.03.08:800][746]Angelscript: Warning:  (89:69): Result of expression is unused
+[2026.10.27-15.03.08:800][746]Angelscript: script compilation stage3 took 0.405 ms
+[2026.10.27-15.03.08:801][746]Angelscript: script compilation stage4 took 0.005 ms
+[2026.10.27-15.03.08:801][746]Angelscript: script compilation total took 0.685 ms
+[2026.10.27-15.03.08:801][746]Angelscript: class generator analysis took 0.075 ms
+[2026.10.27-15.03.08:801][746]Angelscript: new module swap-in took 0.013 ms
+[2026.10.27-15.03.08:801][746]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-15.03.08:801][746]Angelscript: class generator reload took 0.286 ms
+[2026.10.27-15.03.08:801][746]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-15.03.08:801][746]Angelscript: old module cleanup took 0.079 ms
+[2026.10.27-15.03.08:801][746]Angelscript: update module cache took 0.000 ms
+[2026.10.27-15.03.08:801][746]Angelscript: ==script reload total == took 1.732 ms
+[2026.10.27-15.03.13:468][760]Angelscript: preprocessing took 0.129 ms
+[2026.10.27-15.03.13:468][760]Angelscript: script compilation stage1 and stage2 took 0.215 ms
+[2026.10.27-15.03.13:468][760]Angelscript: script compilation class layouting took 0.018 ms
+[2026.10.27-15.03.13:468][760]Angelscript: Compiling (code only): Boss
+[2026.10.27-15.03.13:469][760]Angelscript: script compilation stage3 took 0.393 ms
+[2026.10.27-15.03.13:469][760]Angelscript: script compilation stage4 took 0.006 ms
+[2026.10.27-15.03.13:469][760]Angelscript: script compilation total took 0.651 ms
+[2026.10.27-15.03.13:469][760]Angelscript: class generator analysis took 0.078 ms
+[2026.10.27-15.03.13:469][760]Angelscript: new module swap-in took 0.014 ms
+[2026.10.27-15.03.13:469][760]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-15.03.13:469][760]Angelscript: class generator reload took 0.276 ms
+[2026.10.27-15.03.13:469][760]Angelscript: post soft reload took 0.004 ms
+[2026.10.27-15.03.13:469][760]Angelscript: old module cleanup took 0.080 ms
+[2026.10.27-15.03.13:469][760]Angelscript: update module cache took 0.000 ms
+[2026.10.27-15.03.13:469][760]Angelscript: ==script reload total == took 1.659 ms
+[2026.10.27-15.04.55:154][ 65]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28625.621094
+[2026.10.27-15.04.56:155][ 68]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-15.04.56:155][ 68]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28626.289062, Update Interval: 328.891266
+[2026.10.27-15.05.20:486][141]Angelscript: preprocessing took 0.142 ms
+[2026.10.27-15.05.20:486][141]Angelscript: script compilation stage1 and stage2 took 0.241 ms
+[2026.10.27-15.05.20:486][141]Angelscript: script compilation class layouting took 0.019 ms
+[2026.10.27-15.05.20:486][141]Angelscript: Compiling (code only): Boss
+[2026.10.27-15.05.20:486][141]Angelscript: script compilation stage3 took 0.404 ms
+[2026.10.27-15.05.20:486][141]Angelscript: script compilation stage4 took 0.007 ms
+[2026.10.27-15.05.20:486][141]Angelscript: script compilation total took 0.691 ms
+[2026.10.27-15.05.20:486][141]Angelscript: class generator analysis took 0.085 ms
+[2026.10.27-15.05.20:487][141]Angelscript: new module swap-in took 0.015 ms
+[2026.10.27-15.05.20:487][141]Angelscript: Soft Reload: AJesterBoss
+[2026.10.27-15.05.20:487][141]Angelscript: class generator reload took 0.328 ms
+[2026.10.27-15.05.20:487][141]Angelscript: post soft reload took 0.005 ms
+[2026.10.27-15.05.20:487][141]Angelscript: old module cleanup took 0.087 ms
+[2026.10.27-15.05.20:487][141]Angelscript: update module cache took 0.000 ms
+[2026.10.27-15.05.20:487][141]Angelscript: ==script reload total == took 1.810 ms
+[2026.10.27-15.05.28:599][196]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.27-15.05.28:652][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/MainLVL.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.27-15.05.28:703][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.10.27-15.05.28:746][196]LogSavePackage: Moving output files for package: /Game/MainLVL
+[2026.10.27-15.05.28:747][196]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/MainLVL9C82B381444CF9B204DBC2915AC664C3.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/MainLVL.umap'
+[2026.10.27-15.05.28:759][196]LogFileHelpers: Saving map 'MainLVL' took 0.108
+[2026.10.27-15.05.28:769][196]LogFileHelpers: InternalPromptForCheckoutAndSave took 169.516 ms (total: 6.56 sec)
+[2026.10.27-15.05.28:801][196]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.27-15.05.28:801][196]LogContentValidation: Enabled validators:
+[2026.10.27-15.05.28:801][196]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.27-15.05.28:801][196]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.27-15.05.28:801][196]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.27-15.05.28:801][196]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.27-15.05.28:801][196]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.27-15.05.28:801][196]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.27-15.05.28:801][196]AssetCheck: /Game/MainLVL Validating asset
+[2026.10.27-15.05.30:671][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.10.27-15.05.30:724][382]LogStall: Shutdown...
+[2026.10.27-15.05.30:724][382]LogStall: Shutdown complete.
+[2026.10.27-15.05.30:776][382]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.30:776][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.30:849][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.10.27-15.05.30:849][382]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.30:849][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.30:926][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.10.27-15.05.30:926][382]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.30:926][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:000][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.10.27-15.05.31:000][382]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:000][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:074][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.10.27-15.05.31:074][382]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:074][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:161][382]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:161][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:171][382]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:171][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:221][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.10.27-15.05.31:221][382]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:221][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:285][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.10.27-15.05.31:285][382]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:285][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:339][382]LogSlate: Window 'BP_JesterBoss' being destroyed
+[2026.10.27-15.05.31:350][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.10.27-15.05.31:350][382]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:350][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:409][382]LogSlate: Window 'DreamDodge - Unreal Editor' being destroyed
+[2026.10.27-15.05.31:628][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.10.27-15.05.31:671][382]Cmd: QUIT_EDITOR
+[2026.10.27-15.05.31:671][383]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.10.27-15.05.31:678][383]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.10.27-15.05.31:678][383]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.10.27-15.05.31:678][383]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.10.27-15.05.31:680][383]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:680][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:691][383]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.10.27-15.05.31:691][383]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.10.27-15.05.31:691][383]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.10.27-15.05.31:698][383]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:698][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:702][383]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:702][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:706][383]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:706][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:709][383]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:709][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:713][383]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:713][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:716][383]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:716][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:719][383]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:719][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:722][383]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:722][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:724][383]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-15.05.31:724][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-15.05.31:727][383]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.10.27-15.05.31:727][383]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.10.27-15.05.31:735][383]LogAnalytics: Display: [UEEditor.UnrealEngine.Release] AnalyticsET::EndSession
+[2026.10.27-15.05.32:594][383]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.10.27-15.05.32:594][383]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.10.27-15.05.32:594][383]LogAudio: Display: Audio Device unregistered from world 'MainLVL'.
+[2026.10.27-15.05.32:594][383]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.10.27-15.05.32:594][383]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.10.27-15.05.32:595][383]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.10.27-15.05.32:602][383]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.10.27-15.05.32:602][383]LogAudio: Display: Audio Device Manager Shutdown
+[2026.10.27-15.05.32:605][383]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.10.27-15.05.32:605][383]LogExit: Preparing to exit.
+[2026.10.27-15.05.32:643][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.32:649][383]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.27-15.05.33:127][383]LogEditorDataStorage: Deinitializing
+[2026.10.27-15.05.33:222][383]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.10.27-15.05.33:241][383]LogExit: Editor shut down
+[2026.10.27-15.05.33:244][383]LogExit: Transaction tracking system shut down
+[2026.10.27-15.05.33:400][383]LogExit: Object subsystem successfully closed.
+[2026.10.27-15.05.33:413][383]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.10.27-15.05.33:436][383]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.10.27-15.05.34:040][383]LogMemoryProfiler: Shutdown
+[2026.10.27-15.05.34:040][383]LogNetworkingProfiler: Shutdown
+[2026.10.27-15.05.34:040][383]LoadingProfiler: Shutdown
+[2026.10.27-15.05.34:040][383]LogTimingProfiler: Shutdown
+[2026.10.27-15.05.34:040][383]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.27-15.05.34:040][383]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.27-15.05.34:311][383]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.10.27-15.05.34:315][383]LogNFORDenoise: NFORDenoise function shutting down
+[2026.10.27-15.05.34:352][383]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.10.27-15.05.34:352][383]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD59C2D76-410D-7DCB-AE8B-64B4F1F9F736%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=5.6.0-0%2BUE5&UserID=1bcae7d141d3b2c36ae533839f8ebff1%7C%7C94f09a10-7e9f-4007-96c8-ae9d02ac0518&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.10.27-15.05.34:902][383]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.10.27-15.05.34:902][383]RenderDocPlugin: plugin has been unloaded.
+[2026.10.27-15.05.34:906][383]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.10.27-15.05.34:906][383]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.10.27-15.05.34:906][383]LogPakFile: Destroying PakPlatformFile
+[2026.10.27-15.05.35:521][383]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.10.27-15.05.35:550][383]LogExit: Exiting.
+[2026.10.27-15.05.35:575][383]Log file closed, 10/27/26 16:05:35
