@@ -3,7 +3,11 @@ enum EMovementDirection{
     Up,
     Down,
     Left,
-    Right
+    Right, 
+    DownLeft,
+    DownRight,
+    UpLeft,
+    UpRight
 }
 
 enum EDimension{
@@ -66,7 +70,7 @@ class ABullet : AActor{
             break;
         }
         StartMoving = startmoving;
-
+        StartDestructionTimer();
     }
 
     UFUNCTION(BlueprintOverride)
@@ -86,6 +90,18 @@ class ABullet : AActor{
                 case EMovementDirection::Right:
                     SetActorLocation(GetActorLocation() + FVector(0,-1,0)*Speed);
                 break;
+                case EMovementDirection::UpLeft:
+                    SetActorLocation(GetActorLocation() + FVector(0,1,1)*Speed);
+                break;
+                case EMovementDirection::UpRight:
+                    SetActorLocation(GetActorLocation() + FVector(0,-1,1)*Speed);
+                break;
+                case EMovementDirection::DownLeft:
+                    SetActorLocation(GetActorLocation() + FVector(0,1,-1)*Speed);
+                break;
+                case EMovementDirection::DownRight:
+                    SetActorLocation(GetActorLocation() + FVector(0,-1,-1)*Speed);
+                break;
             }
         }
     }
@@ -101,7 +117,7 @@ class ABullet : AActor{
 
     UFUNCTION()
     void StartDestructionTimer(){
-        System::SetTimer(this, n"Destroy",10,false,false);
+        System::SetTimer(this, n"Destroy",5,false,false);
     }
 
     UFUNCTION()

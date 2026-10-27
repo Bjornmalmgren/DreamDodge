@@ -60,7 +60,7 @@ class AWeapon : AActor{
     }
 
 
-    //might be fucking stupid
+    //creates the damage area and moves the weapon for the attack
     UFUNCTION()
     void BeamAttack(){
         if(AttackInProgress){
@@ -69,20 +69,6 @@ class AWeapon : AActor{
         AttackInProgress = true;
         //gets the deproject mouse position and direction
         APlayerController PC = Cast<APlayerController>(Player.GetController());
-        FVector Position;
-        FVector Direction;
-        PC.DeprojectMousePositionToWorld(Position, Direction);
-  
-
-        //calculates where on the "2D" world the player clicked
-        FVector Normal = FVector(1,0,0);
-        FVector Point0 = FVector(0,0,0);
-        float Denom = Normal.DotProduct(Direction);
-        float T = (Point0-Position).DotProduct(Normal);
-        T /= Denom;
-        CalculatedPosition = Position + Direction*T;
-        CalculatedPosition.Z = Player.ActorLocation.Z;
-        //direction towards where the player clicked
         DirectionFromPlayer = CalculatedPosition-Player.ActorLocation;
         DirectionFromPlayer.Normalize();
         
@@ -98,7 +84,7 @@ class AWeapon : AActor{
         HitBox.SetActorLocation(Mesh.WorldLocation +DirectionFromPlayer * HitBox.HitBox.BoxExtent.Y);
 
         //total time to extend
-        System::SetTimer(this,n"StartRetractiong",0.11,false,true);
+        System::SetTimer(this,n"StartRetracting",0.11,false,true);
         //time between extensions
         ExtensionTimer = System::SetTimer(this,n"Extend",0.1,true,true);
         System::SetTimer(HitBox,n"Destroy",0.22,false,false);
@@ -114,7 +100,7 @@ class AWeapon : AActor{
         CurrentExtension += ExtensionAmount;
     }
     UFUNCTION()
-    void StartRetractiong(){
+    void StartRetracting(){
         System::ClearTimer(this,"Extend");
         ExtensionTimer = System::SetTimer(this,n"Retract",0.1,true,true);
         System::SetTimer(this,n"ClearAttack",0.11,false,true);
@@ -131,7 +117,6 @@ class AWeapon : AActor{
     }
     UFUNCTION()
     void ClearAttack(){
-        
         System::ClearTimer(this,"Retract");
         AttackInProgress = false;
     }
