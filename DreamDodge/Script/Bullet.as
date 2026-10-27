@@ -3,7 +3,11 @@ enum EMovementDirection{
     Up,
     Down,
     Left,
-    Right
+    Right, 
+    DownLeft,
+    DownRight,
+    UpLeft,
+    UpRight
 }
 
 enum EDimension{
@@ -34,12 +38,41 @@ class ABullet : AActor{
     UPROPERTY()
     EAttackType TypeOfAttack = EAttackType::Normal;
 
+    AGameManager GameManager;
+    UMaterialInstanceDynamic DynamicMaterial;
+
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
     {
+        TArray<AGameManager> GameManagers;
+        GetAllActorsOfClass(AGameManager,GameManagers);
+        GameManager = GameManagers[0];
         Tags.Add(n"Bullet");
+        
     }
     
+    UFUNCTION()
+    void SetUpBullet(EMovementDirection DirectionToMove, EDimension TypeOfBullet, EAttackType AttackType, float speed, bool startmoving){
+        DirectionToMoveIn = DirectionToMove;
+        BulletType = TypeOfBullet;
+        TypeOfAttack = AttackType;
+        Speed = speed;
+        DynamicMaterial = Mesh.CreateDynamicMaterialInstance(0);
+        switch(BulletType){
+            case EDimension::Dream:
+                DynamicMaterial.SetVectorParameterValue(n"Color", GameManager.Dream);
+            break;
+            case EDimension::Nightmare:
+                DynamicMaterial.SetVectorParameterValue(n"Color", GameManager.Nightmare);
+            break;
+            case EDimension::Normal:
+                DynamicMaterial.SetVectorParameterValue(n"Color", GameManager.Normal);
+            break;
+        }
+        StartMoving = startmoving;
+        StartDestructionTimer();
+    }
+
     UFUNCTION(BlueprintOverride)
     void Tick(float DeltaSeconds)
     {
@@ -57,6 +90,18 @@ class ABullet : AActor{
                 case EMovementDirection::Right:
                     SetActorLocation(GetActorLocation() + FVector(0,-1,0)*Speed);
                 break;
+                case EMovementDirection::UpLeft:
+                    SetActorLocation(GetActorLocation() + FVector(0,1,1)*Speed);
+                break;
+                case EMovementDirection::UpRight:
+                    SetActorLocation(GetActorLocation() + FVector(0,-1,1)*Speed);
+                break;
+                case EMovementDirection::DownLeft:
+                    SetActorLocation(GetActorLocation() + FVector(0,1,-1)*Speed);
+                break;
+                case EMovementDirection::DownRight:
+                    SetActorLocation(GetActorLocation() + FVector(0,-1,-1)*Speed);
+                break;
             }
         }
     }
@@ -72,7 +117,7 @@ class ABullet : AActor{
 
     UFUNCTION()
     void StartDestructionTimer(){
-        System::SetTimer(this, n"Destroy",10,false,false);
+        System::SetTimer(this, n"Destroy",5,false,false);
     }
 
     UFUNCTION()

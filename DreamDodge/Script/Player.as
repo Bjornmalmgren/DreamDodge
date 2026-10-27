@@ -15,15 +15,22 @@ class APlayer : ACharacter{
     UHeadsUpDisplay HUD;
 
     UPROPERTY()
-    float DodgeMeter = 50;
+    float DodgeMeter = 0;
+
+    AWeapon DreamCatcher;
+
+    AGameManager GameManager;
+
+    AEnviormentManager EnviormentManager;
+
+    bool Invincibility = false;
 
     UPROPERTY()
     bool StartedHealing = false;
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
-    {
-        HealthComponent.SetHealth(6);
-        ChangeMeter();
+    {    
+        Setup();
     }
 
     UFUNCTION(BlueprintOverride)
@@ -33,8 +40,32 @@ class APlayer : ACharacter{
     }
 
 
-    void ChangeMeter(){
+    UFUNCTION()
+    void Setup(){
+        HealthComponent.SetHealth(5);
+        ChangeMeter();
+        TArray<AGameManager> GameManagers;
+        GetAllActorsOfClass(AGameManager,GameManagers);
+        GameManager = GameManagers[0];
 
+        TArray<AEnviormentManager> EnviormentManagers;
+        GetAllActorsOfClass(AEnviormentManager,EnviormentManagers);
+        EnviormentManager = EnviormentManagers[0];
+
+
+        TArray<AWeapon> Weapons;
+        GetAllActorsOfClass(AWeapon, Weapons);
+        DreamCatcher = Weapons[0];
+
+        
+
+        Cast<APlayerController>(GetController()).bShowMouseCursor = true;
+    }
+
+    void ChangeMeter(){
+        float ProcentPerHealth = 100.0f/HealthComponent.MaxHealth;
+        
+        HUD.HealthMeter.SetPercent(ProcentPerHealth/100.0f * HealthComponent.CurrentHealth);
         HUD.DodgeMeter.SetPercent(DodgeMeter/100);
     }
 
@@ -47,23 +78,30 @@ class APlayer : ACharacter{
     UFUNCTION(BlueprintOverride)
     void ActorBeginOverlap(AActor OtherActor)
     {
-        if(OtherActor.ActorHasTag(n"Bullet")){
+        if(OtherActor.ActorHasTag(n"Bullet") && !Invincibility){
             if(Cast<ABullet>(OtherActor).BulletType != CurrentDimension){
                 HealthComponent.DecreaseHealth(1);
+                ChangeMeter();
+                Invincibility = true;
+                System::SetTimer(this,n"OutOfinvincibility",0.4f,false,false);
                 if(HealthComponent.CurrentHealth <= 0){
                     //die and reset lvl
                 }
             }else{
                 DodgeMeter += 10;
-                Print("DodgeMeter: "+DodgeMeter);
                 ChangeMeter();
             }
         }
     }
+
+    UFUNCTION()
+    void OutOfinvincibility(){
+        Invincibility = false;
+    }
+
     //heal or attack
     UFUNCTION()
     void UseDodgeMeterValue(float ElapsedTime){
-        Print("DodgeMeter: "+DodgeMeter);
         if(CurrentDimension == EDimension::Dream){
             if(StartedHealing != true && DodgeMeter >= 50){
                 StartedHealing = true;
@@ -78,8 +116,9 @@ class APlayer : ACharacter{
             }
 
         }else if (CurrentDimension == EDimension::Nightmare){
-            if(DodgeMeter > 20){
+            if(DodgeMeter >= 20){
                 Attack();
+                DodgeMeter -=20;
             }
         }
         ChangeMeter();
@@ -87,7 +126,7 @@ class APlayer : ACharacter{
 
     //beam attack
     void Attack(){
-        //spawn an attack area to check if attack hit
+        DreamCatcher.BeamAttack();
     }
 
     //jump
@@ -97,7 +136,7 @@ class APlayer : ACharacter{
             Jump();
     }
 
-    //main function of game swaping between dimensions
+    //main function of game swaping between dimensions needs some more work like changing enviorment and similar
     UFUNCTION()
     void SwapDimensions(){
         if(StartedHealing){
@@ -106,12 +145,13 @@ class APlayer : ACharacter{
         DynamicMaterial = CharacterMesh.CreateDynamicMaterialInstance(0);
         if(CurrentDimension == EDimension::Dream){
             CurrentDimension = EDimension::Nightmare;
-            DynamicMaterial.SetVectorParameterValue(n"Color", FLinearColor(0.5,0,0,1));
+            DynamicMaterial.SetVectorParameterValue(n"Color", GameManager.Nightmare);
         }
         else if(CurrentDimension == EDimension::Nightmare){
             CurrentDimension = EDimension::Dream;
-            DynamicMaterial.SetVectorParameterValue(n"Color", FLinearColor(0.875,0.127,0.568,1));
+            DynamicMaterial.SetVectorParameterValue(n"Color", GameManager.Dream);
         }
+        EnviormentManager.HidePlatforms(CurrentDimension);
     }
 
     
