@@ -37,7 +37,8 @@ class AJesterBoss :AActor{
     UPROPERTY(DefaultComponent)
     UAudioComponent Audio;
 
-    FVector HandsDefaultPosition = FVector(0,440,0);
+    FVector RightHandDefaultPosition = FVector(0.000005,-440.000000,2410.000000);
+    FVector LeftHandDefaultPosition = FVector(0.000006,460.000000,2410.000000);
 
     UPROPERTY()
     TArray<FAttack> Attacks;
@@ -56,7 +57,13 @@ class AJesterBoss :AActor{
     UPROPERTY()
     TArray<ABulletSpawner> CrossSpawners;
     UPROPERTY()
-    TArray<AActor> JesterLocations;
+    AActor JesterDown;
+    UPROPERTY()
+    AActor JesterUp;
+    UPROPERTY()
+    AActor JesterLeft;
+    UPROPERTY()
+    AActor JesterRight;
 
 
     bool CurrentlyAttacking = false;
@@ -120,6 +127,7 @@ class AJesterBoss :AActor{
     bool FirstTimeUnder60 = true;
     bool FirstTimeUnder30 = true;
 
+    UPROPERTY()
     int PhaseOfBoss = 1;
 
     //audio
@@ -130,16 +138,21 @@ class AJesterBoss :AActor{
     void BeginPlay()
     {
         Right.AttackName = "Right";
-        Right.Weight = 20.0f;
+        Right.Weight = 18.0f;
         Left.AttackName = "Left";
-        Left.Weight = 20.0f;
+        Left.Weight = 16.0f;
 
         Up.AttackName = "Up";
-        Up.Weight = 20.0f;
+        Up.Weight = 16.0f;
         Down.AttackName = "Down";
-        Down.Weight = 20.0f;
+        Down.Weight = 18.0f;
         Down.AttackName = "Slam";
-        Down.Weight = 20.0f;
+        Down.Weight = 16.0f;
+        Down.AttackName = "Cross";
+        Down.Weight = 16.0f;
+
+        Attacks.Add(Cross);
+        AttackOrder.Add(5);
 
         Health.SetHealth(90);
 
@@ -157,7 +170,7 @@ class AJesterBoss :AActor{
         AttackOrder.Add(4);
 
         //finding spawners and its locations
-        GetAllActorsOfClassWithTag(n"JesterLocations", JesterLocations);
+        
 
         TArray<ABulletSpawner> AllSpawners;
         GetAllActorsOfClass(ABulletSpawner, AllSpawners);
@@ -189,8 +202,8 @@ class AJesterBoss :AActor{
         GameManager = GameManagers[0];
         
         Audio.Sound = GameManager.DreamMusic[0];
-        Audio.Play();
-        TakeDamage(60);
+        Audio.Play(134);
+        Print(""+Audio.Sound.Duration);
     }
 
 
@@ -381,7 +394,10 @@ class AJesterBoss :AActor{
             }else{
                 MoveRightJesterHands();
             }
-            
+
+        if(Audio.Sound.Duration <= Audio.Sound.Duration*PlayBackDuration+0.5){            
+            Audio.Play(0);
+        }
 
     }
 
@@ -399,7 +415,7 @@ class AJesterBoss :AActor{
             TotalRightUnitsDown -= 15;
             if(TotalRightUnitsDown <= 0){
                 CurrentRightHandAttack= "";
-                RightPositionalQueue.Add(ActorLocation + -HandsDefaultPosition);
+                RightPositionalQueue.Add(RightHandDefaultPosition);
                 RightHandSpeed = 10+ 5*PhaseOfBoss;
                 MoveRightJesterHands();
             }
@@ -425,7 +441,7 @@ class AJesterBoss :AActor{
             TotalLeftUnitsDown -= 15;
             if(TotalLeftUnitsDown <= 0){
                 CurrentLeftHandAttack= "";
-                LeftPositionalQueue.Add(ActorLocation + HandsDefaultPosition);
+                LeftPositionalQueue.Add(LeftHandDefaultPosition);
                 LeftHandSpeed = 10+5*PhaseOfBoss;
                 MoveLeftJesterHands();
             }
@@ -587,11 +603,12 @@ class AJesterBoss :AActor{
 
         LeftPositionalQueue.Add(LeftSpawners[0].ActorLocation + FVector(0,100,300));
         LeftPositionalQueue.Add(LeftSpawners.Last().ActorLocation + FVector(0,100,-100));
-        LeftPositionalQueue.Add(ActorLocation + HandsDefaultPosition);
+        LeftPositionalQueue.Add(LeftHandDefaultPosition);
 
         LeftHandAttacking = true;
         CurrentLeftHandAttack = "Left";
         MoveLeftHand = true;
+        SetActorLocation(JesterLeft.ActorLocation);
         CurrentlyAttacking = true;
     }
 
@@ -614,10 +631,11 @@ class AJesterBoss :AActor{
         RightPositionalQueue.Add(RightSpawners.Last().ActorLocation + FVector(0,-100,-100));
         RightPositionalQueue.Add(RightSpawners[0].ActorLocation + FVector(0,-100,300));
         
-        RightPositionalQueue.Add(ActorLocation + -HandsDefaultPosition);
+        RightPositionalQueue.Add(RightHandDefaultPosition);
         RightHandAttacking = true;
         CurrentRightHandAttack = "Right";
         MoveRightHand = true;
+        SetActorLocation(JesterRight.ActorLocation);
         CurrentlyAttacking = true;
     }
 
@@ -631,7 +649,7 @@ class AJesterBoss :AActor{
             RightHandSlamAttack(TopSpawners,7,2,2,"Up",TopSlamTemplate,true,FVector(0,0,600),FVector(0,0,100),4);
         }
         CurrentlyAttacking = true;
-
+        SetActorLocation(JesterUp.ActorLocation);
 
     }
 
@@ -650,6 +668,7 @@ class AJesterBoss :AActor{
         }else{
             RightHandSlamAttack(BottomSpawners,6,1,0,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
         }
+        SetActorLocation(JesterUp.ActorLocation);
         CurrentlyAttacking = true;
     }
 
@@ -660,7 +679,7 @@ class AJesterBoss :AActor{
 
         LeftPositionalQueue.Add(CrossSpawners[27].ActorLocation + FVector(0,300,300));
         LeftPositionalQueue.Add(CrossSpawners[13].ActorLocation - FVector(0,300,300));
-        LeftPositionalQueue.Add(ActorLocation + HandsDefaultPosition);
+        LeftPositionalQueue.Add(LeftHandDefaultPosition);
 
         LeftHandAttacking = true;
         CurrentLeftHandAttack = "Cross";
@@ -673,11 +692,13 @@ class AJesterBoss :AActor{
 
         RightPositionalQueue.Add(CrossSpawners[41].ActorLocation + FVector(0,-300,300));
         RightPositionalQueue.Add(CrossSpawners[42].ActorLocation - FVector(0,-300,300));
-        RightPositionalQueue.Add(ActorLocation + -HandsDefaultPosition);
+        RightPositionalQueue.Add(RightHandDefaultPosition);
 
         RightHandAttacking = true;
         CurrentRightHandAttack = "Cross";
         MoveRightHand = true;
+
+        SetActorLocation(JesterDown.ActorLocation);
 
         CurrentlyAttacking = true;
     }
@@ -700,6 +721,7 @@ class AJesterBoss :AActor{
 
             System::SetTimer(this,n"RightSlamAttackExecution",3,false,false);
         }
+        SetActorLocation(JesterUp.ActorLocation);
         CurrentlyAttacking = true;
     }
 
@@ -731,7 +753,7 @@ class AJesterBoss :AActor{
                 }                
             }
             //reset hand position
-            RightPositionalQueue.Add(ActorLocation + -HandsDefaultPosition);
+            RightPositionalQueue.Add(RightHandDefaultPosition);
 
             RightPositionWhenReady = Spawners[StartIndex].ActorLocation + PositionModefire1;
             RightPositionWhenDone = Spawners[StartIndex].ActorLocation + PositionModefire2+FVector(0,0,1);
@@ -766,7 +788,7 @@ class AJesterBoss :AActor{
                 }                
             }
             
-            LeftPositionalQueue.Add(ActorLocation + HandsDefaultPosition);
+            LeftPositionalQueue.Add(LeftHandDefaultPosition);
 
             LeftPositionWhenReady = Spawners[StartIndex].ActorLocation + PositionModefire1;
             LeftPositionWhenDone = Spawners[StartIndex].ActorLocation + PositionModefire2+FVector(0,0,1);
@@ -794,8 +816,6 @@ class AJesterBoss :AActor{
             FirstTimeUnder60 = false;
             PhaseOfBoss = 2;
             GlobalBulletSpeed = 10+5*PhaseOfBoss;
-            Attacks.Add(Cross);
-            AttackOrder.Add(5);
 
             TopSlamTemplate.BulletSpeed = GlobalBulletSpeed;
             BottomSlamTemplate.BulletSpeed = GlobalBulletSpeed;
