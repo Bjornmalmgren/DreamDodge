@@ -35,6 +35,7 @@ struct FBulletWaveTemplate{
     //enable this to repeat pattern for all bullets
     UPROPERTY()
     bool RepeatPattern = false;
+
 }
 
 //to set the direction of the bullet rotate the spawner so the front points towards where the bullets come from
@@ -56,7 +57,6 @@ class ABulletSpawner : AActor{
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
     {
-        SpawnBulletWave(BulletWave);
     }
 
     UFUNCTION()

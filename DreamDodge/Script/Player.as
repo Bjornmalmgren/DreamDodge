@@ -6,6 +6,7 @@ class APlayer : ACharacter{
     UPROPERTY(DefaultComponent)
     UHealComponent HealthComponent;
     
+
     UPROPERTY()
     EDimension CurrentDimension = EDimension::Dream;
 
@@ -36,7 +37,11 @@ class APlayer : ACharacter{
     UFUNCTION(BlueprintOverride)
     void Tick(float DeltaSeconds)
     {
-
+        if(ActorLocation.X != 0){
+            FVector Position = GetActorLocation();
+            Position.X = 0;
+            SetActorLocation(Position);
+        }
     }
 
 
@@ -151,7 +156,8 @@ class APlayer : ACharacter{
             CurrentDimension = EDimension::Dream;
             DynamicMaterial.SetVectorParameterValue(n"Color", GameManager.Dream);
         }
-        EnviormentManager.HidePlatforms(CurrentDimension);
+        GameManager.SwapDimensions(CurrentDimension);
+        
     }
 
     

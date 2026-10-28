@@ -8,4 +8,12 @@ class ABeamHitBox : AActor{
     void Destroy(){
         DestroyActor();
     }
+
+    UFUNCTION(BlueprintOverride)
+    void ActorBeginOverlap(AActor OtherActor)
+    {
+        if(OtherActor.ActorHasTag(n"Boss")){
+            Cast<AJesterBoss>(OtherActor).TakeDamage(10);
+        }
+    }
 }
