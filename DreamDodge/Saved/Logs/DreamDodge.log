@@ -61201,3 +61201,1228 @@ Make sure '/Game/BluePrints/BP_Player.BP_Player_C' has been compiled for  Set St
 [2026.10.29-10.34.09:073][ 22]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.10.29-10.34.09:073][ 22]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.10.29-10.34.09:073][ 22]AssetCheck: /Game/MainLVL Validating asset
+[2026.10.29-10.37.44:805][536]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 99030.937500
+[2026.10.29-10.37.45:804][539]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-10.37.45:804][539]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 99031.609375, Update Interval: 321.308624
+[2026.10.29-10.43.48:845][ 40]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 99386.390625
+[2026.10.29-10.43.49:845][ 43]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-10.43.49:845][ 43]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 99387.062500, Update Interval: 330.440369
+[2026.10.29-10.49.50:549][125]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 99750.718750
+[2026.10.29-10.49.51:549][128]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-10.49.51:549][128]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 99751.390625, Update Interval: 301.214020
+[2026.10.29-10.51.11:031][636]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.29-10.51.11:042][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.29-10.51.11:081][636]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-10.51.11:096][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014720s)
+[2026.10.29-10.51.11:096][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.014768s)
+[2026.10.29-10.51.11:126][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2026.10.29-10.51.11:130][636]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-10.51.11:133][636]LogPlayLevel: PIE: World Init took: (0.002021s)
+[2026.10.29-10.51.11:134][636]LogAudio: Display: Creating Audio Device:                 Id: 357, Scope: Unique, Realtime: True
+[2026.10.29-10.51.11:134][636]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.29-10.51.11:134][636]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.29-10.51.11:134][636]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.29-10.51.11:134][636]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.29-10.51.11:134][636]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.29-10.51.11:134][636]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.29-10.51.11:134][636]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.29-10.51.11:134][636]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.29-10.51.11:134][636]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.29-10.51.11:134][636]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.29-10.51.11:134][636]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.29-10.51.11:136][636]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.29-10.51.11:156][636]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.29-10.51.11:156][636]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.29-10.51.11:156][636]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.29-10.51.11:156][636]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.29-10.51.11:157][636]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=357
+[2026.10.29-10.51.11:157][636]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=357
+[2026.10.29-10.51.11:159][636]LogInit: FAudioDevice initialized with ID 357.
+[2026.10.29-10.51.11:159][636]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=357
+[2026.10.29-10.51.11:159][636]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=357
+[2026.10.29-10.51.11:161][636]LogAudio: Display: Audio Device (ID: 357) registered with world 'MainLVL'.
+[2026.10.29-10.51.11:161][636]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 357
+[2026.10.29-10.51.11:166][636]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-10.51.11:169][636]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-11.51.11
+[2026.10.29-10.51.11:170][636]LogWorld: Bringing up level for play took: 0.003722
+[2026.10.29-10.51.11:172][636]LogOnline: OSS: Created online subsystem instance for: :Context_398
+[2026.10.29-10.51.11:173][636]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-10.51.11:173][636]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-10.51.11:173][636]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-10.51.11:176][636]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-10.51.11:177][636]PIE: Server logged in
+[2026.10.29-10.51.11:179][636]PIE: Play in editor total start time 0.138 seconds.
+[2026.10.29-10.52.22:713][741]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-10.52.22:713][741]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-10.52.22:713][741]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-10.52.22:714][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-10.52.22:717][741]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.29-10.52.22:724][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-10.52.22:754][741]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.29-10.52.22:754][741]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 357
+[2026.10.29-10.52.22:754][741]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=357, StreamState=4
+[2026.10.29-10.52.22:756][741]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=357, StreamState=2
+[2026.10.29-10.52.22:761][741]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-10.52.22:767][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.10.29-10.52.22:812][742]LogPlayLevel: Display: Destroying online subsystem :Context_398
+[2026.10.29-10.53.51:687][334]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 5/6 of stale message segements from Sender=130.240.100.80:57392, Sequence=0
+[2026.10.29-10.53.51:805][348]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 4/6 of stale message segements from Sender=130.240.100.80:57392, Sequence=0
+[2026.10.29-10.55.25:952][579]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 100066.375000
+[2026.10.29-10.55.26:133][600]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-10.55.26:133][600]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 100066.531250, Update Interval: 324.335449
+[2026.10.29-11.01.27:369][732]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 100403.570312
+[2026.10.29-11.01.27:536][752]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-11.01.27:536][752]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 100403.718750, Update Interval: 311.416962
+[2026.10.29-11.07.15:425][305]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 100728.414062
+[2026.10.29-11.07.15:836][354]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-11.07.15:836][354]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 100728.789062, Update Interval: 332.280640
+[2026.10.29-11.08.45:473][ 56]LogDerivedDataCache: C:/Users/bjmall-3-local/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.10.29-11.13.27:452][752]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 101075.695312
+[2026.10.29-11.13.27:604][770]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-11.13.27:604][770]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 101075.828125, Update Interval: 334.205139
+[2026.10.29-11.19.44:496][835]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 101427.953125
+[2026.10.29-11.19.44:671][856]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-11.19.44:671][856]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 101428.109375, Update Interval: 358.134094
+[2026.10.29-11.26.34:969][561]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 101830.375000
+[2026.10.29-11.26.35:969][564]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-11.26.35:969][564]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 101831.046875, Update Interval: 326.673798
+[2026.10.29-11.32.36:355][645]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 102194.312500
+[2026.10.29-11.32.37:355][648]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-11.32.37:355][648]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 102194.984375, Update Interval: 345.283356
+[2026.10.29-11.38.59:736][795]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 102580.460938
+[2026.10.29-11.39.00:736][798]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-11.39.00:736][798]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 102581.132812, Update Interval: 315.892212
+[2026.10.29-11.45.04:118][888]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 102947.437500
+[2026.10.29-11.45.05:117][891]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-11.45.05:117][891]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 102948.109375, Update Interval: 326.243469
+[2026.10.29-11.51.11:497][990]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 103317.484375
+[2026.10.29-11.51.12:830][994]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-11.51.12:830][994]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 103318.492188, Update Interval: 314.445618
+[2026.10.29-11.56.44:845][205]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.29-11.56.44:855][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.29-11.56.44:882][205]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-11.56.44:897][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014646s)
+[2026.10.29-11.56.44:897][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.014693s)
+[2026.10.29-11.56.44:927][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.10.29-11.56.44:931][205]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-11.56.44:933][205]LogPlayLevel: PIE: World Init took: (0.001921s)
+[2026.10.29-11.56.44:934][205]LogAudio: Display: Creating Audio Device:                 Id: 358, Scope: Unique, Realtime: True
+[2026.10.29-11.56.44:934][205]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.29-11.56.44:934][205]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.29-11.56.44:934][205]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.29-11.56.44:934][205]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.29-11.56.44:934][205]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.29-11.56.44:934][205]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.29-11.56.44:934][205]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.29-11.56.44:934][205]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.29-11.56.44:934][205]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.29-11.56.44:934][205]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.29-11.56.44:934][205]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.29-11.56.44:937][205]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.29-11.56.44:955][205]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.29-11.56.44:956][205]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.29-11.56.44:956][205]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.29-11.56.44:956][205]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.29-11.56.44:956][205]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=358
+[2026.10.29-11.56.44:956][205]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=358
+[2026.10.29-11.56.44:960][205]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=358
+[2026.10.29-11.56.44:960][205]LogInit: FAudioDevice initialized with ID 358.
+[2026.10.29-11.56.44:960][205]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=358
+[2026.10.29-11.56.44:960][205]LogAudio: Display: Audio Device (ID: 358) registered with world 'MainLVL'.
+[2026.10.29-11.56.44:960][205]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 358
+[2026.10.29-11.56.44:965][205]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-11.56.44:968][205]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-12.56.44
+[2026.10.29-11.56.44:968][205]LogWorld: Bringing up level for play took: 0.003575
+[2026.10.29-11.56.44:971][205]LogOnline: OSS: Created online subsystem instance for: :Context_399
+[2026.10.29-11.56.44:972][205]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-11.56.44:972][205]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-11.56.44:972][205]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-11.56.44:975][205]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-11.56.44:976][205]PIE: Server logged in
+[2026.10.29-11.56.44:979][205]PIE: Play in editor total start time 0.123 seconds.
+[2026.10.29-11.57.14:339][404]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2026.10.29-11.57.14:339][404]LogGameState: Match State Changed from InProgress to LeavingMap
+[2026.10.29-11.57.14:341][404]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/MainLVL"
+[2026.10.29-11.57.14:341][404]LogNet: Browse: /Game/MainLVL
+[2026.10.29-11.57.14:341][404]LogLoad: LoadMap: /Game/MainLVL
+[2026.10.29-11.57.14:341][404]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-11.57.14:342][404]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-11.57.14:343][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-11.57.14:402][404]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.29-11.57.14:406][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.10.29-11.57.14:410][404]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-11.57.14:423][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014053s)
+[2026.10.29-11.57.14:423][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.014102s)
+[2026.10.29-11.57.14:423][404]LogAudio: Display: Audio Device (ID: 358) registered with world 'MainLVL'.
+[2026.10.29-11.57.14:423][404]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-11.57.14:425][404]LogPlayLevel: PIE: World Init took: (0.001670s)
+[2026.10.29-11.57.14:425][404]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-11.57.14:428][404]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-12.57.14
+[2026.10.29-11.57.14:428][404]LogWorld: Bringing up level for play took: 0.002908
+[2026.10.29-11.57.14:429][404]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-11.57.14:429][404]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-11.57.14:429][404]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-11.57.14:433][404]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-11.57.14:433][404]LogLoad: Took 0.091947 seconds to LoadMap(/Game/UEDPIE_0_MainLVL)
+[2026.10.29-11.57.14:433][404]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_MainLVL
+[2026.10.29-11.57.16:362][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-11.57.16:362][610]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-11.57.16:362][610]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-11.57.16:364][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-11.57.16:366][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.29-11.57.16:373][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-11.57.16:401][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-11.57.16:402][610]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 358
+[2026.10.29-11.57.16:402][610]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=358, StreamState=4
+[2026.10.29-11.57.16:405][610]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=358, StreamState=2
+[2026.10.29-11.57.16:414][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.10.29-11.57.16:459][611]LogPlayLevel: Display: Destroying online subsystem :Context_399
+[2026.10.29-11.57.17:972][783]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 103682.234375
+[2026.10.29-11.57.18:122][801]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-11.57.18:122][801]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 103682.367188, Update Interval: 321.923889
+[2026.10.29-12.02.14:413][624]Cmd: EDIT COPY
+[2026.10.29-12.02.14:787][665]Cmd: EDIT PASTE
+[2026.10.29-12.03.01:888][550]Cmd: EDIT COPY
+[2026.10.29-12.03.02:194][580]Cmd: EDIT PASTE
+[2026.10.29-12.03.08:542][172]Cmd: EDIT COPY
+[2026.10.29-12.03.08:817][199]Cmd: EDIT PASTE
+[2026.10.29-12.03.19:933][239]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 104033.117188
+[2026.10.29-12.03.20:091][255]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-12.03.20:091][255]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 104033.242188, Update Interval: 342.108215
+[2026.10.29-12.03.20:268][275]Cmd: EDIT COPY
+[2026.10.29-12.03.20:915][343]Cmd: EDIT PASTE
+[2026.10.29-12.03.25:001][712]Cmd: EDIT COPY
+[2026.10.29-12.03.25:294][740]Cmd: EDIT PASTE
+[2026.10.29-12.03.28:027][988]Cmd: EDIT COPY
+[2026.10.29-12.03.28:324][ 15]Cmd: EDIT PASTE
+[2026.10.29-12.03.30:298][192]Cmd: EDIT COPY
+[2026.10.29-12.03.30:679][229]Cmd: EDIT PASTE
+[2026.10.29-12.03.32:358][379]Cmd: EDIT COPY
+[2026.10.29-12.03.32:662][410]Cmd: EDIT PASTE
+[2026.10.29-12.03.38:121][896]Cmd: EDIT COPY
+[2026.10.29-12.03.38:454][929]Cmd: EDIT PASTE
+[2026.10.29-12.03.48:199][771]Cmd: DELETE
+[2026.10.29-12.03.48:199][771]Cmd: ACTOR DELETE
+[2026.10.29-12.03.48:203][771]LogEditorActor: Deleted Actor: BP_BulletSpawner_C
+[2026.10.29-12.03.48:237][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.10.29-12.03.48:244][771]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2026.10.29-12.04.09:613][576]LogSlate: Window 'Batch Renamer' being destroyed
+[2026.10.29-12.04.12:826][759]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.10.29-12.04.12:832][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/Autosaves/Game/MainLVL_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2026.10.29-12.04.12:881][759]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MainLVL_Auto5
+[2026.10.29-12.04.12:882][759]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/MainLVL_Auto53FE49F054A7F1BB0E896429099F17449.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/Autosaves/Game/MainLVL_Auto5.umap'
+[2026.10.29-12.04.12:884][759]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLVL' took 0.088
+[2026.10.29-12.04.12:884][759]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.088
+[2026.10.29-12.04.32:422][818]Angelscript: preprocessing took 0.354 ms
+[2026.10.29-12.04.32:423][818]Angelscript: script compilation stage1 and stage2 took 0.625 ms
+[2026.10.29-12.04.32:423][818]Angelscript: script reload reference replacement took 0.086 ms
+[2026.10.29-12.04.32:423][818]Angelscript: script compilation class layouting took 0.094 ms
+[2026.10.29-12.04.32:423][818]Angelscript: Compiling (structural): Boss
+[2026.10.29-12.04.32:423][818]Angelscript: Compiling (code only): BeamHitBox
+[2026.10.29-12.04.32:423][818]Angelscript: Compiling (code only): GameManager
+[2026.10.29-12.04.32:423][818]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.04.32:423][818]Angelscript:  (159:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.04.32:423][818]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.04.32:423][818]Angelscript: Warning:  (169:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.04.32:423][818]Angelscript: Warning:  (170:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.04.32:423][818]Angelscript: Warning:  (192:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.04.32:423][818]Angelscript: Warning:  (193:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.04.32:423][818]Angelscript: Warning:  (215:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.04.32:423][818]Angelscript: Warning:  (216:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.04.32:424][818]Angelscript: Warning:  (238:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.04.32:424][818]Angelscript: Warning:  (239:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.04.32:424][818]Angelscript: Warning:  (260:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.04.32:424][818]Angelscript: Warning:  (261:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.04.32:425][818]Angelscript: script compilation stage3 took 2.603 ms
+[2026.10.29-12.04.32:425][818]Angelscript: script compilation stage4 took 0.011 ms
+[2026.10.29-12.04.32:425][818]Angelscript: script compilation total took 3.449 ms
+[2026.10.29-12.04.32:426][818]Angelscript: class generator analysis took 0.171 ms
+[2026.10.29-12.04.32:426][818]Angelscript: new module swap-in took 0.018 ms
+[2026.10.29-12.04.32:426][818]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.04.32:426][818]Angelscript: Soft Reload: ABeamHitBox
+[2026.10.29-12.04.32:426][818]Angelscript: Soft Reload: AGameManager
+[2026.10.29-12.04.32:426][818]Angelscript: class generator reload took 0.560 ms
+[2026.10.29-12.04.32:426][818]Angelscript: post soft reload took 0.005 ms
+[2026.10.29-12.04.32:427][818]Angelscript: old module cleanup took 0.310 ms
+[2026.10.29-12.04.32:427][818]Angelscript: update module cache took 0.001 ms
+[2026.10.29-12.04.32:427][818]Angelscript: ==script reload total == took 5.472 ms
+[2026.10.29-12.05.28:093][985]Angelscript: preprocessing took 0.346 ms
+[2026.10.29-12.05.28:094][985]Angelscript: script compilation stage1 and stage2 took 0.435 ms
+[2026.10.29-12.05.28:094][985]Angelscript: script reload reference replacement took 0.038 ms
+[2026.10.29-12.05.28:094][985]Angelscript: script compilation class layouting took 0.037 ms
+[2026.10.29-12.05.28:094][985]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.05.28:094][985]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.05.28:094][985]Angelscript:  (159:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.05.28:094][985]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (169:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (170:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (192:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (193:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (215:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (216:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (238:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (239:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (260:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (261:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (282:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.05.28:094][985]Angelscript: Warning:  (283:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.05.28:096][985]Angelscript: script compilation stage3 took 2.268 ms
+[2026.10.29-12.05.28:096][985]Angelscript: script compilation stage4 took 0.008 ms
+[2026.10.29-12.05.28:096][985]Angelscript: script compilation total took 2.813 ms
+[2026.10.29-12.05.28:096][985]Angelscript: class generator analysis took 0.107 ms
+[2026.10.29-12.05.28:096][985]Angelscript: new module swap-in took 0.015 ms
+[2026.10.29-12.05.28:096][985]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.05.28:097][985]Angelscript: class generator reload took 0.426 ms
+[2026.10.29-12.05.28:097][985]Angelscript: post soft reload took 0.004 ms
+[2026.10.29-12.05.28:097][985]Angelscript: old module cleanup took 0.117 ms
+[2026.10.29-12.05.28:097][985]Angelscript: update module cache took 0.000 ms
+[2026.10.29-12.05.28:097][985]Angelscript: ==script reload total == took 4.235 ms
+[2026.10.29-12.07.26:112][915]Angelscript: preprocessing took 0.418 ms
+[2026.10.29-12.07.26:113][915]Angelscript: script compilation stage1 and stage2 took 0.682 ms
+[2026.10.29-12.07.26:113][915]Angelscript: script reload reference replacement took 0.090 ms
+[2026.10.29-12.07.26:113][915]Angelscript: script compilation class layouting took 0.085 ms
+[2026.10.29-12.07.26:113][915]Angelscript: Compiling (structural): Boss
+[2026.10.29-12.07.26:113][915]Angelscript: Compiling (code only): BeamHitBox
+[2026.10.29-12.07.26:113][915]Angelscript: Compiling (code only): GameManager
+[2026.10.29-12.07.26:114][915]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.07.26:114][915]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.07.26:114][915]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.07.26:114][915]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.07.26:116][915]Angelscript: script compilation stage3 took 2.744 ms
+[2026.10.29-12.07.26:116][915]Angelscript: script compilation stage4 took 0.013 ms
+[2026.10.29-12.07.26:116][915]Angelscript: script compilation total took 3.649 ms
+[2026.10.29-12.07.26:116][915]Angelscript: class generator analysis took 0.157 ms
+[2026.10.29-12.07.26:116][915]Angelscript: new module swap-in took 0.019 ms
+[2026.10.29-12.07.26:117][915]Angelscript: Full Reload: AJesterBoss
+[2026.10.29-12.07.26:117][915]Angelscript: Full Reload: AGameManager
+[2026.10.29-12.07.26:117][915]Angelscript: Soft Reload: ABeamHitBox
+[2026.10.29-12.07.26:117][915]Angelscript: class generator reload took 0.738 ms
+[2026.10.29-12.07.26:185][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.10.29-12.07.26:287][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.10.29-12.07.26:409][915]Angelscript: new class propagation took 0.050 ms
+[2026.10.29-12.07.26:409][915]Angelscript: post full reload took 258.129 ms
+[2026.10.29-12.07.26:416][915]Angelscript: old module cleanup took 0.170 ms
+[2026.10.29-12.07.26:416][915]Angelscript: update module cache took 0.001 ms
+[2026.10.29-12.07.26:416][915]Angelscript: ==script reload total == took 304.986 ms
+[2026.10.29-12.07.26:565][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.10.29-12.07.55:372][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.29-12.07.55:434][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/MainLVL.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.29-12.07.55:496][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2026.10.29-12.07.55:549][266]LogSavePackage: Moving output files for package: /Game/MainLVL
+[2026.10.29-12.07.55:551][266]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/MainLVLCDE6DB944B41DAC42D91209EAE69FBE4.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/MainLVL.umap'
+[2026.10.29-12.07.55:567][266]LogFileHelpers: Saving map 'MainLVL' took 0.134
+[2026.10.29-12.07.55:577][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 205.774 ms (total: 15.5 sec)
+[2026.10.29-12.07.55:630][266]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.29-12.07.55:630][266]LogContentValidation: Enabled validators:
+[2026.10.29-12.07.55:630][266]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.29-12.07.55:630][266]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.29-12.07.55:630][266]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.29-12.07.55:630][266]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.29-12.07.55:630][266]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.29-12.07.55:630][266]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.29-12.07.55:630][266]AssetCheck: /Game/MainLVL Validating asset
+[2026.10.29-12.08.33:026][958]Angelscript: preprocessing took 0.411 ms
+[2026.10.29-12.08.33:026][958]Angelscript: script compilation stage1 and stage2 took 0.438 ms
+[2026.10.29-12.08.33:026][958]Angelscript: script reload reference replacement took 0.035 ms
+[2026.10.29-12.08.33:026][958]Angelscript: script compilation class layouting took 0.039 ms
+[2026.10.29-12.08.33:026][958]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.08.33:027][958]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.08.33:027][958]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.08.33:027][958]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.08.33:027][958]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.08.33:029][958]Angelscript: script compilation stage3 took 2.398 ms
+[2026.10.29-12.08.33:029][958]Angelscript: script compilation stage4 took 0.009 ms
+[2026.10.29-12.08.33:029][958]Angelscript: script compilation total took 2.945 ms
+[2026.10.29-12.08.33:029][958]Angelscript: class generator analysis took 0.109 ms
+[2026.10.29-12.08.33:029][958]Angelscript: new module swap-in took 0.015 ms
+[2026.10.29-12.08.33:029][958]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.08.33:029][958]Angelscript: class generator reload took 0.472 ms
+[2026.10.29-12.08.33:029][958]Angelscript: post soft reload took 0.005 ms
+[2026.10.29-12.08.33:030][958]Angelscript: old module cleanup took 0.192 ms
+[2026.10.29-12.08.33:030][958]Angelscript: update module cache took 0.000 ms
+[2026.10.29-12.08.33:030][958]Angelscript: ==script reload total == took 4.561 ms
+[2026.10.29-12.08.45:474][996]LogDerivedDataCache: C:/Users/bjmall-3-local/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.10.29-12.09.58:495][913]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 104392.289062
+[2026.10.29-12.09.59:496][916]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-12.09.59:496][916]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 104392.960938, Update Interval: 346.753754
+[2026.10.29-12.11.06:159][116]Angelscript: preprocessing took 0.346 ms
+[2026.10.29-12.11.06:159][116]Angelscript: script compilation stage1 and stage2 took 0.634 ms
+[2026.10.29-12.11.06:159][116]Angelscript: script reload reference replacement took 0.076 ms
+[2026.10.29-12.11.06:159][116]Angelscript: script compilation class layouting took 0.083 ms
+[2026.10.29-12.11.06:159][116]Angelscript: Compiling (structural): Boss
+[2026.10.29-12.11.06:159][116]Angelscript: Compiling (code only): BeamHitBox
+[2026.10.29-12.11.06:159][116]Angelscript: Compiling (code only): GameManager
+[2026.10.29-12.11.06:160][116]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.11.06:160][116]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.11.06:160][116]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.11.06:160][116]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.11.06:161][116]Angelscript: script compilation stage3 took 2.562 ms
+[2026.10.29-12.11.06:161][116]Angelscript: script compilation stage4 took 0.009 ms
+[2026.10.29-12.11.06:161][116]Angelscript: script compilation total took 3.394 ms
+[2026.10.29-12.11.06:162][116]Angelscript: class generator analysis took 0.157 ms
+[2026.10.29-12.11.06:162][116]Angelscript: new module swap-in took 0.016 ms
+[2026.10.29-12.11.06:162][116]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.11.06:162][116]Angelscript: Soft Reload: ABeamHitBox
+[2026.10.29-12.11.06:162][116]Angelscript: Soft Reload: AGameManager
+[2026.10.29-12.11.06:162][116]Angelscript: class generator reload took 0.561 ms
+[2026.10.29-12.11.06:162][116]Angelscript: post soft reload took 0.004 ms
+[2026.10.29-12.11.06:162][116]Angelscript: old module cleanup took 0.141 ms
+[2026.10.29-12.11.06:162][116]Angelscript: update module cache took 0.000 ms
+[2026.10.29-12.11.06:162][116]Angelscript: ==script reload total == took 5.106 ms
+[2026.10.29-12.12.18:835][334]Angelscript: preprocessing took 0.377 ms
+[2026.10.29-12.12.18:836][334]Angelscript: script compilation stage1 and stage2 took 0.476 ms
+[2026.10.29-12.12.18:836][334]Angelscript: script reload reference replacement took 0.039 ms
+[2026.10.29-12.12.18:836][334]Angelscript: script compilation class layouting took 0.041 ms
+[2026.10.29-12.12.18:836][334]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.12.18:836][334]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.12.18:836][334]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.12.18:836][334]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.12.18:836][334]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.18:836][334]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.18:837][334]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.18:837][334]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.18:837][334]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.18:837][334]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.18:837][334]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.18:837][334]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.18:837][334]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.18:837][334]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.18:837][334]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.18:837][334]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.18:838][334]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.12.18:838][334]Angelscript:  (527:5): Compiling void AJesterBoss::OmegaAttack()
+[2026.10.29-12.12.18:838][334]Angelscript: Error: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.12.18:838][334]Angelscript: Error:  (533:75): No conversion from 'void' to math type available.
+[2026.10.29-12.12.18:838][334]Angelscript: script compilation stage3 took 2.519 ms
+[2026.10.29-12.12.18:838][334]Angelscript: script compilation stage4 took 0.008 ms
+[2026.10.29-12.12.18:838][334]Angelscript: script compilation total took 3.111 ms
+[2026.10.29-12.12.18:838][334]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2026.10.29-12.12.18:838][334]Angelscript: undo script reference update took 0.034 ms
+[2026.10.29-12.12.18:839][334]Angelscript: ==script reload total == took 4.027 ms
+[2026.10.29-12.12.25:836][355]Angelscript: preprocessing took 0.359 ms
+[2026.10.29-12.12.25:837][355]Angelscript: script compilation stage1 and stage2 took 0.441 ms
+[2026.10.29-12.12.25:837][355]Angelscript: script reload reference replacement took 0.032 ms
+[2026.10.29-12.12.25:837][355]Angelscript: script compilation class layouting took 0.039 ms
+[2026.10.29-12.12.25:837][355]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.12.25:837][355]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.12.25:837][355]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.12.25:837][355]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.12.25:837][355]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.25:837][355]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.25:838][355]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.25:838][355]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.25:838][355]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.25:838][355]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.25:838][355]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.25:838][355]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.25:838][355]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.25:838][355]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.25:838][355]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.12.25:838][355]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.12.25:839][355]Angelscript: script compilation stage3 took 2.290 ms
+[2026.10.29-12.12.25:839][355]Angelscript: script compilation stage4 took 0.009 ms
+[2026.10.29-12.12.25:839][355]Angelscript: script compilation total took 2.837 ms
+[2026.10.29-12.12.25:839][355]Angelscript: class generator analysis took 0.114 ms
+[2026.10.29-12.12.25:839][355]Angelscript: new module swap-in took 0.015 ms
+[2026.10.29-12.12.25:840][355]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.12.25:840][355]Angelscript: class generator reload took 0.528 ms
+[2026.10.29-12.12.25:840][355]Angelscript: post soft reload took 0.004 ms
+[2026.10.29-12.12.25:840][355]Angelscript: old module cleanup took 0.127 ms
+[2026.10.29-12.12.25:840][355]Angelscript: update module cache took 0.000 ms
+[2026.10.29-12.12.25:840][355]Angelscript: ==script reload total == took 4.522 ms
+[2026.10.29-12.13.28:512][543]Angelscript: preprocessing took 0.387 ms
+[2026.10.29-12.13.28:512][543]Angelscript: script compilation stage1 and stage2 took 0.632 ms
+[2026.10.29-12.13.28:512][543]Angelscript: script reload reference replacement took 0.090 ms
+[2026.10.29-12.13.28:512][543]Angelscript: script compilation class layouting took 0.085 ms
+[2026.10.29-12.13.28:514][543]Angelscript: Compiling (structural): Boss
+[2026.10.29-12.13.28:514][543]Angelscript: Compiling (code only): BeamHitBox
+[2026.10.29-12.13.28:514][543]Angelscript: Compiling (code only): GameManager
+[2026.10.29-12.13.28:514][543]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.13.28:514][543]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.13.28:514][543]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.13.28:514][543]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.13.28:516][543]Angelscript: script compilation stage3 took 2.639 ms
+[2026.10.29-12.13.28:516][543]Angelscript: script compilation stage4 took 0.010 ms
+[2026.10.29-12.13.28:516][543]Angelscript: script compilation total took 3.487 ms
+[2026.10.29-12.13.28:516][543]Angelscript: class generator analysis took 0.154 ms
+[2026.10.29-12.13.28:516][543]Angelscript: new module swap-in took 0.016 ms
+[2026.10.29-12.13.28:517][543]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.13.28:517][543]Angelscript: Soft Reload: ABeamHitBox
+[2026.10.29-12.13.28:517][543]Angelscript: Soft Reload: AGameManager
+[2026.10.29-12.13.28:517][543]Angelscript: class generator reload took 0.621 ms
+[2026.10.29-12.13.28:517][543]Angelscript: post soft reload took 0.005 ms
+[2026.10.29-12.13.28:517][543]Angelscript: old module cleanup took 0.137 ms
+[2026.10.29-12.13.28:517][543]Angelscript: update module cache took 0.001 ms
+[2026.10.29-12.13.28:517][543]Angelscript: ==script reload total == took 5.333 ms
+[2026.10.29-12.14.08:850][664]Angelscript: preprocessing took 0.361 ms
+[2026.10.29-12.14.08:851][664]Angelscript: script compilation stage1 and stage2 took 0.471 ms
+[2026.10.29-12.14.08:851][664]Angelscript: script reload reference replacement took 0.040 ms
+[2026.10.29-12.14.08:851][664]Angelscript: script compilation class layouting took 0.039 ms
+[2026.10.29-12.14.08:851][664]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.14.08:851][664]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.14.08:851][664]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.14.08:851][664]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.08:851][664]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.08:853][664]Angelscript: script compilation stage3 took 2.397 ms
+[2026.10.29-12.14.08:853][664]Angelscript: script compilation stage4 took 0.008 ms
+[2026.10.29-12.14.08:853][664]Angelscript: script compilation total took 2.984 ms
+[2026.10.29-12.14.08:853][664]Angelscript: class generator analysis took 0.113 ms
+[2026.10.29-12.14.08:853][664]Angelscript: new module swap-in took 0.013 ms
+[2026.10.29-12.14.08:853][664]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.14.08:854][664]Angelscript: class generator reload took 0.504 ms
+[2026.10.29-12.14.08:854][664]Angelscript: post soft reload took 0.005 ms
+[2026.10.29-12.14.08:854][664]Angelscript: old module cleanup took 0.210 ms
+[2026.10.29-12.14.08:854][664]Angelscript: update module cache took 0.001 ms
+[2026.10.29-12.14.08:854][664]Angelscript: ==script reload total == took 4.664 ms
+[2026.10.29-12.14.30:520][729]Angelscript: preprocessing took 0.362 ms
+[2026.10.29-12.14.30:520][729]Angelscript: script compilation stage1 and stage2 took 0.459 ms
+[2026.10.29-12.14.30:520][729]Angelscript: script reload reference replacement took 0.037 ms
+[2026.10.29-12.14.30:520][729]Angelscript: script compilation class layouting took 0.037 ms
+[2026.10.29-12.14.30:521][729]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.14.30:521][729]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.14.30:521][729]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.14.30:522][729]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.14.30:522][729]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.14.30:523][729]Angelscript: script compilation stage3 took 2.425 ms
+[2026.10.29-12.14.30:523][729]Angelscript: script compilation stage4 took 0.008 ms
+[2026.10.29-12.14.30:523][729]Angelscript: script compilation total took 2.993 ms
+[2026.10.29-12.14.30:523][729]Angelscript: class generator analysis took 0.125 ms
+[2026.10.29-12.14.30:523][729]Angelscript: new module swap-in took 0.013 ms
+[2026.10.29-12.14.30:523][729]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.14.30:524][729]Angelscript: class generator reload took 0.465 ms
+[2026.10.29-12.14.30:524][729]Angelscript: post soft reload took 0.004 ms
+[2026.10.29-12.14.30:524][729]Angelscript: old module cleanup took 0.125 ms
+[2026.10.29-12.14.30:524][729]Angelscript: update module cache took 0.000 ms
+[2026.10.29-12.14.30:524][729]Angelscript: ==script reload total == took 4.534 ms
+[2026.10.29-12.15.25:195][893]Angelscript: preprocessing took 0.365 ms
+[2026.10.29-12.15.25:195][893]Angelscript: script compilation stage1 and stage2 took 0.460 ms
+[2026.10.29-12.15.25:195][893]Angelscript: script reload reference replacement took 0.044 ms
+[2026.10.29-12.15.25:196][893]Angelscript: script compilation class layouting took 0.074 ms
+[2026.10.29-12.15.25:196][893]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.15.25:196][893]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.15.25:196][893]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.15.25:196][893]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.25:196][893]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.25:198][893]Angelscript: script compilation stage3 took 2.439 ms
+[2026.10.29-12.15.25:198][893]Angelscript: script compilation stage4 took 0.007 ms
+[2026.10.29-12.15.25:198][893]Angelscript: script compilation total took 3.051 ms
+[2026.10.29-12.15.25:198][893]Angelscript: class generator analysis took 0.116 ms
+[2026.10.29-12.15.25:198][893]Angelscript: new module swap-in took 0.014 ms
+[2026.10.29-12.15.25:198][893]Angelscript: Full Reload: AJesterBoss
+[2026.10.29-12.15.25:199][893]Angelscript: class generator reload took 0.520 ms
+[2026.10.29-12.15.25:283][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.10.29-12.15.25:393][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.10.29-12.15.25:505][893]Angelscript: new class propagation took 0.048 ms
+[2026.10.29-12.15.25:506][893]Angelscript: post full reload took 258.403 ms
+[2026.10.29-12.15.25:514][893]Angelscript: old module cleanup took 0.143 ms
+[2026.10.29-12.15.25:514][893]Angelscript: update module cache took 0.001 ms
+[2026.10.29-12.15.25:514][893]Angelscript: ==script reload total == took 318.917 ms
+[2026.10.29-12.15.25:682][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.10.29-12.15.45:905][955]Angelscript: preprocessing took 0.363 ms
+[2026.10.29-12.15.45:905][955]Angelscript: script compilation stage1 and stage2 took 0.450 ms
+[2026.10.29-12.15.45:905][955]Angelscript: script reload reference replacement took 0.036 ms
+[2026.10.29-12.15.45:905][955]Angelscript: script compilation class layouting took 0.040 ms
+[2026.10.29-12.15.45:905][955]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.15.45:906][955]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.15.45:906][955]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.15.45:906][955]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.45:906][955]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.45:908][955]Angelscript: script compilation stage3 took 2.465 ms
+[2026.10.29-12.15.45:908][955]Angelscript: script compilation stage4 took 0.008 ms
+[2026.10.29-12.15.45:908][955]Angelscript: script compilation total took 3.026 ms
+[2026.10.29-12.15.45:908][955]Angelscript: class generator analysis took 0.112 ms
+[2026.10.29-12.15.45:908][955]Angelscript: new module swap-in took 0.015 ms
+[2026.10.29-12.15.45:908][955]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.15.45:908][955]Angelscript: class generator reload took 0.448 ms
+[2026.10.29-12.15.45:908][955]Angelscript: post soft reload took 0.004 ms
+[2026.10.29-12.15.45:909][955]Angelscript: old module cleanup took 0.131 ms
+[2026.10.29-12.15.45:909][955]Angelscript: update module cache took 0.000 ms
+[2026.10.29-12.15.45:909][955]Angelscript: ==script reload total == took 4.597 ms
+[2026.10.29-12.15.53:239][977]Angelscript: preprocessing took 0.363 ms
+[2026.10.29-12.15.53:240][977]Angelscript: script compilation stage1 and stage2 took 0.458 ms
+[2026.10.29-12.15.53:240][977]Angelscript: script reload reference replacement took 0.388 ms
+[2026.10.29-12.15.53:240][977]Angelscript: script compilation class layouting took 0.044 ms
+[2026.10.29-12.15.53:240][977]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.15.53:241][977]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.15.53:241][977]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.15.53:241][977]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.15.53:241][977]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.15.53:242][977]Angelscript: script compilation stage3 took 2.419 ms
+[2026.10.29-12.15.53:242][977]Angelscript: script compilation stage4 took 0.009 ms
+[2026.10.29-12.15.53:242][977]Angelscript: script compilation total took 3.347 ms
+[2026.10.29-12.15.53:242][977]Angelscript: class generator analysis took 0.104 ms
+[2026.10.29-12.15.53:242][977]Angelscript: new module swap-in took 0.015 ms
+[2026.10.29-12.15.53:243][977]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.15.53:243][977]Angelscript: class generator reload took 0.484 ms
+[2026.10.29-12.15.53:243][977]Angelscript: post soft reload took 0.005 ms
+[2026.10.29-12.15.53:243][977]Angelscript: old module cleanup took 0.122 ms
+[2026.10.29-12.15.53:243][977]Angelscript: update module cache took 0.001 ms
+[2026.10.29-12.15.53:243][977]Angelscript: ==script reload total == took 4.900 ms
+[2026.10.29-12.15.54:572][981]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.29-12.15.54:583][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.29-12.15.54:583][981]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.15.54:600][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017255s)
+[2026.10.29-12.15.54:600][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017298s)
+[2026.10.29-12.15.54:629][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.10.29-12.15.54:634][981]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-12.15.54:636][981]LogPlayLevel: PIE: World Init took: (0.001911s)
+[2026.10.29-12.15.54:637][981]LogAudio: Display: Creating Audio Device:                 Id: 359, Scope: Unique, Realtime: True
+[2026.10.29-12.15.54:637][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.29-12.15.54:637][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.29-12.15.54:637][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.29-12.15.54:637][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.29-12.15.54:637][981]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.29-12.15.54:637][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.29-12.15.54:637][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.29-12.15.54:637][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.29-12.15.54:637][981]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.29-12.15.54:637][981]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.29-12.15.54:637][981]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.29-12.15.54:639][981]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.29-12.15.54:658][981]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.29-12.15.54:658][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.29-12.15.54:658][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.29-12.15.54:658][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.29-12.15.54:659][981]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=359
+[2026.10.29-12.15.54:659][981]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=359
+[2026.10.29-12.15.54:662][981]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=359
+[2026.10.29-12.15.54:662][981]LogInit: FAudioDevice initialized with ID 359.
+[2026.10.29-12.15.54:662][981]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=359
+[2026.10.29-12.15.54:662][981]LogAudio: Display: Audio Device (ID: 359) registered with world 'MainLVL'.
+[2026.10.29-12.15.54:662][981]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 359
+[2026.10.29-12.15.54:667][981]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-12.15.54:671][981]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-13.15.54
+[2026.10.29-12.15.54:671][981]LogWorld: Bringing up level for play took: 0.003878
+[2026.10.29-12.15.54:673][981]LogOnline: OSS: Created online subsystem instance for: :Context_400
+[2026.10.29-12.15.54:674][981]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.15.54:674][981]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.15.54:674][981]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.15.54:677][981]Angelscript: Error: Array index out of bounds.
+[2026.10.29-12.15.54:677][981]Angelscript: Error: Boss
+[2026.10.29-12.15.54:677][981]Angelscript: Error:   void AJesterBoss::OmegaAttack() | Line 528 | Col 9
+[2026.10.29-12.15.54:677][981]Angelscript: Error:   void AJesterBoss::BeginPlay_Implementation() | Line 156 | Col 9
+[2026.10.29-12.15.54:677][981]Angelscript: Error:     (Actor: BP_JesterBoss_C_2 (Label: BP_JesterBoss) in MainLVL)
+[2026.10.29-12.15.54:678][981]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.15.54:678][981]PIE: Server logged in
+[2026.10.29-12.15.54:682][981]PIE: Play in editor total start time 0.099 seconds.
+[2026.10.29-12.15.58:292][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.15.58:292][329]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.15.58:293][329]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-12.15.58:294][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.15.58:296][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.29-12.15.58:304][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.15.58:333][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.15.58:333][329]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 359
+[2026.10.29-12.15.58:334][329]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=359, StreamState=4
+[2026.10.29-12.15.58:336][329]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=359, StreamState=2
+[2026.10.29-12.15.58:345][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.10.29-12.15.58:407][330]LogPlayLevel: Display: Destroying online subsystem :Context_400
+[2026.10.29-12.16.19:498][333]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 104770.421875
+[2026.10.29-12.16.19:685][351]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-12.16.19:685][351]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 104770.554688, Update Interval: 347.271942
+[2026.10.29-12.16.39:854][477]Angelscript: preprocessing took 0.444 ms
+[2026.10.29-12.16.39:855][477]Angelscript: script compilation stage1 and stage2 took 0.451 ms
+[2026.10.29-12.16.39:855][477]Angelscript: script reload reference replacement took 0.033 ms
+[2026.10.29-12.16.39:855][477]Angelscript: script compilation class layouting took 0.039 ms
+[2026.10.29-12.16.39:855][477]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.16.39:855][477]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.16.39:855][477]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.16.39:855][477]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.16.39:855][477]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.16.39:855][477]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.16.39:855][477]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.16.39:855][477]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.16.39:856][477]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.16.39:856][477]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.16.39:856][477]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.16.39:856][477]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.16.39:856][477]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.16.39:856][477]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.16.39:856][477]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.16.39:856][477]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.16.39:857][477]Angelscript: script compilation stage3 took 2.455 ms
+[2026.10.29-12.16.39:857][477]Angelscript: script compilation stage4 took 0.008 ms
+[2026.10.29-12.16.39:857][477]Angelscript: script compilation total took 3.013 ms
+[2026.10.29-12.16.39:857][477]Angelscript: class generator analysis took 0.104 ms
+[2026.10.29-12.16.39:857][477]Angelscript: new module swap-in took 0.014 ms
+[2026.10.29-12.16.39:858][477]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.16.39:858][477]Angelscript: class generator reload took 0.434 ms
+[2026.10.29-12.16.39:858][477]Angelscript: post soft reload took 0.004 ms
+[2026.10.29-12.16.39:858][477]Angelscript: old module cleanup took 0.139 ms
+[2026.10.29-12.16.39:858][477]Angelscript: update module cache took 0.001 ms
+[2026.10.29-12.16.39:858][477]Angelscript: ==script reload total == took 4.654 ms
+[2026.10.29-12.16.41:855][483]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.29-12.16.41:865][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.29-12.16.41:865][483]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.16.41:882][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017253s)
+[2026.10.29-12.16.41:882][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017290s)
+[2026.10.29-12.16.41:911][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.10.29-12.16.41:917][483]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-12.16.41:919][483]LogPlayLevel: PIE: World Init took: (0.001929s)
+[2026.10.29-12.16.41:919][483]LogAudio: Display: Creating Audio Device:                 Id: 360, Scope: Unique, Realtime: True
+[2026.10.29-12.16.41:919][483]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.29-12.16.41:919][483]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.29-12.16.41:919][483]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.29-12.16.41:919][483]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.29-12.16.41:919][483]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.29-12.16.41:919][483]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.29-12.16.41:919][483]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.29-12.16.41:919][483]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.29-12.16.41:919][483]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.29-12.16.41:919][483]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.29-12.16.41:920][483]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.29-12.16.41:922][483]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.29-12.16.41:941][483]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.29-12.16.41:941][483]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.29-12.16.41:941][483]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.29-12.16.41:941][483]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.29-12.16.41:942][483]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=360
+[2026.10.29-12.16.41:942][483]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=360
+[2026.10.29-12.16.41:945][483]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=360
+[2026.10.29-12.16.41:945][483]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=360
+[2026.10.29-12.16.41:945][483]LogInit: FAudioDevice initialized with ID 360.
+[2026.10.29-12.16.41:945][483]LogAudio: Display: Audio Device (ID: 360) registered with world 'MainLVL'.
+[2026.10.29-12.16.41:945][483]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 360
+[2026.10.29-12.16.41:949][483]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-12.16.41:954][483]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-13.16.41
+[2026.10.29-12.16.41:954][483]LogWorld: Bringing up level for play took: 0.004007
+[2026.10.29-12.16.41:956][483]LogOnline: OSS: Created online subsystem instance for: :Context_401
+[2026.10.29-12.16.41:957][483]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.16.41:957][483]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.16.41:957][483]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.16.41:962][483]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.16.41:962][483]PIE: Server logged in
+[2026.10.29-12.16.41:964][483]PIE: Play in editor total start time 0.1 seconds.
+[2026.10.29-12.16.51:202][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.16.51:202][104]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.16.51:203][104]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-12.16.51:204][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.16.51:207][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.29-12.16.51:214][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.16.51:243][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.16.51:244][104]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 360
+[2026.10.29-12.16.51:244][104]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=360, StreamState=4
+[2026.10.29-12.16.51:246][104]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=360, StreamState=2
+[2026.10.29-12.16.51:259][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.10.29-12.16.51:324][105]LogPlayLevel: Display: Destroying online subsystem :Context_401
+[2026.10.29-12.17.02:274][103]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.29-12.17.02:314][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/MainLVL.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.29-12.17.02:376][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.10.29-12.17.02:431][103]LogSavePackage: Moving output files for package: /Game/MainLVL
+[2026.10.29-12.17.02:432][103]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/MainLVL80ABDC22425AF30A665E9C840D7C77A0.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/MainLVL.umap'
+[2026.10.29-12.17.02:449][103]LogFileHelpers: Saving map 'MainLVL' took 0.135
+[2026.10.29-12.17.02:457][103]LogFileHelpers: InternalPromptForCheckoutAndSave took 182.725 ms (total: 15.7 sec)
+[2026.10.29-12.17.02:512][103]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.29-12.17.02:512][103]LogContentValidation: Enabled validators:
+[2026.10.29-12.17.02:512][103]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.29-12.17.02:512][103]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.29-12.17.02:512][103]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.29-12.17.02:512][103]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.29-12.17.02:512][103]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.29-12.17.02:512][103]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.29-12.17.02:512][103]AssetCheck: /Game/MainLVL Validating asset
+[2026.10.29-12.17.03:505][191]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.29-12.17.03:514][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.29-12.17.03:552][191]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.17.03:569][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017510s)
+[2026.10.29-12.17.03:569][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017549s)
+[2026.10.29-12.17.03:596][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.10.29-12.17.03:599][191]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-12.17.03:602][191]LogPlayLevel: PIE: World Init took: (0.001738s)
+[2026.10.29-12.17.03:603][191]LogAudio: Display: Creating Audio Device:                 Id: 361, Scope: Unique, Realtime: True
+[2026.10.29-12.17.03:603][191]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.29-12.17.03:603][191]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.29-12.17.03:603][191]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.29-12.17.03:603][191]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.29-12.17.03:603][191]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.29-12.17.03:603][191]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.29-12.17.03:603][191]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.29-12.17.03:603][191]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.29-12.17.03:603][191]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.29-12.17.03:603][191]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.29-12.17.03:603][191]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.29-12.17.03:605][191]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.29-12.17.03:623][191]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.29-12.17.03:624][191]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.29-12.17.03:624][191]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.29-12.17.03:624][191]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.29-12.17.03:624][191]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=361
+[2026.10.29-12.17.03:624][191]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=361
+[2026.10.29-12.17.03:628][191]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=361
+[2026.10.29-12.17.03:628][191]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=361
+[2026.10.29-12.17.03:628][191]LogInit: FAudioDevice initialized with ID 361.
+[2026.10.29-12.17.03:628][191]LogAudio: Display: Audio Device (ID: 361) registered with world 'MainLVL'.
+[2026.10.29-12.17.03:628][191]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 361
+[2026.10.29-12.17.03:633][191]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-12.17.03:637][191]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-13.17.03
+[2026.10.29-12.17.03:637][191]LogWorld: Bringing up level for play took: 0.004144
+[2026.10.29-12.17.03:639][191]LogOnline: OSS: Created online subsystem instance for: :Context_402
+[2026.10.29-12.17.03:640][191]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.17.03:640][191]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.17.03:640][191]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.17.03:644][191]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.17.03:645][191]PIE: Server logged in
+[2026.10.29-12.17.03:647][191]PIE: Play in editor total start time 0.133 seconds.
+[2026.10.29-12.17.15:363][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.17.15:363][313]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.17.15:363][313]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-12.17.15:364][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.17.15:367][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.29-12.17.15:374][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.17.15:404][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.17.15:404][313]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 361
+[2026.10.29-12.17.15:404][313]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=361, StreamState=4
+[2026.10.29-12.17.15:407][313]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=361, StreamState=2
+[2026.10.29-12.17.15:418][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.10.29-12.17.15:482][314]LogPlayLevel: Display: Destroying online subsystem :Context_402
+[2026.10.29-12.17.39:811][177]Angelscript: preprocessing took 0.450 ms
+[2026.10.29-12.17.39:812][177]Angelscript: script compilation stage1 and stage2 took 0.473 ms
+[2026.10.29-12.17.39:812][177]Angelscript: script reload reference replacement took 0.039 ms
+[2026.10.29-12.17.39:812][177]Angelscript: script compilation class layouting took 0.041 ms
+[2026.10.29-12.17.39:812][177]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.17.39:813][177]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.17.39:813][177]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.17.39:813][177]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.17.39:813][177]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.17.39:815][177]Angelscript: script compilation stage3 took 2.432 ms
+[2026.10.29-12.17.39:815][177]Angelscript: script compilation stage4 took 0.009 ms
+[2026.10.29-12.17.39:815][177]Angelscript: script compilation total took 3.029 ms
+[2026.10.29-12.17.39:815][177]Angelscript: class generator analysis took 0.106 ms
+[2026.10.29-12.17.39:815][177]Angelscript: new module swap-in took 0.015 ms
+[2026.10.29-12.17.39:815][177]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.17.39:815][177]Angelscript: class generator reload took 0.435 ms
+[2026.10.29-12.17.39:815][177]Angelscript: post soft reload took 0.004 ms
+[2026.10.29-12.17.39:815][177]Angelscript: old module cleanup took 0.129 ms
+[2026.10.29-12.17.39:815][177]Angelscript: update module cache took 0.001 ms
+[2026.10.29-12.17.39:815][177]Angelscript: ==script reload total == took 4.677 ms
+[2026.10.29-12.17.41:477][182]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.29-12.17.41:487][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.29-12.17.41:488][182]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.17.41:505][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017044s)
+[2026.10.29-12.17.41:505][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017081s)
+[2026.10.29-12.17.41:532][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.10.29-12.17.41:537][182]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-12.17.41:539][182]LogPlayLevel: PIE: World Init took: (0.001776s)
+[2026.10.29-12.17.41:540][182]LogAudio: Display: Creating Audio Device:                 Id: 362, Scope: Unique, Realtime: True
+[2026.10.29-12.17.41:540][182]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.29-12.17.41:540][182]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.29-12.17.41:540][182]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.29-12.17.41:540][182]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.29-12.17.41:540][182]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.29-12.17.41:540][182]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.29-12.17.41:540][182]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.29-12.17.41:540][182]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.29-12.17.41:540][182]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.29-12.17.41:540][182]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.29-12.17.41:540][182]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.29-12.17.41:543][182]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.29-12.17.41:561][182]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.29-12.17.41:561][182]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.29-12.17.41:561][182]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.29-12.17.41:561][182]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.29-12.17.41:561][182]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=362
+[2026.10.29-12.17.41:561][182]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=362
+[2026.10.29-12.17.41:565][182]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=362
+[2026.10.29-12.17.41:565][182]LogInit: FAudioDevice initialized with ID 362.
+[2026.10.29-12.17.41:565][182]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=362
+[2026.10.29-12.17.41:565][182]LogAudio: Display: Audio Device (ID: 362) registered with world 'MainLVL'.
+[2026.10.29-12.17.41:565][182]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 362
+[2026.10.29-12.17.41:570][182]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-12.17.41:574][182]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-13.17.41
+[2026.10.29-12.17.41:574][182]LogWorld: Bringing up level for play took: 0.004036
+[2026.10.29-12.17.41:577][182]LogOnline: OSS: Created online subsystem instance for: :Context_403
+[2026.10.29-12.17.41:577][182]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.17.41:577][182]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.17.41:577][182]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.17.41:581][182]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.17.41:582][182]PIE: Server logged in
+[2026.10.29-12.17.41:584][182]PIE: Play in editor total start time 0.097 seconds.
+[2026.10.29-12.17.58:673][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.17.58:673][804]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.17.58:673][804]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-12.17.58:675][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.17.58:678][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.29-12.17.58:684][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.17.58:715][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.17.58:716][804]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 362
+[2026.10.29-12.17.58:716][804]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=362, StreamState=4
+[2026.10.29-12.17.58:718][804]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=362, StreamState=2
+[2026.10.29-12.17.58:729][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.10.29-12.17.58:794][805]LogPlayLevel: Display: Destroying online subsystem :Context_403
+[2026.10.29-12.17.59:138][831]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.29-12.17.59:148][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.29-12.17.59:148][831]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.17.59:166][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017571s)
+[2026.10.29-12.17.59:166][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017611s)
+[2026.10.29-12.17.59:193][831]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.10.29-12.17.59:198][831]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-12.17.59:199][831]LogPlayLevel: PIE: World Init took: (0.001760s)
+[2026.10.29-12.17.59:201][831]LogAudio: Display: Creating Audio Device:                 Id: 363, Scope: Unique, Realtime: True
+[2026.10.29-12.17.59:201][831]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.29-12.17.59:201][831]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.29-12.17.59:201][831]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.29-12.17.59:201][831]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.29-12.17.59:201][831]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.29-12.17.59:201][831]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.29-12.17.59:201][831]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.29-12.17.59:201][831]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.29-12.17.59:201][831]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.29-12.17.59:201][831]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.29-12.17.59:201][831]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.29-12.17.59:203][831]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.29-12.17.59:221][831]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.29-12.17.59:221][831]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.29-12.17.59:221][831]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.29-12.17.59:221][831]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.29-12.17.59:222][831]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=363
+[2026.10.29-12.17.59:222][831]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=363
+[2026.10.29-12.17.59:225][831]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=363
+[2026.10.29-12.17.59:225][831]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=363
+[2026.10.29-12.17.59:225][831]LogInit: FAudioDevice initialized with ID 363.
+[2026.10.29-12.17.59:225][831]LogAudio: Display: Audio Device (ID: 363) registered with world 'MainLVL'.
+[2026.10.29-12.17.59:225][831]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 363
+[2026.10.29-12.17.59:230][831]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-12.17.59:233][831]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-13.17.59
+[2026.10.29-12.17.59:233][831]LogWorld: Bringing up level for play took: 0.003997
+[2026.10.29-12.17.59:236][831]LogOnline: OSS: Created online subsystem instance for: :Context_404
+[2026.10.29-12.17.59:236][831]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.17.59:236][831]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.17.59:236][831]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.17.59:239][831]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.17.59:241][831]PIE: Server logged in
+[2026.10.29-12.17.59:243][831]PIE: Play in editor total start time 0.096 seconds.
+[2026.10.29-12.18.08:782][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.18.08:782][655]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.18.08:783][655]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-12.18.08:784][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.18.08:787][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.29-12.18.08:794][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.18.08:826][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.18.08:827][655]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 363
+[2026.10.29-12.18.08:827][655]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=363, StreamState=4
+[2026.10.29-12.18.08:829][655]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=363, StreamState=2
+[2026.10.29-12.18.08:842][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.10.29-12.18.08:907][656]LogPlayLevel: Display: Destroying online subsystem :Context_404
+[2026.10.29-12.18.27:463][388]Angelscript: preprocessing took 0.374 ms
+[2026.10.29-12.18.27:463][388]Angelscript: script compilation stage1 and stage2 took 0.467 ms
+[2026.10.29-12.18.27:463][388]Angelscript: script reload reference replacement took 0.034 ms
+[2026.10.29-12.18.27:463][388]Angelscript: script compilation class layouting took 0.041 ms
+[2026.10.29-12.18.27:463][388]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.18.27:464][388]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.18.27:464][388]Angelscript:  (161:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.18.27:464][388]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (171:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (172:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (194:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (195:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (217:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (218:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (240:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (241:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (262:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (263:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (284:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.27:464][388]Angelscript: Warning:  (285:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.27:466][388]Angelscript: script compilation stage3 took 2.459 ms
+[2026.10.29-12.18.27:466][388]Angelscript: script compilation stage4 took 0.009 ms
+[2026.10.29-12.18.27:466][388]Angelscript: script compilation total took 3.035 ms
+[2026.10.29-12.18.27:466][388]Angelscript: class generator analysis took 0.114 ms
+[2026.10.29-12.18.27:466][388]Angelscript: new module swap-in took 0.015 ms
+[2026.10.29-12.18.27:466][388]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.18.27:466][388]Angelscript: class generator reload took 0.455 ms
+[2026.10.29-12.18.27:467][388]Angelscript: post soft reload took 0.005 ms
+[2026.10.29-12.18.27:467][388]Angelscript: old module cleanup took 0.124 ms
+[2026.10.29-12.18.27:467][388]Angelscript: update module cache took 0.000 ms
+[2026.10.29-12.18.27:467][388]Angelscript: ==script reload total == took 4.587 ms
+[2026.10.29-12.18.40:466][427]Angelscript: preprocessing took 0.433 ms
+[2026.10.29-12.18.40:467][427]Angelscript: script compilation stage1 and stage2 took 0.695 ms
+[2026.10.29-12.18.40:467][427]Angelscript: script reload reference replacement took 0.078 ms
+[2026.10.29-12.18.40:467][427]Angelscript: script compilation class layouting took 0.079 ms
+[2026.10.29-12.18.40:467][427]Angelscript: Compiling (structural): Boss
+[2026.10.29-12.18.40:467][427]Angelscript: Compiling (code only): BeamHitBox
+[2026.10.29-12.18.40:467][427]Angelscript: Compiling (code only): GameManager
+[2026.10.29-12.18.40:468][427]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.18.40:468][427]Angelscript:  (162:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.18.40:468][427]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (172:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (173:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (195:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (196:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (218:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (219:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (241:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (242:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (263:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (264:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (285:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.18.40:468][427]Angelscript: Warning:  (286:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.18.40:470][427]Angelscript: script compilation stage3 took 2.736 ms
+[2026.10.29-12.18.40:470][427]Angelscript: script compilation stage4 took 0.008 ms
+[2026.10.29-12.18.40:470][427]Angelscript: script compilation total took 3.624 ms
+[2026.10.29-12.18.40:470][427]Angelscript: class generator analysis took 0.133 ms
+[2026.10.29-12.18.40:470][427]Angelscript: new module swap-in took 0.014 ms
+[2026.10.29-12.18.40:470][427]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.18.40:470][427]Angelscript: Soft Reload: ABeamHitBox
+[2026.10.29-12.18.40:470][427]Angelscript: Soft Reload: AGameManager
+[2026.10.29-12.18.40:471][427]Angelscript: class generator reload took 0.544 ms
+[2026.10.29-12.18.40:471][427]Angelscript: post soft reload took 0.004 ms
+[2026.10.29-12.18.40:471][427]Angelscript: old module cleanup took 0.136 ms
+[2026.10.29-12.18.40:471][427]Angelscript: update module cache took 0.000 ms
+[2026.10.29-12.18.40:471][427]Angelscript: ==script reload total == took 5.435 ms
+[2026.10.29-12.19.34:473][589]Angelscript: preprocessing took 0.380 ms
+[2026.10.29-12.19.34:474][589]Angelscript: script compilation stage1 and stage2 took 0.458 ms
+[2026.10.29-12.19.34:474][589]Angelscript: script reload reference replacement took 0.030 ms
+[2026.10.29-12.19.34:474][589]Angelscript: script compilation class layouting took 0.039 ms
+[2026.10.29-12.19.34:474][589]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.19.34:474][589]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.19.34:474][589]Angelscript:  (78:5): Compiling void AJesterBoss::BeginPlay_Implementation()
+[2026.10.29-12.19.34:474][589]Angelscript: Error: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.19.34:474][589]Angelscript: Error:  (122:9): Expected ';'
+[2026.10.29-12.19.34:474][589]Angelscript: Error:  (122:9): Instead found identifier 'TArray'
+[2026.10.29-12.19.34:474][589]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.19.34:474][589]Angelscript:  (165:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.19.34:474][589]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (175:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (176:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (198:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (199:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (221:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (222:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (244:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (245:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (266:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (267:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (288:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.34:474][589]Angelscript: Warning:  (289:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.34:476][589]Angelscript: script compilation stage3 took 2.197 ms
+[2026.10.29-12.19.34:476][589]Angelscript: script compilation stage4 took 0.007 ms
+[2026.10.29-12.19.34:476][589]Angelscript: script compilation total took 2.755 ms
+[2026.10.29-12.19.34:476][589]Angelscript: Error: Hot reload failed due to script compile errors. Keeping all old script code.
+[2026.10.29-12.19.34:476][589]Angelscript: undo script reference update took 0.030 ms
+[2026.10.29-12.19.34:476][589]Angelscript: ==script reload total == took 3.606 ms
+[2026.10.29-12.19.46:142][624]Angelscript: preprocessing took 0.372 ms
+[2026.10.29-12.19.46:142][624]Angelscript: script compilation stage1 and stage2 took 0.455 ms
+[2026.10.29-12.19.46:142][624]Angelscript: script reload reference replacement took 0.034 ms
+[2026.10.29-12.19.46:142][624]Angelscript: script compilation class layouting took 0.039 ms
+[2026.10.29-12.19.46:142][624]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.19.46:143][624]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.19.46:143][624]Angelscript:  (165:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.19.46:143][624]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (175:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (176:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (198:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (199:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (221:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (222:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (244:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (245:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (266:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (267:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (288:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.19.46:143][624]Angelscript: Warning:  (289:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.19.46:145][624]Angelscript: script compilation stage3 took 2.465 ms
+[2026.10.29-12.19.46:145][624]Angelscript: script compilation stage4 took 0.008 ms
+[2026.10.29-12.19.46:145][624]Angelscript: script compilation total took 3.030 ms
+[2026.10.29-12.19.46:145][624]Angelscript: class generator analysis took 0.111 ms
+[2026.10.29-12.19.46:145][624]Angelscript: new module swap-in took 0.020 ms
+[2026.10.29-12.19.46:145][624]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.19.46:145][624]Angelscript: class generator reload took 0.449 ms
+[2026.10.29-12.19.46:145][624]Angelscript: post soft reload took 0.004 ms
+[2026.10.29-12.19.46:146][624]Angelscript: old module cleanup took 0.194 ms
+[2026.10.29-12.19.46:146][624]Angelscript: update module cache took 0.000 ms
+[2026.10.29-12.19.46:146][624]Angelscript: ==script reload total == took 4.675 ms
+[2026.10.29-12.20.02:476][673]Angelscript: preprocessing took 0.388 ms
+[2026.10.29-12.20.02:477][673]Angelscript: script compilation stage1 and stage2 took 0.450 ms
+[2026.10.29-12.20.02:477][673]Angelscript: script reload reference replacement took 0.032 ms
+[2026.10.29-12.20.02:477][673]Angelscript: script compilation class layouting took 0.039 ms
+[2026.10.29-12.20.02:477][673]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.20.02:478][673]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.20.02:478][673]Angelscript:  (165:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.20.02:478][673]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (175:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (176:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (198:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (199:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (221:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (222:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (244:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (245:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (266:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (267:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (288:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.20.02:478][673]Angelscript: Warning:  (289:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.20.02:479][673]Angelscript: script compilation stage3 took 2.487 ms
+[2026.10.29-12.20.02:480][673]Angelscript: script compilation stage4 took 0.008 ms
+[2026.10.29-12.20.02:480][673]Angelscript: script compilation total took 3.041 ms
+[2026.10.29-12.20.02:480][673]Angelscript: class generator analysis took 0.106 ms
+[2026.10.29-12.20.02:480][673]Angelscript: new module swap-in took 0.014 ms
+[2026.10.29-12.20.02:480][673]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.20.02:480][673]Angelscript: class generator reload took 0.439 ms
+[2026.10.29-12.20.02:480][673]Angelscript: post soft reload took 0.004 ms
+[2026.10.29-12.20.02:480][673]Angelscript: old module cleanup took 0.126 ms
+[2026.10.29-12.20.02:480][673]Angelscript: update module cache took 0.001 ms
+[2026.10.29-12.20.02:480][673]Angelscript: ==script reload total == took 4.591 ms
+[2026.10.29-12.20.08:476][691]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.29-12.20.08:486][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.29-12.20.08:487][691]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.20.08:504][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017045s)
+[2026.10.29-12.20.08:504][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017083s)
+[2026.10.29-12.20.08:534][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.10.29-12.20.08:539][691]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-12.20.08:542][691]LogPlayLevel: PIE: World Init took: (0.001983s)
+[2026.10.29-12.20.08:542][691]LogAudio: Display: Creating Audio Device:                 Id: 364, Scope: Unique, Realtime: True
+[2026.10.29-12.20.08:542][691]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.29-12.20.08:542][691]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.29-12.20.08:542][691]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.29-12.20.08:542][691]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.29-12.20.08:542][691]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.29-12.20.08:542][691]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.29-12.20.08:542][691]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.29-12.20.08:542][691]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.29-12.20.08:542][691]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.29-12.20.08:542][691]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.29-12.20.08:542][691]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.29-12.20.08:545][691]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.29-12.20.08:563][691]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.29-12.20.08:563][691]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.29-12.20.08:563][691]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.29-12.20.08:563][691]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.29-12.20.08:564][691]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=364
+[2026.10.29-12.20.08:564][691]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=364
+[2026.10.29-12.20.08:568][691]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=364
+[2026.10.29-12.20.08:568][691]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=364
+[2026.10.29-12.20.08:568][691]LogInit: FAudioDevice initialized with ID 364.
+[2026.10.29-12.20.08:568][691]LogAudio: Display: Audio Device (ID: 364) registered with world 'MainLVL'.
+[2026.10.29-12.20.08:568][691]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 364
+[2026.10.29-12.20.08:573][691]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-12.20.08:577][691]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-13.20.08
+[2026.10.29-12.20.08:577][691]LogWorld: Bringing up level for play took: 0.004135
+[2026.10.29-12.20.08:579][691]LogOnline: OSS: Created online subsystem instance for: :Context_405
+[2026.10.29-12.20.08:580][691]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.20.08:580][691]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.20.08:580][691]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.20.08:584][691]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.20.08:585][691]PIE: Server logged in
+[2026.10.29-12.20.08:587][691]PIE: Play in editor total start time 0.101 seconds.
+[2026.10.29-12.21.24:853][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.21.24:853][856]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.21.24:853][856]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-12.21.24:854][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.21.24:857][856]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.29-12.21.24:864][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.21.24:893][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.21.24:894][856]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 364
+[2026.10.29-12.21.24:894][856]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=364, StreamState=4
+[2026.10.29-12.21.24:896][856]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=364, StreamState=2
+[2026.10.29-12.21.24:907][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.10.29-12.21.24:954][857]LogPlayLevel: Display: Destroying online subsystem :Context_405

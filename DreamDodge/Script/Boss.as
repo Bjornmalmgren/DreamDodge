@@ -19,6 +19,7 @@ class AJesterBoss :AActor{
     FAttack Down;
     FAttack Slam;
     FAttack Cross;
+    FAttack Omega;
 
     UPROPERTY()
     AJesterHand JesterHandLeft;
@@ -42,6 +43,7 @@ class AJesterBoss :AActor{
     TArray<ABulletSpawner> LeftSpawners;
     TArray<ABulletSpawner> RightSpawners;
     TArray<ABulletSpawner> CrossSpawners;
+    TArray<ABulletSpawner> OmegaSpawners;
     UPROPERTY()
     AActor JesterDown;
     UPROPERTY()
@@ -57,6 +59,8 @@ class AJesterBoss :AActor{
     FBulletWaveTemplate TopSlamTemplate();
     UPROPERTY()
     FBulletWaveTemplate BottomSlamTemplate();
+    UPROPERTY()
+    FBulletWaveTemplate OmegaTemplate();
 
     APlayer Player;
     AGameManager GameManager;
@@ -82,7 +86,7 @@ class AJesterBoss :AActor{
         Up.Weight = 16.0f;
 
         Down.AttackName = "Down";
-        Down.Weight = 18.0f;
+        Down.Weight = 17.0f;
 
         Slam.AttackName = "Slam";
         Slam.Weight = 16.0f;
@@ -90,6 +94,8 @@ class AJesterBoss :AActor{
         Cross.AttackName = "Cross";
         Cross.Weight = 16.0f;
 
+        Omega.AttackName = "Omega";
+        Cross.Weight = 1.0f;
         
 
         Health.SetHealth(150);
@@ -99,6 +105,8 @@ class AJesterBoss :AActor{
         Attacks.Add(Up);
         Attacks.Add(Down);
         Attacks.Add(Slam);
+        Attacks.Add(Cross);
+        Attacks.Add(Omega);
 
         //base attack order
         AttackOrder.Add(0);
@@ -106,9 +114,8 @@ class AJesterBoss :AActor{
         AttackOrder.Add(2);
         AttackOrder.Add(3);
         AttackOrder.Add(4);
-
-        Attacks.Add(Cross);
         AttackOrder.Add(5);
+        AttackOrder.Add(6);
         //finding spawners and its locations
         
 
@@ -129,6 +136,8 @@ class AJesterBoss :AActor{
             }
             else if(Spawner.GetActorNameOrLabel().Contains("Up")){
                 TopSpawners.Add(Spawner);
+            }else if(Spawner.GetActorNameOrLabel().Contains("Omega")){
+                OmegaSpawners.Add(Spawner);
             }
         }
 
@@ -148,14 +157,14 @@ class AJesterBoss :AActor{
         JesterHandRight.HandDefaultPosition.Y *=-1;
         JesterHandLeft.SetActorLocation(JesterHandLeft.HandDefaultPosition);
         JesterHandRight.SetActorLocation(JesterHandRight.HandDefaultPosition);
-        //SlamAttack();
+        //OmegaAttack();
     }
 
 
     UFUNCTION()
     void SortSpawner(){
         //this is the easiest way to make sure all the spawners are in the right order, really ugly and i hate it
-         TArray<ABulletSpawner> tempLeft;
+        TArray<ABulletSpawner> tempLeft;
         
        
 
@@ -267,6 +276,28 @@ class AJesterBoss :AActor{
         }
 
         CrossSpawners = tempCross;
+
+        TArray<ABulletSpawner> tempOmega;
+        
+       
+
+        //Spawners.Empty();
+        int CurrentIndexOmega = 1;
+        for(int i = 0; i<OmegaSpawners.Num();i++){
+            for(int j = 0; j<OmegaSpawners.Num();j++){
+                FString Left;
+                FString Right;
+                OmegaSpawners[j].GetActorNameOrLabel().Split("_",Left,Right);
+                int Value = String::Conv_StringToInt(Right);
+                if(Value == CurrentIndexOmega){
+                    tempOmega.Add(OmegaSpawners[j]);
+                    CurrentIndexOmega++;
+                    break;
+                }
+            }
+        }
+
+        OmegaSpawners = tempOmega;
         
     }
 
@@ -312,6 +343,8 @@ class AJesterBoss :AActor{
                 SlamAttack();
             }else if(Attacks[AttackIndex].AttackName == "Cross"){
                 CrossAttack();
+            }else if(Attacks[AttackIndex].AttackName == "Omega"){
+                OmegaAttack();
             }
             
             
@@ -495,6 +528,44 @@ class AJesterBoss :AActor{
         }
         SetActorLocation(JesterUp.ActorLocation);
         
+    }
+
+    void OmegaAttack(){
+        JesterHandLeft.PositionWhenReady =  OmegaSpawners[0].ActorLocation;
+        JesterHandLeft.PositionWhenReady =  OmegaSpawners[0].ActorLocation-FVector(0,1,0);
+
+        JesterHandLeft.PositionalQueue.Add(OmegaSpawners[0].ActorLocation);
+        JesterHandLeft.PositionalQueue.Add(OmegaSpawners.Last().ActorLocation);
+        JesterHandLeft.PositionalQueue.Add(OmegaSpawners[0].ActorLocation-FVector(0,1,0));
+        JesterHandLeft.PositionalQueue.Add(JesterHandRight.HandDefaultPosition);
+
+        JesterHandLeft.HandAttacking = true;
+        JesterHandLeft.CurrentHandAttack = "Omega";
+        JesterHandLeft.MoveHand = true;
+        JesterHandLeft.CurrentlyAttacking = true;
+        
+
+        JesterHandRight.PositionWhenReady =  OmegaSpawners.Last().ActorLocation;
+        JesterHandRight.PositionWhenReady =  OmegaSpawners.Last().ActorLocation+FVector(0,1,0);
+
+        JesterHandRight.PositionalQueue.Add(OmegaSpawners.Last().ActorLocation);
+        JesterHandRight.PositionalQueue.Add(OmegaSpawners[0].ActorLocation);
+        JesterHandRight.PositionalQueue.Add(OmegaSpawners.Last().ActorLocation+FVector(0,1,0));
+        JesterHandRight.PositionalQueue.Add(JesterHandRight.HandDefaultPosition);
+
+        JesterHandRight.HandAttacking = true;
+        JesterHandRight.CurrentHandAttack = "Omega";
+        JesterHandRight.MoveHand = true;
+        JesterHandRight.CurrentlyAttacking = true;
+
+        System::SetTimer(this, n"TriggerOmegaSpawners", 0.4,false,false);
+    }
+    UFUNCTION()
+    void TriggerOmegaSpawners(){
+        OmegaTemplate.BulletSpeed = GlobalBulletSpeed;
+        for(auto OSP : OmegaSpawners){
+            OSP.SpawnBulletWave(OmegaTemplate);
+        }
     }
 
 
