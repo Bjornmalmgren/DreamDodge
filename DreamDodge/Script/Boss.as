@@ -13,17 +13,11 @@ class AJesterBoss :AActor{
     UPROPERTY(DefaultComponent)
     UHealComponent Health;
 
-    UPROPERTY()
     FAttack Left;
-    UPROPERTY()
     FAttack Right;
-    UPROPERTY()
     FAttack Up;
-    UPROPERTY()
     FAttack Down;
-    UPROPERTY()
     FAttack Slam;
-    UPROPERTY()
     FAttack Cross;
 
     UPROPERTY()
@@ -37,21 +31,16 @@ class AJesterBoss :AActor{
     FVector RightHandDefaultPosition = FVector(0.000005,-440.000000,2410.000000);
     FVector LeftHandDefaultPosition = FVector(0.000006,460.000000,2410.000000);
 
-    UPROPERTY()
     TArray<FAttack> Attacks;
     //contains a randomised index of all the attacks used for selection
     TArray<int> AttackOrder;
 
     //add all attack patterns into there own arrays so they can be triggered seperatly
-    UPROPERTY()
+    
     TArray<ABulletSpawner> TopSpawners;
-    UPROPERTY()
     TArray<ABulletSpawner> BottomSpawners;
-    UPROPERTY()
     TArray<ABulletSpawner> LeftSpawners;
-    UPROPERTY()
     TArray<ABulletSpawner> RightSpawners;
-    UPROPERTY()
     TArray<ABulletSpawner> CrossSpawners;
     UPROPERTY()
     AActor JesterDown;
@@ -62,56 +51,6 @@ class AJesterBoss :AActor{
     UPROPERTY()
     AActor JesterRight;
 
-
-    //bool CurrentlyAttacking = false;
-
-    //right hand attacking variables
-    //bool RightHandAttacking = false;
-    //UPROPERTY()
-    //FString CurrentRightHandAttack;
-    //bool RightInAttackPosition = false;
-    //FVector RightPositionWhenReady;
-    //FVector RightPositionWhenDone;
-    //float RightHandSpeed = 15;
-    //bool RightSlamAttack = false;
-    //UPROPERTY()
-    //TArray<ABulletSpawner> RightSlamAttackSpawners;
-    //int RightFollowPatternBetweenSpawnersIndex  = 0;
-    //bool RightFollowPatternBetweenSpawners = false;
-    //bool RightSlamDown = false;
-    //int TotalRightUnitsDown = 200;
-//
-    ////left hand attacking variables
-    //bool LeftHandAttacking = false;
-    //bool LeftInAttackPosition = false;
-    //FVector LeftPositionWhenReady;
-    //FVector LeftPositionWhenDone;
-    //UPROPERTY()
-    //FString CurrentLeftHandAttack;
-    //float LeftHandSpeed = 15;
-    //bool LeftSlamAttack = false;
-    //TArray<ABulletSpawner> LeftSlamAttackSpawners;
-    //int LeftFollowPatternBetweenSpawnersIndex  = 0;
-    //bool LeftFollowPatternBetweenSpawners = false;
-    //bool LeftSlamDown = false;
-    //int TotalLeftUnitsDown = 200;
-
-    //the hands move and trigger the spawner so a queue is made the keep track it will be FIFO
-    //UPROPERTY()
-    //TArray<FVector> LeftPositionalQueue;
-    //UPROPERTY()
-    //TArray<FVector> RightPositionalQueue;
-    ////variables for moving the hands
-    //bool MoveLeftHand = false;
-    //bool MoveRightHand = false;
-    //float DelayBetweenMovements = 0.2f;
-//
-//
-    ////wave templet for the spawners
-    //FBulletWaveTemplate LeftAttackTemplete;
-    //FBulletWaveTemplate RightAttackTemplete;
-
-    //
     float GlobalBulletSpeed = 10;
 
     UPROPERTY()
@@ -124,7 +63,7 @@ class AJesterBoss :AActor{
     bool FirstTimeUnder60 = true;
     bool FirstTimeUnder30 = true;
 
-    UPROPERTY()
+
     int PhaseOfBoss = 1;
 
     //audio
@@ -153,7 +92,7 @@ class AJesterBoss :AActor{
 
         
 
-        Health.SetHealth(90);
+        Health.SetHealth(150);
 
         Attacks.Add(Left);
         Attacks.Add(Right);
@@ -203,13 +142,13 @@ class AJesterBoss :AActor{
         GameManager = GameManagers[0];
         
         Audio.Sound = GameManager.DreamMusic[0];
-        Audio.Play();
+        Audio.Play(140);
 
         
         JesterHandRight.HandDefaultPosition.Y *=-1;
         JesterHandLeft.SetActorLocation(JesterHandLeft.HandDefaultPosition);
         JesterHandRight.SetActorLocation(JesterHandRight.HandDefaultPosition);
-        //CrossAttack();
+        //SlamAttack();
     }
 
 
@@ -400,7 +339,7 @@ class AJesterBoss :AActor{
 
         DecideAttack();
         
-        if(Audio.Sound.Duration <= Audio.Sound.Duration*PlayBackDuration+0.5){            
+        if(!Audio.IsPlaying()){            
             Audio.Play(0);
         }
 
@@ -606,9 +545,7 @@ class AJesterBoss :AActor{
             Audio.Play(StopTime);
         }else if(NewDimension == EDimension::Nightmare){
             Audio.Stop();
-            
             float StopTime = Audio.Sound.Duration *PlayBackDuration;
-            Print(""+StopTime);
             Audio.Sound = GameManager.NightmareMusic[PhaseOfBoss-1];
             Audio.Play(StopTime);
         }

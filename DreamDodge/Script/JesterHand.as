@@ -6,39 +6,48 @@ class AJesterHand : AActor{
     UPROPERTY(DefaultComponent)
     UBoxComponent OverlapArea;
 
-    //variables
+    //bools
     bool HandAttacking = false;
     bool InAttackPosition = false;
-    FVector PositionWhenReady;
-    FVector PositionWhenDone;
-    UPROPERTY()
-    FString CurrentHandAttack;
-    float HandSpeed = 15;
     bool SlamAttack = false;
-    TArray<ABulletSpawner> SlamAttackSpawners;
-    int FollowPatternBetweenSpawnersIndex  = 0;
     bool FollowPatternBetweenSpawners = false;
     bool SlamDown = false;
-    int TotalUnitsDown = 200;    
-    FVector HandDefaultPosition = FVector(0.000006,460.000000,2410.000000);
-    FBulletWaveTemplate AttackTemplete;
     bool MoveHand = false;
-
     bool CurrentlyAttacking = false;
-    float DelayBetweenMovements = 0.2f;
-    UPROPERTY()
-    TArray<FVector> PositionalQueue;
 
+    //fvectors
+    FVector PositionWhenReady;
+    FVector PositionWhenDone;
+    FVector HandDefaultPosition = FVector(0.000006,460.000000,2410.000000);
+   
+    //ints
+    int FollowPatternBetweenSpawnersIndex  = 0;
+    int TotalUnitsDown = 200;
     int PhaseOfBoss = 1;
+
+    //float
+    float HandSpeed = 15;
+    float DelayBetweenMovements = 0.2f;
     float GlobalBulletSpeed = 10;
 
+    //arrays
+    TArray<ABulletSpawner> SlamAttackSpawners;
+    TArray<FVector> PositionalQueue;
+
+    //strings
+    FString CurrentHandAttack;
+    
+    //bullet wave templates
+    FBulletWaveTemplate AttackTemplete;
 
     //managers and player acces
     APlayer Player;
+
+
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
     {
-         TArray<APlayer> players;
+        TArray<APlayer> players;
         GetAllActorsOfClass(APlayer,players);
         Player = players[0];
     }
@@ -68,6 +77,8 @@ class AJesterHand : AActor{
             TriggerSpeciicSpawners(SlamAttackSpawners);
             InAttackPosition = false;
         }
+
+        
     }
 
     UFUNCTION()

@@ -13,7 +13,7 @@ class ABeamHitBox : AActor{
     void ActorBeginOverlap(AActor OtherActor)
     {
         if(OtherActor.ActorHasTag(n"Boss")){
-            Cast<AJesterBoss>(OtherActor).TakeDamage(10);
+            Cast<AJesterBoss>(OtherActor).TakeDamage(7);
         }
     }
 }

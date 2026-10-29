@@ -1,6 +1,7 @@
 class AEnviormentManager : AActor{
     UPROPERTY(DefaultComponent, RootComponent)
     USceneComponent Root;
+    
     TArray<APlatform> DreamPlatforms;
     TArray<APlatform> NightmarePlatforms;
 

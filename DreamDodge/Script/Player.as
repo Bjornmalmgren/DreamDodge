@@ -96,10 +96,28 @@ class APlayer : ACharacter{
                     GameManager.PlayerDied();
                 }
             }else{
-                DodgeMeter += 10;
+                if(DodgeMeter+10 < 100){
+                    //normal add
+                    DodgeMeter += 10;
+                }else if(DodgeMeter < 100){
+                    //if at ex 95 adds the last 5
+                    DodgeMeter += 100-DodgeMeter;
+                }
+                    
                 ChangeMeter();
             }
         }
+        if(OtherActor.ActorHasTag(n"Hand")&& !Invincibility){
+            HealthComponent.DecreaseHealth(1);
+            ChangeMeter();
+            Invincibility = true;
+            System::SetTimer(this,n"OutOfinvincibility",0.4f,false,false);
+            if(HealthComponent.CurrentHealth <= 0){
+                //die and reset lvl
+                GameManager.PlayerDied();
+            }
+        }
+
     }
 
     UFUNCTION()
