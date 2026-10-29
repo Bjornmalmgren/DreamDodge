@@ -536,6 +536,8 @@ class AJesterBoss :AActor{
 
         JesterHandLeft.PositionalQueue.Add(OmegaSpawners[0].ActorLocation);
         JesterHandLeft.PositionalQueue.Add(OmegaSpawners.Last().ActorLocation);
+        JesterHandLeft.PositionalQueue.Add(OmegaSpawners[0].ActorLocation);
+        JesterHandLeft.PositionalQueue.Add(OmegaSpawners.Last().ActorLocation);
         JesterHandLeft.PositionalQueue.Add(OmegaSpawners[0].ActorLocation-FVector(0,1,0));
         JesterHandLeft.PositionalQueue.Add(JesterHandRight.HandDefaultPosition);
 
@@ -548,6 +550,8 @@ class AJesterBoss :AActor{
         JesterHandRight.PositionWhenReady =  OmegaSpawners.Last().ActorLocation;
         JesterHandRight.PositionWhenReady =  OmegaSpawners.Last().ActorLocation+FVector(0,1,0);
 
+        JesterHandRight.PositionalQueue.Add(OmegaSpawners.Last().ActorLocation);
+        JesterHandRight.PositionalQueue.Add(OmegaSpawners[0].ActorLocation);
         JesterHandRight.PositionalQueue.Add(OmegaSpawners.Last().ActorLocation);
         JesterHandRight.PositionalQueue.Add(OmegaSpawners[0].ActorLocation);
         JesterHandRight.PositionalQueue.Add(OmegaSpawners.Last().ActorLocation+FVector(0,1,0));

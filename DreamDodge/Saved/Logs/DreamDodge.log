@@ -62426,3 +62426,243 @@ Make sure '/Game/BluePrints/BP_Player.BP_Player_C' has been compiled for  Set St
 [2026.10.29-12.21.24:896][856]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=364, StreamState=2
 [2026.10.29-12.21.24:907][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
 [2026.10.29-12.21.24:954][857]LogPlayLevel: Display: Destroying online subsystem :Context_405
+[2026.10.29-12.22.51:545][820]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 105145.742188
+[2026.10.29-12.22.52:545][823]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-12.22.52:545][823]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 105146.414062, Update Interval: 344.926300
+[2026.10.29-12.29.37:274][ 37]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 105554.335938
+[2026.10.29-12.29.38:274][ 40]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-12.29.38:274][ 40]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 105555.007812, Update Interval: 324.205444
+[2026.10.29-12.33.46:922][342]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.29-12.33.46:932][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.29-12.33.46:961][342]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.33.46:980][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018108s)
+[2026.10.29-12.33.46:980][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.018158s)
+[2026.10.29-12.33.47:009][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.10.29-12.33.47:017][342]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-12.33.47:019][342]LogPlayLevel: PIE: World Init took: (0.002075s)
+[2026.10.29-12.33.47:019][342]LogAudio: Display: Creating Audio Device:                 Id: 365, Scope: Unique, Realtime: True
+[2026.10.29-12.33.47:019][342]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.29-12.33.47:019][342]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.29-12.33.47:019][342]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.29-12.33.47:019][342]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.29-12.33.47:019][342]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.29-12.33.47:019][342]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.29-12.33.47:019][342]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.29-12.33.47:019][342]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.29-12.33.47:019][342]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.29-12.33.47:021][342]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.29-12.33.47:021][342]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.29-12.33.47:023][342]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.29-12.33.47:043][342]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.29-12.33.47:044][342]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.29-12.33.47:044][342]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.29-12.33.47:044][342]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.29-12.33.47:044][342]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=365
+[2026.10.29-12.33.47:044][342]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=365
+[2026.10.29-12.33.47:048][342]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=365
+[2026.10.29-12.33.47:048][342]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=365
+[2026.10.29-12.33.47:048][342]LogInit: FAudioDevice initialized with ID 365.
+[2026.10.29-12.33.47:048][342]LogAudio: Display: Audio Device (ID: 365) registered with world 'MainLVL'.
+[2026.10.29-12.33.47:048][342]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 365
+[2026.10.29-12.33.47:054][342]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-12.33.47:058][342]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-13.33.47
+[2026.10.29-12.33.47:058][342]LogWorld: Bringing up level for play took: 0.004214
+[2026.10.29-12.33.47:061][342]LogOnline: OSS: Created online subsystem instance for: :Context_406
+[2026.10.29-12.33.47:062][342]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.33.47:062][342]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.33.47:062][342]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.33.47:066][342]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.33.47:066][342]PIE: Server logged in
+[2026.10.29-12.33.47:070][342]PIE: Play in editor total start time 0.137 seconds.
+[2026.10.29-12.34.23:383][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.34.23:383][273]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.34.23:383][273]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-12.34.23:384][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.34.23:387][273]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.29-12.34.23:394][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.34.23:425][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.34.23:425][273]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 365
+[2026.10.29-12.34.23:426][273]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=365, StreamState=4
+[2026.10.29-12.34.23:428][273]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=365, StreamState=2
+[2026.10.29-12.34.23:438][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.10.29-12.34.23:504][274]LogPlayLevel: Display: Destroying online subsystem :Context_406
+[2026.10.29-12.35.47:093][767]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 105917.039062
+[2026.10.29-12.35.48:092][770]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-12.35.48:092][770]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 105917.703125, Update Interval: 352.529053
+[2026.10.29-12.42.27:143][967]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 106319.859375
+[2026.10.29-12.42.28:142][970]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-12.42.28:142][970]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 106320.531250, Update Interval: 347.973267
+[2026.10.29-12.43.05:851][ 73]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.29-12.43.05:862][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.29-12.43.05:892][ 73]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.43.05:909][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017220s)
+[2026.10.29-12.43.05:909][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017266s)
+[2026.10.29-12.43.05:957][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.10.29-12.43.05:962][ 73]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-12.43.05:964][ 73]LogPlayLevel: PIE: World Init took: (0.002020s)
+[2026.10.29-12.43.05:965][ 73]LogAudio: Display: Creating Audio Device:                 Id: 366, Scope: Unique, Realtime: True
+[2026.10.29-12.43.05:965][ 73]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.29-12.43.05:965][ 73]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.29-12.43.05:965][ 73]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.29-12.43.05:965][ 73]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.29-12.43.05:965][ 73]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.29-12.43.05:965][ 73]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.29-12.43.05:965][ 73]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.29-12.43.05:965][ 73]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.29-12.43.05:965][ 73]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.29-12.43.05:965][ 73]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.29-12.43.05:965][ 73]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.29-12.43.05:968][ 73]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.29-12.43.05:988][ 73]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.29-12.43.05:988][ 73]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.29-12.43.05:988][ 73]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.29-12.43.05:988][ 73]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.29-12.43.05:989][ 73]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=366
+[2026.10.29-12.43.05:989][ 73]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=366
+[2026.10.29-12.43.05:993][ 73]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=366
+[2026.10.29-12.43.05:993][ 73]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=366
+[2026.10.29-12.43.05:993][ 73]LogInit: FAudioDevice initialized with ID 366.
+[2026.10.29-12.43.05:993][ 73]LogAudio: Display: Audio Device (ID: 366) registered with world 'MainLVL'.
+[2026.10.29-12.43.05:993][ 73]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 366
+[2026.10.29-12.43.05:997][ 73]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-12.43.06:001][ 73]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-13.43.06
+[2026.10.29-12.43.06:002][ 73]LogWorld: Bringing up level for play took: 0.004176
+[2026.10.29-12.43.06:004][ 73]LogOnline: OSS: Created online subsystem instance for: :Context_407
+[2026.10.29-12.43.06:004][ 73]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.43.06:004][ 73]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.43.06:004][ 73]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.43.06:009][ 73]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.43.06:009][ 73]PIE: Server logged in
+[2026.10.29-12.43.06:012][ 73]PIE: Play in editor total start time 0.151 seconds.
+[2026.10.29-12.44.52:942][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.44.52:942][269]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.44.52:942][269]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-12.44.52:943][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.44.52:946][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.29-12.44.52:954][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.44.52:984][269]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.29-12.44.52:985][269]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 366
+[2026.10.29-12.44.52:985][269]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=366, StreamState=4
+[2026.10.29-12.44.52:987][269]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=366, StreamState=2
+[2026.10.29-12.44.52:992][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.44.52:999][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.10.29-12.44.53:053][270]LogPlayLevel: Display: Destroying online subsystem :Context_407
+[2026.10.29-12.47.50:393][594]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.29-12.47.50:403][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.29-12.47.50:403][594]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.47.50:422][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018025s)
+[2026.10.29-12.47.50:422][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.018077s)
+[2026.10.29-12.47.50:451][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2026.10.29-12.47.50:456][594]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.29-12.47.50:458][594]LogPlayLevel: PIE: World Init took: (0.001899s)
+[2026.10.29-12.47.50:458][594]LogAudio: Display: Creating Audio Device:                 Id: 367, Scope: Unique, Realtime: True
+[2026.10.29-12.47.50:458][594]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.29-12.47.50:458][594]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.29-12.47.50:458][594]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.29-12.47.50:458][594]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.29-12.47.50:458][594]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.29-12.47.50:458][594]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.29-12.47.50:458][594]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.29-12.47.50:458][594]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.29-12.47.50:458][594]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.29-12.47.50:458][594]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.29-12.47.50:458][594]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.29-12.47.50:461][594]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.29-12.47.50:479][594]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.29-12.47.50:479][594]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.29-12.47.50:479][594]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.29-12.47.50:479][594]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.29-12.47.50:481][594]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=367
+[2026.10.29-12.47.50:481][594]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=367
+[2026.10.29-12.47.50:485][594]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=367
+[2026.10.29-12.47.50:485][594]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=367
+[2026.10.29-12.47.50:485][594]LogInit: FAudioDevice initialized with ID 367.
+[2026.10.29-12.47.50:485][594]LogAudio: Display: Audio Device (ID: 367) registered with world 'MainLVL'.
+[2026.10.29-12.47.50:485][594]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 367
+[2026.10.29-12.47.50:491][594]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.29-12.47.50:495][594]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.29-13.47.50
+[2026.10.29-12.47.50:495][594]LogWorld: Bringing up level for play took: 0.003961
+[2026.10.29-12.47.50:498][594]LogOnline: OSS: Created online subsystem instance for: :Context_408
+[2026.10.29-12.47.50:498][594]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.47.50:498][594]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.29-12.47.50:498][594]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.47.50:502][594]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.29-12.47.50:503][594]PIE: Server logged in
+[2026.10.29-12.47.50:505][594]PIE: Play in editor total start time 0.102 seconds.
+[2026.10.29-12.48.42:153][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.48.42:153][298]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.29-12.48.42:153][298]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.29-12.48.42:154][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.48.42:158][298]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.29-12.48.42:164][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.29-12.48.42:195][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.29-12.48.42:195][298]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 367
+[2026.10.29-12.48.42:196][298]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=367, StreamState=4
+[2026.10.29-12.48.42:198][298]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=367, StreamState=2
+[2026.10.29-12.48.42:209][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.10.29-12.48.42:264][299]LogPlayLevel: Display: Destroying online subsystem :Context_408
+[2026.10.29-12.49.05:694][ 15]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 106706.156250
+[2026.10.29-12.49.06:693][ 18]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.29-12.49.06:693][ 18]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 106706.828125, Update Interval: 358.174377
+[2026.10.29-12.49.08:354][ 23]Angelscript: preprocessing took 0.372 ms
+[2026.10.29-12.49.08:354][ 23]Angelscript: script compilation stage1 and stage2 took 0.539 ms
+[2026.10.29-12.49.08:354][ 23]Angelscript: script reload reference replacement took 0.038 ms
+[2026.10.29-12.49.08:354][ 23]Angelscript: script compilation class layouting took 0.041 ms
+[2026.10.29-12.49.08:354][ 23]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.49.08:355][ 23]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.49.08:355][ 23]Angelscript:  (165:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (175:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (176:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (198:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (199:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (221:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (222:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (244:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (245:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (266:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (267:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (288:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.08:355][ 23]Angelscript: Warning:  (289:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.08:357][ 23]Angelscript: script compilation stage3 took 2.441 ms
+[2026.10.29-12.49.08:357][ 23]Angelscript: script compilation stage4 took 0.008 ms
+[2026.10.29-12.49.08:357][ 23]Angelscript: script compilation total took 3.094 ms
+[2026.10.29-12.49.08:357][ 23]Angelscript: class generator analysis took 0.116 ms
+[2026.10.29-12.49.08:357][ 23]Angelscript: new module swap-in took 0.015 ms
+[2026.10.29-12.49.08:357][ 23]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.49.08:357][ 23]Angelscript: class generator reload took 0.445 ms
+[2026.10.29-12.49.08:357][ 23]Angelscript: post soft reload took 0.005 ms
+[2026.10.29-12.49.08:358][ 23]Angelscript: old module cleanup took 0.193 ms
+[2026.10.29-12.49.08:358][ 23]Angelscript: update module cache took 0.000 ms
+[2026.10.29-12.49.08:358][ 23]Angelscript: ==script reload total == took 4.669 ms
+[2026.10.29-12.49.25:664][ 38]Angelscript: preprocessing took 0.392 ms
+[2026.10.29-12.49.25:664][ 38]Angelscript: script compilation stage1 and stage2 took 0.459 ms
+[2026.10.29-12.49.25:664][ 38]Angelscript: script reload reference replacement took 0.036 ms
+[2026.10.29-12.49.25:664][ 38]Angelscript: script compilation class layouting took 0.040 ms
+[2026.10.29-12.49.25:664][ 38]Angelscript: Compiling (code only): Boss
+[2026.10.29-12.49.25:665][ 38]Angelscript: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.49.25:665][ 38]Angelscript:  (165:5): Compiling void AJesterBoss::SortSpawner()
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning: C:/Users/bjmall-3-local/Documents/GitHub/DreamDodge/DreamDodge/Script/Boss.as:
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (175:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (176:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (198:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (199:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (221:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (222:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (244:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (245:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (266:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (267:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (288:25): Variable 'Left' shadows property from the class scope
+[2026.10.29-12.49.25:665][ 38]Angelscript: Warning:  (289:25): Variable 'Right' shadows property from the class scope
+[2026.10.29-12.49.25:667][ 38]Angelscript: script compilation stage3 took 2.892 ms
+[2026.10.29-12.49.25:667][ 38]Angelscript: script compilation stage4 took 0.008 ms
+[2026.10.29-12.49.25:667][ 38]Angelscript: script compilation total took 3.461 ms
+[2026.10.29-12.49.25:667][ 38]Angelscript: class generator analysis took 0.107 ms
+[2026.10.29-12.49.25:668][ 38]Angelscript: new module swap-in took 0.014 ms
+[2026.10.29-12.49.25:668][ 38]Angelscript: Soft Reload: AJesterBoss
+[2026.10.29-12.49.25:668][ 38]Angelscript: class generator reload took 0.453 ms
+[2026.10.29-12.49.25:668][ 38]Angelscript: post soft reload took 0.004 ms
+[2026.10.29-12.49.25:668][ 38]Angelscript: old module cleanup took 0.127 ms
+[2026.10.29-12.49.25:668][ 38]Angelscript: update module cache took 0.000 ms
+[2026.10.29-12.49.25:668][ 38]Angelscript: ==script reload total == took 5.020 ms
