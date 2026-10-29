@@ -14,6 +14,8 @@ class APlayer : ACharacter{
 
     UPROPERTY()
     UHeadsUpDisplay HUD;
+    UPROPERTY()
+    UEndScreenWidget EndScreen;
 
     UPROPERTY()
     float DodgeMeter = 0;
@@ -62,7 +64,7 @@ class APlayer : ACharacter{
         GetAllActorsOfClass(AWeapon, Weapons);
         DreamCatcher = Weapons[0];
 
-        
+        EndScreen.Restart.OnPressed.AddUFunction(this, n"ResetLevel");        
 
         Cast<APlayerController>(GetController()).bShowMouseCursor = true;
     }
@@ -91,6 +93,7 @@ class APlayer : ACharacter{
                 System::SetTimer(this,n"OutOfinvincibility",0.4f,false,false);
                 if(HealthComponent.CurrentHealth <= 0){
                     //die and reset lvl
+                    GameManager.PlayerDied();
                 }
             }else{
                 DodgeMeter += 10;
@@ -158,6 +161,11 @@ class APlayer : ACharacter{
         }
         GameManager.SwapDimensions(CurrentDimension);
         
+    }
+
+    UFUNCTION()
+    void ResetLevel(){
+        Gameplay::OpenLevel(GetWorld().GetName());
     }
 
     

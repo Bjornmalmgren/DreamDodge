@@ -13,14 +13,6 @@ class AJesterBoss :AActor{
     UPROPERTY(DefaultComponent)
     UHealComponent Health;
 
-    UPROPERTY(DefaultComponent)
-    UStaticMeshComponent RightHand;
-    UPROPERTY(DefaultComponent, Attach = RightHand)
-    UBoxComponent RightHandHitBox;
-    UPROPERTY(DefaultComponent)
-    UStaticMeshComponent LeftHand;
-    UPROPERTY(DefaultComponent, Attach = LeftHand)
-    UBoxComponent LeftHandHitBox;
     UPROPERTY()
     FAttack Left;
     UPROPERTY()
@@ -33,6 +25,11 @@ class AJesterBoss :AActor{
     FAttack Slam;
     UPROPERTY()
     FAttack Cross;
+
+    UPROPERTY()
+    AJesterHand JesterHandLeft;
+    UPROPERTY()
+    AJesterHand JesterHandRight;
 
     UPROPERTY(DefaultComponent)
     UAudioComponent Audio;
@@ -66,53 +63,53 @@ class AJesterBoss :AActor{
     AActor JesterRight;
 
 
-    bool CurrentlyAttacking = false;
+    //bool CurrentlyAttacking = false;
 
     //right hand attacking variables
-    bool RightHandAttacking = false;
-    UPROPERTY()
-    FString CurrentRightHandAttack;
-    bool RightInAttackPosition = false;
-    FVector RightPositionWhenReady;
-    FVector RightPositionWhenDone;
-    float RightHandSpeed = 15;
-    bool RightSlamAttack = false;
-    UPROPERTY()
-    TArray<ABulletSpawner> RightSlamAttackSpawners;
-    int RightFollowPatternBetweenSpawnersIndex  = 0;
-    bool RightFollowPatternBetweenSpawners = false;
-    bool RightSlamDown = false;
-    int TotalRightUnitsDown = 200;
-
-    //left hand attacking variables
-    bool LeftHandAttacking = false;
-    bool LeftInAttackPosition = false;
-    FVector LeftPositionWhenReady;
-    FVector LeftPositionWhenDone;
-    UPROPERTY()
-    FString CurrentLeftHandAttack;
-    float LeftHandSpeed = 15;
-    bool LeftSlamAttack = false;
-    TArray<ABulletSpawner> LeftSlamAttackSpawners;
-    int LeftFollowPatternBetweenSpawnersIndex  = 0;
-    bool LeftFollowPatternBetweenSpawners = false;
-    bool LeftSlamDown = false;
-    int TotalLeftUnitsDown = 200;
+    //bool RightHandAttacking = false;
+    //UPROPERTY()
+    //FString CurrentRightHandAttack;
+    //bool RightInAttackPosition = false;
+    //FVector RightPositionWhenReady;
+    //FVector RightPositionWhenDone;
+    //float RightHandSpeed = 15;
+    //bool RightSlamAttack = false;
+    //UPROPERTY()
+    //TArray<ABulletSpawner> RightSlamAttackSpawners;
+    //int RightFollowPatternBetweenSpawnersIndex  = 0;
+    //bool RightFollowPatternBetweenSpawners = false;
+    //bool RightSlamDown = false;
+    //int TotalRightUnitsDown = 200;
+//
+    ////left hand attacking variables
+    //bool LeftHandAttacking = false;
+    //bool LeftInAttackPosition = false;
+    //FVector LeftPositionWhenReady;
+    //FVector LeftPositionWhenDone;
+    //UPROPERTY()
+    //FString CurrentLeftHandAttack;
+    //float LeftHandSpeed = 15;
+    //bool LeftSlamAttack = false;
+    //TArray<ABulletSpawner> LeftSlamAttackSpawners;
+    //int LeftFollowPatternBetweenSpawnersIndex  = 0;
+    //bool LeftFollowPatternBetweenSpawners = false;
+    //bool LeftSlamDown = false;
+    //int TotalLeftUnitsDown = 200;
 
     //the hands move and trigger the spawner so a queue is made the keep track it will be FIFO
-    UPROPERTY()
-    TArray<FVector> LeftPositionalQueue;
-    UPROPERTY()
-    TArray<FVector> RightPositionalQueue;
-    //variables for moving the hands
-    bool MoveLeftHand = false;
-    bool MoveRightHand = false;
-    float DelayBetweenMovements = 0.2f;
-
-
-    //wave templet for the spawners
-    FBulletWaveTemplate LeftAttackTemplete;
-    FBulletWaveTemplate RightAttackTemplete;
+    //UPROPERTY()
+    //TArray<FVector> LeftPositionalQueue;
+    //UPROPERTY()
+    //TArray<FVector> RightPositionalQueue;
+    ////variables for moving the hands
+    //bool MoveLeftHand = false;
+    //bool MoveRightHand = false;
+    //float DelayBetweenMovements = 0.2f;
+//
+//
+    ////wave templet for the spawners
+    //FBulletWaveTemplate LeftAttackTemplete;
+    //FBulletWaveTemplate RightAttackTemplete;
 
     //
     float GlobalBulletSpeed = 10;
@@ -144,15 +141,17 @@ class AJesterBoss :AActor{
 
         Up.AttackName = "Up";
         Up.Weight = 16.0f;
+
         Down.AttackName = "Down";
         Down.Weight = 18.0f;
-        Down.AttackName = "Slam";
-        Down.Weight = 16.0f;
-        Down.AttackName = "Cross";
-        Down.Weight = 16.0f;
 
-        Attacks.Add(Cross);
-        AttackOrder.Add(5);
+        Slam.AttackName = "Slam";
+        Slam.Weight = 16.0f;
+
+        Cross.AttackName = "Cross";
+        Cross.Weight = 16.0f;
+
+        
 
         Health.SetHealth(90);
 
@@ -169,6 +168,8 @@ class AJesterBoss :AActor{
         AttackOrder.Add(3);
         AttackOrder.Add(4);
 
+        Attacks.Add(Cross);
+        AttackOrder.Add(5);
         //finding spawners and its locations
         
 
@@ -202,13 +203,19 @@ class AJesterBoss :AActor{
         GameManager = GameManagers[0];
         
         Audio.Sound = GameManager.DreamMusic[0];
-        Audio.Play(134);
-        Print(""+Audio.Sound.Duration);
+        Audio.Play();
+
+        
+        JesterHandRight.HandDefaultPosition.Y *=-1;
+        JesterHandLeft.SetActorLocation(JesterHandLeft.HandDefaultPosition);
+        JesterHandRight.SetActorLocation(JesterHandRight.HandDefaultPosition);
+        //CrossAttack();
     }
 
 
     UFUNCTION()
     void SortSpawner(){
+        //this is the easiest way to make sure all the spawners are in the right order, really ugly and i hate it
          TArray<ABulletSpawner> tempLeft;
         
        
@@ -328,7 +335,7 @@ class AJesterBoss :AActor{
     void DecideAttack(){
         
 
-        if(!CurrentlyAttacking){
+        if(!JesterHandLeft.CurrentlyAttacking && !JesterHandRight.CurrentlyAttacking){
             //decide on attack
             AttackOrder.Shuffle();
             float RandomNumber = Math::RandRange(0.0f, 100.0f);
@@ -344,6 +351,15 @@ class AJesterBoss :AActor{
             }
             //use attack now
             //fuck this shit is not pretty
+            if(JesterHandRight.CurrentlyAttacking && Attacks[AttackIndex].AttackName == "Right"){
+                DecideAttack();
+                return;
+            }
+
+            if(JesterHandLeft.CurrentlyAttacking && Attacks[AttackIndex].AttackName == "Left"){
+                DecideAttack();
+                return;
+            }
             float WeightChange = Math::RandRange(1.0f, 7.0f);
             if(Attacks[AttackIndex].AttackName == "Left"){
                 LeftScreenAttack();
@@ -359,6 +375,8 @@ class AJesterBoss :AActor{
                 CrossAttack();
             }
             
+            
+
             //chnages weights around to make the fight more intresting
             if(Attacks[AttackIndex].Weight - WeightChange <= 0){
                     float diffrence = Attacks[AttackIndex].Weight - WeightChange;
@@ -381,20 +399,7 @@ class AJesterBoss :AActor{
     {
 
         DecideAttack();
-        if(MoveLeftHand)
-            if(CurrentLeftHandAttack == "Slam"){
-                SetupLeftSlamAttack();
-            }else{
-                MoveLeftJesterHands();
-            }
-            
-        if(MoveRightHand)
-            if(CurrentRightHandAttack == "Slam"){
-                SetupRightSlamAttack();
-            }else{
-                MoveRightJesterHands();
-            }
-
+        
         if(Audio.Sound.Duration <= Audio.Sound.Duration*PlayBackDuration+0.5){            
             Audio.Play(0);
         }
@@ -402,253 +407,73 @@ class AJesterBoss :AActor{
     }
 
 
-    UFUNCTION()
-    void SetupRightSlamAttack(){
-        if(!RightSlamDown){
-            TotalRightUnitsDown = 500;
-            FVector DirectionToDesired =  Player.ActorLocation + FVector(0,0,500) - RightHand.WorldLocation;
-            DirectionToDesired.Normalize();
-            RightHandSpeed = 10;
-            RightHand.SetWorldLocation(RightHand.WorldLocation + DirectionToDesired * RightHandSpeed);
-        }else{
-            RightHand.SetWorldLocation(RightHand.WorldLocation -FVector(0,0,1)*15);
-            TotalRightUnitsDown -= 15;
-            if(TotalRightUnitsDown <= 0){
-                CurrentRightHandAttack= "";
-                RightPositionalQueue.Add(RightHandDefaultPosition);
-                RightHandSpeed = 10+ 5*PhaseOfBoss;
-                MoveRightJesterHands();
-            }
-            
-        }
-        
-    }
-    UFUNCTION()
-    void RightSlamAttackExecution(){
-        RightSlamDown = true;
-    }
-
-    UFUNCTION()
-    void SetupLeftSlamAttack(){
-        if(!LeftSlamDown){
-            TotalLeftUnitsDown = 500;
-            FVector DirectionToDesired =  Player.ActorLocation + FVector(0,0,500) - LeftHand.WorldLocation;
-            DirectionToDesired.Normalize();
-            LeftHandSpeed = 10;
-            LeftHand.SetWorldLocation(LeftHand.WorldLocation + DirectionToDesired * LeftHandSpeed);
-        }else{
-            LeftHand.SetWorldLocation(LeftHand.WorldLocation -FVector(0,0,1)*15);
-            TotalLeftUnitsDown -= 15;
-            if(TotalLeftUnitsDown <= 0){
-                CurrentLeftHandAttack= "";
-                LeftPositionalQueue.Add(LeftHandDefaultPosition);
-                LeftHandSpeed = 10+5*PhaseOfBoss;
-                MoveLeftJesterHands();
-            }
-            
-        }
-        
-    }
-    UFUNCTION()
-    void LeftSlamAttackExecution(){
-        LeftSlamDown = true;
-    }
-
-    void MoveLeftJesterHands(){  
-        if(LeftPositionalQueue.Num() <= 0){
-                
-                return;
-            }     
-        if(LeftHand.WorldLocation.Distance(LeftPositionalQueue[0]) < 10){
-            if(LeftPositionWhenReady == LeftPositionalQueue[0]){
-                LeftInAttackPosition = true;
-            }
-            if(LeftPositionWhenDone == LeftPositionalQueue[0]){
-                 LeftInAttackPosition = false;
-            }
-               
-            LeftHand.WorldLocation = LeftPositionalQueue[0];
-            LeftPositionalQueue.RemoveAt(0);
-            MoveLeftHand = false;
-            if(LeftPositionalQueue.Num() <= 0){
-                CurrentlyAttacking = false;
-                ResetNumbersBetweenAttacks();
-                return;
-            }else{
-                //add in delay
-                System::SetTimer(this,n"ContinueMovingLeftHand",DelayBetweenMovements,false,false);
-            }
-                
-        }
-        FVector DirectionToDesired = LeftPositionalQueue[0] - LeftHand.WorldLocation;
-        DirectionToDesired.Normalize();
-        //System::DrawDebugArrow(LeftHand.WorldLocation,LeftHand.WorldLocation + DirectionToDesired,4,FLinearColor::Red, 10000, 10 );
-        LeftHand.SetWorldLocation(LeftHand.WorldLocation + DirectionToDesired * LeftHandSpeed);
-
-    }
-
-    void MoveRightJesterHands(){    
-        if(RightPositionalQueue.Num() <= 0){
-        
-            return;
-        }    
-        if(RightHand.WorldLocation.Distance(RightPositionalQueue[0]) < 10){
-            if(RightPositionWhenReady == RightPositionalQueue[0])
-                RightInAttackPosition = true;
-            if(RightPositionWhenDone == RightPositionalQueue[0])
-                RightInAttackPosition = false;
-            RightHand.WorldLocation = RightPositionalQueue[0];
-            RightPositionalQueue.RemoveAt(0);
-            MoveRightHand = false;
-            if(RightPositionalQueue.Num() <= 0){
-                ResetNumbersBetweenAttacks();
-                CurrentlyAttacking = false;
-                return;
-            }else{
-                //add in delay
-                System::SetTimer(this,n"ContinueMovingRightHand",DelayBetweenMovements,false,false);
-            }
-                
-        }
-        FVector DirectionToDesired = RightPositionalQueue[0] - RightHand.WorldLocation;
-        DirectionToDesired.Normalize();
-        //System::DrawDebugArrow(LeftHand.WorldLocation,LeftHand.WorldLocation + DirectionToDesired,4,FLinearColor::Red, 10000, 10 );
-        RightHand.SetWorldLocation(RightHand.WorldLocation + DirectionToDesired * RightHandSpeed);
-
-    }
-
-    UFUNCTION()
-    void ContinueMovingLeftHand(){
-        MoveLeftHand = true;
-    }
-
-    UFUNCTION()
-    void ContinueMovingRightHand(){
-        MoveRightHand = true;
-    }
-
-    UFUNCTION()
-    void TriggerSpeciicSpawners(TArray<ABulletSpawner> Spawners, FString WhichHand){
-        int i = 0;
-        FBulletWaveTemplate Template;
-        if(WhichHand == "Left"){
-            Template = LeftAttackTemplete;
-        }else if (WhichHand == "Right"){
-            Template = RightAttackTemplete;
-        }else{
-            return;
-        }
-        for(auto Spawner : Spawners){
-            if(LeftFollowPatternBetweenSpawners || RightFollowPatternBetweenSpawners){
-                Template.BulletType = Template.DimensionPattern[i];
-
-                Spawner.SpawnBulletWave(Template);
-                i++;
-                if(i >= Template.DimensionPattern.Num()){
-                    i = 0;
-                }
-                    
-            }else{
-                Spawner.SpawnBulletWave(Template);
-            }
-        }
-    }
-    UFUNCTION()
-    void RightHandOverlap(AActor OtherActor){
-        //always right hand
-        if(CurrentRightHandAttack == "Cross" && OtherActor.GetActorNameOrLabel().Contains(CurrentRightHandAttack) && RightInAttackPosition && !RightSlamAttack){
-            ABulletSpawner  BulletSpawner = Cast<ABulletSpawner>(OtherActor);
-            BulletSpawner.BulletWave.BulletSpeed = GlobalBulletSpeed;
-            BulletSpawner.SpawnBulletWave(BulletSpawner.BulletWave);
-        }else if(OtherActor.GetActorNameOrLabel().Contains(CurrentRightHandAttack) && RightInAttackPosition && !RightSlamAttack){
-            RightAttackTemplete.DimensionPattern.Shuffle();
-            Cast<ABulletSpawner>(OtherActor).SpawnBulletWave(RightAttackTemplete);
-        }else if(OtherActor.GetActorNameOrLabel().Contains(CurrentRightHandAttack) && RightInAttackPosition && RightSlamAttack){
-            TriggerSpeciicSpawners(RightSlamAttackSpawners, "Right");
-            RightInAttackPosition = false;
-        }
-    }
-
-    UFUNCTION()
-    void LeftHandOverlap(AActor OtherActor){
-        //always left hand
-        if(CurrentLeftHandAttack == "Cross" && OtherActor.GetActorNameOrLabel().Contains(CurrentLeftHandAttack) && LeftInAttackPosition && !LeftSlamAttack){
-            ABulletSpawner  BulletSpawner = Cast<ABulletSpawner>(OtherActor);
-            BulletSpawner.BulletWave.BulletSpeed = GlobalBulletSpeed;
-            BulletSpawner.SpawnBulletWave(BulletSpawner.BulletWave);
-        }else if(OtherActor.GetActorNameOrLabel().Contains(CurrentLeftHandAttack) && LeftInAttackPosition && !LeftSlamAttack){
-            LeftAttackTemplete.DimensionPattern.Shuffle();
-            Cast<ABulletSpawner>(OtherActor).SpawnBulletWave(LeftAttackTemplete);
-        }else if(OtherActor.GetActorNameOrLabel().Contains(CurrentLeftHandAttack) && LeftInAttackPosition && LeftSlamAttack){
-            TriggerSpeciicSpawners(LeftSlamAttackSpawners, "Left");
-            LeftInAttackPosition = false;
-        }
-    }
 
     void LeftScreenAttack(){
         //takes left hand and activates the spawners with a downward motion: shoots one bullet
         //need to fix a static version like the slam from the top
-        LeftAttackTemplete.BulletDirection = EMovementDirection::Right;
-        LeftAttackTemplete.BulletSpeed = GlobalBulletSpeed;
-        LeftAttackTemplete.DimensionPattern.Add(EDimension::Dream);
-        LeftAttackTemplete.DimensionPattern.Add(EDimension::Dream);
-        LeftAttackTemplete.DimensionPattern.Add(EDimension::Nightmare);
-        LeftAttackTemplete.DimensionPattern.Add(EDimension::Nightmare);
-        LeftAttackTemplete.DimensionPattern.Add(EDimension::Normal);
-        LeftAttackTemplete.EnablePattern = true;
-        LeftAttackTemplete.RepeatPattern = true;
+        JesterHandLeft.AttackTemplete.BulletDirection = EMovementDirection::Right;
+        JesterHandLeft.AttackTemplete.BulletSpeed = GlobalBulletSpeed;
+        JesterHandLeft.AttackTemplete.DimensionPattern.Add(EDimension::Dream);
+        JesterHandLeft.AttackTemplete.DimensionPattern.Add(EDimension::Dream);
+        JesterHandLeft.AttackTemplete.DimensionPattern.Add(EDimension::Nightmare);
+        JesterHandLeft.AttackTemplete.DimensionPattern.Add(EDimension::Nightmare);
+        JesterHandLeft.AttackTemplete.DimensionPattern.Add(EDimension::Normal);
+        JesterHandLeft.AttackTemplete.EnablePattern = true;
+        JesterHandLeft.AttackTemplete.RepeatPattern = true;
 
-        LeftPositionWhenReady = LeftSpawners[0].ActorLocation + FVector(0,100,300);
-        LeftPositionWhenDone = LeftSpawners.Last().ActorLocation + FVector(0,100,-100);
+        JesterHandLeft.PositionWhenReady = LeftSpawners[0].ActorLocation + FVector(0,100,300);
+        JesterHandLeft.PositionWhenDone = LeftSpawners.Last().ActorLocation + FVector(0,100,-100);
 
-        LeftPositionalQueue.Add(LeftSpawners[0].ActorLocation + FVector(0,100,300));
-        LeftPositionalQueue.Add(LeftSpawners.Last().ActorLocation + FVector(0,100,-100));
-        LeftPositionalQueue.Add(LeftHandDefaultPosition);
+        JesterHandLeft.PositionalQueue.Add(LeftSpawners[0].ActorLocation + FVector(0,100,300));
+        JesterHandLeft.PositionalQueue.Add(LeftSpawners.Last().ActorLocation + FVector(0,100,-100));
+        JesterHandLeft.PositionalQueue.Add(JesterHandLeft.HandDefaultPosition);
 
-        LeftHandAttacking = true;
-        CurrentLeftHandAttack = "Left";
-        MoveLeftHand = true;
+        JesterHandLeft.HandAttacking = true;
+        JesterHandLeft.CurrentHandAttack = "Left";
+        JesterHandLeft.MoveHand = true;
         SetActorLocation(JesterLeft.ActorLocation);
-        CurrentlyAttacking = true;
+        JesterHandLeft.CurrentlyAttacking = true;
+        
     }
 
     void RightScreenAttack(){   
         //same as left but from the right
 
-        RightAttackTemplete.BulletDirection = EMovementDirection::Left;
-        RightAttackTemplete.BulletSpeed = GlobalBulletSpeed;
-        RightAttackTemplete.DimensionPattern.Add(EDimension::Dream);
-        RightAttackTemplete.DimensionPattern.Add(EDimension::Dream);
-        RightAttackTemplete.DimensionPattern.Add(EDimension::Nightmare);
-        RightAttackTemplete.DimensionPattern.Add(EDimension::Nightmare);
-        RightAttackTemplete.DimensionPattern.Add(EDimension::Normal);
-        RightAttackTemplete.EnablePattern = true;
-        RightAttackTemplete.RepeatPattern = true;
-
-        RightPositionWhenDone = RightSpawners[0].ActorLocation + FVector(0,-100,300);
-        RightPositionWhenReady = RightSpawners.Last().ActorLocation + FVector(0,-100,-100);
-
-        RightPositionalQueue.Add(RightSpawners.Last().ActorLocation + FVector(0,-100,-100));
-        RightPositionalQueue.Add(RightSpawners[0].ActorLocation + FVector(0,-100,300));
-        
-        RightPositionalQueue.Add(RightHandDefaultPosition);
-        RightHandAttacking = true;
-        CurrentRightHandAttack = "Right";
-        MoveRightHand = true;
+        JesterHandRight.AttackTemplete.BulletDirection = EMovementDirection::Left;
+        JesterHandRight.AttackTemplete.BulletSpeed = GlobalBulletSpeed;
+        JesterHandRight.AttackTemplete.DimensionPattern.Add(EDimension::Dream);
+        JesterHandRight.AttackTemplete.DimensionPattern.Add(EDimension::Dream);
+        JesterHandRight.AttackTemplete.DimensionPattern.Add(EDimension::Nightmare);
+        JesterHandRight.AttackTemplete.DimensionPattern.Add(EDimension::Nightmare);
+        JesterHandRight.AttackTemplete.DimensionPattern.Add(EDimension::Normal);
+        JesterHandRight.AttackTemplete.EnablePattern = true;
+        JesterHandRight.AttackTemplete.RepeatPattern = true;
+        JesterHandRight.PositionWhenDone = RightSpawners[0].ActorLocation + FVector(0,-100,300);
+        JesterHandRight.PositionWhenReady = RightSpawners.Last().ActorLocation + FVector(0,-100,-100);
+        JesterHandRight.PositionalQueue.Add(RightSpawners.Last().ActorLocation + FVector(0,-100,-100));
+        JesterHandRight.PositionalQueue.Add(RightSpawners[0].ActorLocation + FVector(0,-100,300));
+        JesterHandRight.PositionalQueue.Add(JesterHandRight.HandDefaultPosition);
+        JesterHandRight.HandAttacking = true;
+        JesterHandRight.CurrentHandAttack = "Right";
+        JesterHandRight.MoveHand = true;
         SetActorLocation(JesterRight.ActorLocation);
-        CurrentlyAttacking = true;
+        JesterHandRight.CurrentlyAttacking = true;
+        
     }
 
     void UpScreenAttack(){
-        //slams the top if the map and send bullets down 50:50 which side
+        //lams the top if the map and send bullets down 50:50 which side
         //really really stupid and hardcoded
         float Side = Math::RandRange(0.0f, 100.0f);
         if(Side < 50.0f){
-            LeftHandSlamAttack(TopSpawners,2,2,2,"Up",TopSlamTemplate,true,FVector(0,0,600),FVector(0,0,100),4);
+            JesterHandLeft.HandSlamAttack(TopSpawners,2,2,2,"Up",TopSlamTemplate,true,FVector(0,0,600),FVector(0,0,100),4);
+            JesterHandLeft.CurrentlyAttacking = true;
         }else{
-            RightHandSlamAttack(TopSpawners,7,2,2,"Up",TopSlamTemplate,true,FVector(0,0,600),FVector(0,0,100),4);
+            JesterHandRight.HandSlamAttack(TopSpawners,7,2,2,"Up",TopSlamTemplate,true,FVector(0,0,600),FVector(0,0,100),4);
+            JesterHandRight.CurrentlyAttacking = true;
         }
-        CurrentlyAttacking = true;
+        
+
         SetActorLocation(JesterUp.ActorLocation);
 
     }
@@ -657,50 +482,56 @@ class AJesterBoss :AActor{
         //same as up but defies gravity
         float Side = Math::RandRange(0.0f, 90.0f);
         if(Side < 30.0f){
-            LeftHandSlamAttack(BottomSpawners,0,1,0,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+            JesterHandLeft.HandSlamAttack(BottomSpawners,0,1,0,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+            JesterHandLeft.CurrentlyAttacking = true;
         }else if(Side < 60.0f){
             float WhichHand = Math::RandRange(0.0f, 100.0f);
             if(WhichHand < 50.0f){
-                LeftHandSlamAttack(BottomSpawners,3,2,1,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+                 JesterHandLeft.HandSlamAttack(BottomSpawners,3,2,1,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+                 JesterHandLeft.CurrentlyAttacking = true;
             }else{
-                RightHandSlamAttack(BottomSpawners,3,2,1,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+                JesterHandRight.HandSlamAttack(BottomSpawners,3,2,1,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+                JesterHandRight.CurrentlyAttacking = true;
             }
         }else{
-            RightHandSlamAttack(BottomSpawners,6,1,0,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+            JesterHandRight.HandSlamAttack(BottomSpawners,6,1,0,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+            JesterHandRight.CurrentlyAttacking = true;
         }
         SetActorLocation(JesterUp.ActorLocation);
-        CurrentlyAttacking = true;
+        
     }
 
     void CrossAttack(){
         //swipes hand throught the cross and triggers them
-        LeftPositionWhenReady = CrossSpawners[27].ActorLocation + FVector(0,300,300);
-        LeftPositionWhenDone = CrossSpawners[13].ActorLocation - FVector(0,300,300);
+        JesterHandLeft.PositionWhenReady = CrossSpawners[27].ActorLocation + FVector(0,300,300);
+        JesterHandLeft.PositionWhenDone = CrossSpawners[13].ActorLocation - FVector(0,300,300);
 
-        LeftPositionalQueue.Add(CrossSpawners[27].ActorLocation + FVector(0,300,300));
-        LeftPositionalQueue.Add(CrossSpawners[13].ActorLocation - FVector(0,300,300));
-        LeftPositionalQueue.Add(LeftHandDefaultPosition);
+        JesterHandLeft.PositionalQueue.Add(CrossSpawners[27].ActorLocation + FVector(0,300,300));
+        JesterHandLeft.PositionalQueue.Add(CrossSpawners[13].ActorLocation - FVector(0,300,300));
+        JesterHandLeft.PositionalQueue.Add(JesterHandLeft.HandDefaultPosition);
 
-        LeftHandAttacking = true;
-        CurrentLeftHandAttack = "Cross";
-        MoveLeftHand = true;
+        JesterHandLeft.HandAttacking = true;
+        JesterHandLeft.CurrentHandAttack = "Cross";
+        JesterHandLeft.MoveHand = true;
         
 
 
-        RightPositionWhenReady = CrossSpawners[41].ActorLocation + FVector(0,-300,300);
-        RightPositionWhenDone = CrossSpawners[42].ActorLocation - FVector(0,-300,300);
+        JesterHandRight.PositionWhenReady = CrossSpawners[41].ActorLocation + FVector(0,-300,300);
+        JesterHandRight.PositionWhenDone = CrossSpawners[42].ActorLocation - FVector(0,-300,300);
 
-        RightPositionalQueue.Add(CrossSpawners[41].ActorLocation + FVector(0,-300,300));
-        RightPositionalQueue.Add(CrossSpawners[42].ActorLocation - FVector(0,-300,300));
-        RightPositionalQueue.Add(RightHandDefaultPosition);
+        JesterHandRight.PositionalQueue.Add(CrossSpawners[41].ActorLocation + FVector(0,-300,300));
+        JesterHandRight.PositionalQueue.Add(CrossSpawners[42].ActorLocation - FVector(0,-300,300));
+        JesterHandRight.PositionalQueue.Add(JesterHandRight.HandDefaultPosition);
 
-        RightHandAttacking = true;
-        CurrentRightHandAttack = "Cross";
-        MoveRightHand = true;
+        JesterHandRight.HandAttacking = true;
+        JesterHandRight.CurrentHandAttack = "Cross";
+        JesterHandRight.MoveHand = true;
 
         SetActorLocation(JesterDown.ActorLocation);
 
-        CurrentlyAttacking = true;
+        JesterHandLeft.CurrentlyAttacking = true;
+        JesterHandRight.CurrentlyAttacking = true;
+       
     }
 
     void SlamAttack(){
@@ -709,104 +540,24 @@ class AJesterBoss :AActor{
         float WhichHand = Math::RandRange(0.0f,100.0f);
         
         if(WhichHand < 50.0f){
-            LeftHandAttacking = true;
-            CurrentLeftHandAttack = "Slam";
-            MoveLeftHand = true;
-
-            System::SetTimer(this,n"LeftSlamAttackExecution",3,false,false);
+            JesterHandLeft.HandAttacking = true;
+            JesterHandLeft.CurrentHandAttack = "Slam";
+            JesterHandLeft.MoveHand = true;
+            JesterHandLeft.CurrentlyAttacking = true;
+            System::SetTimer(JesterHandLeft,n"SlamAttackExecution",3,false,false);
         }else{
-            RightHandAttacking = true;
-            CurrentRightHandAttack = "Slam";
-            MoveRightHand = true;
+            JesterHandRight.HandAttacking = true;
+            JesterHandRight.CurrentHandAttack = "Slam";
+            JesterHandRight.MoveHand = true;
+            JesterHandRight.CurrentlyAttacking = true;
 
-            System::SetTimer(this,n"RightSlamAttackExecution",3,false,false);
+
+            System::SetTimer(JesterHandRight,n"SlamAttackExecution",3,false,false);
         }
         SetActorLocation(JesterUp.ActorLocation);
-        CurrentlyAttacking = true;
-    }
-
-    void ResetNumbersBetweenAttacks(){
-        
-        if(!MoveLeftHand){
-            LeftFollowPatternBetweenSpawners = false;
-            LeftSlamAttack = false;
-            LeftSlamAttackSpawners.Empty();
-        }
-        
-        if(!MoveRightHand){
-            RightFollowPatternBetweenSpawners = false;
-            RightSlamAttack = false;
-            RightSlamAttackSpawners.Empty();    
-        }
         
     }
-    //position modifier 1 and 2 add the distance between the middle spawner to make the hands not clip
-    UFUNCTION()
-    void RightHandSlamAttack(TArray<ABulletSpawner> Spawners, int StartIndex, int IndexExtentPositive, int IndexExtentNegative, FString HandAttackDirection, FBulletWaveTemplate Template, bool FollowPatternBetweenSpawners, FVector PositionModefire1,FVector PositionModefire2, int HowManySlams){
-            
-            for(int i = 0; i < HowManySlams; i++){
-                RightPositionalQueue.Add(Spawners[StartIndex].ActorLocation + PositionModefire1);
-                if(i != HowManySlams-1){
-                    RightPositionalQueue.Add(Spawners[StartIndex].ActorLocation + PositionModefire2);
-                }else{
-                    RightPositionalQueue.Add(Spawners[StartIndex].ActorLocation + PositionModefire2+FVector(0,0,1));
-                }                
-            }
-            //reset hand position
-            RightPositionalQueue.Add(RightHandDefaultPosition);
 
-            RightPositionWhenReady = Spawners[StartIndex].ActorLocation + PositionModefire1;
-            RightPositionWhenDone = Spawners[StartIndex].ActorLocation + PositionModefire2+FVector(0,0,1);
-
-            RightAttackTemplete = Template;
-            CurrentRightHandAttack = HandAttackDirection;
-
-            for(int i = StartIndex-IndexExtentNegative; i <= StartIndex-1; i++){
-                 RightSlamAttackSpawners.Add(Spawners[i]);
-            }
-            for(int i = StartIndex; i <= IndexExtentPositive + StartIndex; i++){
-                 RightSlamAttackSpawners.Add(Spawners[i]);
-            }
-            
-           
-            RightFollowPatternBetweenSpawners = FollowPatternBetweenSpawners;
-            RightHandAttacking = true;
-            MoveRightHand = true;
-            RightSlamAttack = true;
-    }
-    //position modifier 1 and 2 add the distance between the middle spawner to make the hands not clip
-    UFUNCTION()
-    void LeftHandSlamAttack(TArray<ABulletSpawner> Spawners, int StartIndex, int IndexExtentPositive, int IndexExtentNegative, FString HandAttackDirection, FBulletWaveTemplate Template, bool FollowPatternBetweenSpawners, FVector PositionModefire1,FVector PositionModefire2, int HowManySlams){
-            
-
-            for(int i = 0; i < HowManySlams; i++){
-                LeftPositionalQueue.Add(Spawners[StartIndex].ActorLocation + PositionModefire1);
-                if(i != HowManySlams-1){
-                    LeftPositionalQueue.Add(Spawners[StartIndex].ActorLocation + PositionModefire2);
-                }else{
-                    LeftPositionalQueue.Add(Spawners[StartIndex].ActorLocation + PositionModefire2+FVector(0,0,1));
-                }                
-            }
-            
-            LeftPositionalQueue.Add(LeftHandDefaultPosition);
-
-            LeftPositionWhenReady = Spawners[StartIndex].ActorLocation + PositionModefire1;
-            LeftPositionWhenDone = Spawners[StartIndex].ActorLocation + PositionModefire2+FVector(0,0,1);
-            LeftAttackTemplete = Template;
-            CurrentLeftHandAttack = HandAttackDirection;
-
-            for(int i = StartIndex-IndexExtentNegative; i <= StartIndex-1; i++){
-                 LeftSlamAttackSpawners.Add(Spawners[i]);
-            }
-            for(int i = StartIndex; i <= IndexExtentPositive + StartIndex; i++){
-                 LeftSlamAttackSpawners.Add(Spawners[i]);
-            }
-           
-            LeftFollowPatternBetweenSpawners = FollowPatternBetweenSpawners;
-            LeftHandAttacking = true;
-            MoveLeftHand = true;
-            LeftSlamAttack = true;
-    }
 
     UFUNCTION()
     void TakeDamage(int amount){
@@ -816,14 +567,32 @@ class AJesterBoss :AActor{
             FirstTimeUnder60 = false;
             PhaseOfBoss = 2;
             GlobalBulletSpeed = 10+5*PhaseOfBoss;
-
+            
             TopSlamTemplate.BulletSpeed = GlobalBulletSpeed;
             BottomSlamTemplate.BulletSpeed = GlobalBulletSpeed;
+            Audio.Stop();
+            float StopTime = Audio.Sound.Duration*PlayBackDuration;
+            Audio.Sound =GameManager.NightmareMusic[PhaseOfBoss-1];
+            Audio.Play(StopTime);
+
         }
         if(Health.CurrentHealth <= Health.MaxHealth /3.0f && FirstTimeUnder30){
             FirstTimeUnder30 = false;
             PhaseOfBoss = 3;
             GlobalBulletSpeed = 10+5*PhaseOfBoss;
+            Audio.Stop();
+            float StopTime = Audio.Sound.Duration*PlayBackDuration;
+            Audio.Sound =GameManager.NightmareMusic[PhaseOfBoss-1];
+            Audio.Play(StopTime);
+        }
+
+        JesterHandRight.PhaseOfBoss = PhaseOfBoss;
+        JesterHandRight.GlobalBulletSpeed = GlobalBulletSpeed;
+
+        JesterHandLeft.PhaseOfBoss = PhaseOfBoss;
+        JesterHandLeft.GlobalBulletSpeed = GlobalBulletSpeed;
+        if(Health.CurrentHealth <= 0){
+            GameManager.BossDied();
         }
        
     }

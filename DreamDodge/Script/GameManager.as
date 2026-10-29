@@ -15,6 +15,7 @@ class AGameManager : AActor{
 
     AEnviormentManager EnviormentManager;
     AJesterBoss Boss;
+    APlayer Player;
 
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
@@ -26,11 +27,37 @@ class AGameManager : AActor{
         TArray<AJesterBoss> Jesters;
         GetAllActorsOfClass(AJesterBoss, Jesters);
         Boss = Jesters[0];
+
+        TArray<APlayer> PLayers;
+        GetAllActorsOfClass(APlayer, PLayers);
+        Player = PLayers[0];
     }
 
     UFUNCTION()
     void SwapDimensions(EDimension NewDimension){
         EnviormentManager.HidePlatforms(NewDimension);
         Boss.SwapDimensions(NewDimension);
+    }
+
+    UFUNCTION()
+    void PlayerDied(){
+        Player.SetActorTickEnabled(false);
+        //Boss.SetActorTickEnabled(false);
+        //EnviormentManager.SetActorTickEnabled(false);
+
+        //lose
+        Player.EndScreen.SetVisibility(ESlateVisibility::Visible);
+        Player.EndScreen.Message.Text = Text::Conv_StringToText("You Died");
+    }
+
+    UFUNCTION()
+    void BossDied(){
+        Player.SetActorTickEnabled(false);
+        //Boss.SetActorTickEnabled(false);
+        //EnviormentManager.SetActorTickEnabled(false);
+
+        //win
+        Player.EndScreen.SetVisibility(ESlateVisibility::Visible);
+        Player.EndScreen.Message.Text = Text::Conv_StringToText("You Won");
     }
 }
