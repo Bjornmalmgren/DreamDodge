@@ -5488,3 +5488,1989 @@ Sampler Limit: 32
 [2026.10.30-07.52.01:089][ 96]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30, StreamState=2
 [2026.10.30-07.52.01:097][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
 [2026.10.30-07.52.01:198][ 97]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2026.10.30-07.52.47:331][909]LogStreaming: Display: FlushAsyncLoading(587): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.30-07.52.47:376][909]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/bjmall-3-local/Downloads/jester_hand.fbx]
+[2026.10.30-07.52.48:919][909]LogSlate: Window 'Import Content' being destroyed
+[2026.10.30-07.52.48:943][909]LogInterchangeEngine: [Pending] Importing
+[2026.10.30-07.52.49:029][910]LogStreaming: Display: FlushAsyncLoading(588): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.30-07.52.49:101][911]LogStreaming: Display: FlushAsyncLoading(589): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.30-07.52.49:224][913]LogStaticMesh: Display: Building static mesh jester_hand (Required Memory Estimate: 2.124248 MB)...
+[2026.10.30-07.52.49:230][913]LogStaticMesh: Adjacency [0.00s], tris: 1382, UVs 1
+[2026.10.30-07.52.49:233][913]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2026.10.30-07.52.49:234][913]LogStaticMesh: Leaves [0.00s]
+[2026.10.30-07.52.49:274][913]LogStaticMesh: Reduce [0.04s]
+[2026.10.30-07.52.49:289][913]LogStaticMesh: Fallback [0.02s], num tris: 918
+[2026.10.30-07.52.49:290][913]LogStaticMesh: ConstrainClusters:
+[2026.10.30-07.52.49:290][913]LogStaticMesh:   Input: 23 Clusters, 2894 Triangles and 2205 Vertices
+[2026.10.30-07.52.49:290][913]LogStaticMesh:   Output without splits: 23 Clusters, 2894 Triangles and 2213 Vertices
+[2026.10.30-07.52.49:290][913]LogStaticMesh:   Output with splits: 23 Clusters, 2894 Triangles and 2213 Vertices
+[2026.10.30-07.52.49:290][913]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 23, Slow Path Clusters: 0, 1 Material: 23, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.10.30-07.52.49:291][913]LogStaticMesh: WritePages:
+[2026.10.30-07.52.49:291][913]LogStaticMesh:   Root: GPU size: 28740 bytes. 1 Pages. 28740.000 bytes per page (87.708% utilization).
+[2026.10.30-07.52.49:291][913]LogStaticMesh:   Streaming: 0 bytes.
+[2026.10.30-07.52.49:291][913]LogStaticMesh:   Page data disk size: 24552 bytes. Fixup data size: 88 bytes.
+[2026.10.30-07.52.49:291][913]LogStaticMesh:   Total GPU size: 28740 bytes, Total disk size: 24640 bytes.
+[2026.10.30-07.52.49:291][913]LogStaticMesh: Encode [0.00s]
+[2026.10.30-07.52.49:291][913]LogStaticMesh: NaniteBuild [0.06s]
+[2026.10.30-07.52.49:293][913]LogStaticMesh: Built static mesh [0.07s] /Game/Assets/jester_hand.jester_hand
+[2026.10.30-07.52.49:334][914]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=2.571 Y=-0.899 Z=-0.589, BoxExtent=(X=14.171 Y=8.433 Z=4.139), SphereRadius=(18.824989)) and MeshDescription Bounds (Origin=X=2.410 Y=-1.191 Z=-0.408, BoxExtent=(X=14.011 Y=7.695 Z=3.958), SphereRadius=(14.813922)) is significative for StaticMesh /Game/Assets/jester_hand.jester_hand
+[2026.10.30-07.52.49:468][915]LogInterchangeEngine: Display: Interchange import completed [C:/Users/bjmall-3-local/Downloads/jester_hand.fbx]
+[2026.10.30-07.52.49:468][915]Interchange: Warning: [C:/Users/bjmall-3-local/Downloads/jester_hand.fbx : 'jester_hand', StaticMesh] No smoothing group information was found for this mesh 'Cylinder_006' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2026.10.30-07.52.49:505][915]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.10.30-07.52.49:505][915]LogInterchangeEngine: [Success] Import Done
+[2026.10.30-07.52.49:514][916]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=2.571 Y=-0.899 Z=-0.589, BoxExtent=(X=14.171 Y=8.433 Z=4.139), SphereRadius=(18.824989)) and MeshDescription Bounds (Origin=X=2.410 Y=-1.191 Z=-0.408, BoxExtent=(X=14.011 Y=7.695 Z=3.958), SphereRadius=(14.813922)) is significative for StaticMesh /Game/Assets/jester_hand.jester_hand
+[2026.10.30-07.52.49:579][917]LogMaterial: Display: Material /Game/Assets/hand.hand needed to have new flag set bUsedWithNanite !
+[2026.10.30-07.52.54:186][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.10.30-07.53.06:148][154]LogSlate: Window 'Delete Assets' being destroyed
+[2026.10.30-07.53.06:185][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.10.30-07.53.06:209][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.30-07.53.06:236][154]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.10.30-07.53.12:260][256]LogStreaming: Display: FlushAsyncLoading(590): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.30-07.53.12:315][256]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/bjmall-3-local/Downloads/jester_bell.fbx]
+[2026.10.30-07.53.14:734][256]LogSlate: Window 'Import Content' being destroyed
+[2026.10.30-07.53.14:765][256]LogInterchangeEngine: [Pending] Importing
+[2026.10.30-07.53.14:873][257]LogStreaming: Display: FlushAsyncLoading(591): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.30-07.53.14:979][258]LogStreaming: Display: FlushAsyncLoading(592): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.30-07.53.15:209][260]LogStaticMesh: Display: Building static mesh jester_bell (Required Memory Estimate: 0.64408 MB)...
+[2026.10.30-07.53.15:211][260]LogStaticMesh: Adjacency [0.00s], tris: 416, UVs 1
+[2026.10.30-07.53.15:211][260]LogStaticMesh: Clustering [0.00s]. Ratio: 1.500000
+[2026.10.30-07.53.15:211][260]LogStaticMesh: Leaves [0.00s]
+[2026.10.30-07.53.15:220][260]LogStaticMesh: Reduce [0.01s]
+[2026.10.30-07.53.15:222][260]LogStaticMesh: Fallback [0.00s], num tris: 406
+[2026.10.30-07.53.15:223][260]LogStaticMesh: ConstrainClusters:
+[2026.10.30-07.53.15:223][260]LogStaticMesh:   Input: 9 Clusters, 794 Triangles and 563 Vertices
+[2026.10.30-07.53.15:223][260]LogStaticMesh:   Output without splits: 9 Clusters, 794 Triangles and 567 Vertices
+[2026.10.30-07.53.15:223][260]LogStaticMesh:   Output with splits: 9 Clusters, 794 Triangles and 567 Vertices
+[2026.10.30-07.53.15:223][260]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 9, Slow Path Clusters: 0, 1 Material: 9, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.10.30-07.53.15:223][260]LogStaticMesh: WritePages:
+[2026.10.30-07.53.15:223][260]LogStaticMesh:   Root: GPU size: 7488 bytes. 1 Pages. 7488.000 bytes per page (22.852% utilization).
+[2026.10.30-07.53.15:223][260]LogStaticMesh:   Streaming: 0 bytes.
+[2026.10.30-07.53.15:223][260]LogStaticMesh:   Page data disk size: 6460 bytes. Fixup data size: 56 bytes.
+[2026.10.30-07.53.15:223][260]LogStaticMesh:   Total GPU size: 7488 bytes, Total disk size: 6516 bytes.
+[2026.10.30-07.53.15:223][260]LogStaticMesh: Encode [0.00s]
+[2026.10.30-07.53.15:223][260]LogStaticMesh: NaniteBuild [0.01s]
+[2026.10.30-07.53.15:225][260]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/jester_bell.jester_bell
+[2026.10.30-07.53.15:306][261]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=-0.028 Y=0.048 Z=0.584, BoxExtent=(X=7.396 Y=7.446 Z=6.995), SphereRadius=(9.918934)) and MeshDescription Bounds (Origin=X=-0.028 Y=-0.002 Z=0.235, BoxExtent=(X=7.396 Y=7.396 Z=6.646), SphereRadius=(7.427541)) is significative for StaticMesh /Game/Assets/jester_bell.jester_bell
+[2026.10.30-07.53.15:347][262]LogInterchangeEngine: Display: Interchange import completed [C:/Users/bjmall-3-local/Downloads/jester_bell.fbx]
+[2026.10.30-07.53.15:347][262]Interchange: Warning: [C:/Users/bjmall-3-local/Downloads/jester_bell.fbx : 'jester_bell', StaticMesh] No smoothing group information was found for this mesh 'Cube_001' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2026.10.30-07.53.15:376][262]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.10.30-07.53.15:376][262]LogInterchangeEngine: [Success] Import Done
+[2026.10.30-07.53.15:387][263]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=-0.028 Y=0.048 Z=0.584, BoxExtent=(X=7.396 Y=7.446 Z=6.995), SphereRadius=(9.918934)) and MeshDescription Bounds (Origin=X=-0.028 Y=-0.002 Z=0.235, BoxExtent=(X=7.396 Y=7.396 Z=6.646), SphereRadius=(7.427541)) is significative for StaticMesh /Game/Assets/jester_bell.jester_bell
+[2026.10.30-07.53.15:483][264]LogMaterial: Display: Material /Game/Assets/hat.hat needed to have new flag set bUsedWithNanite !
+[2026.10.30-07.53.17:307][326]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.53.17:373][326]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/hat] ([1] browsable assets)...
+[2026.10.30-07.53.17:381][326]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/hat.hat]
+[2026.10.30-07.53.17:381][326]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/hat]
+[2026.10.30-07.53.17:381][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/hat" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset" SILENT=true
+[2026.10.30-07.53.17:393][326]LogSavePackage: Moving output files for package: /Game/Assets/hat
+[2026.10.30-07.53.17:393][326]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hatADE62CF6415950CE53A4BC9FC79A4A00.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset'
+[2026.10.30-07.53.17:407][326]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.700 ms (total: 3.34 sec)
+[2026.10.30-07.53.17:455][326]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.53.17:455][326]LogContentValidation: Enabled validators:
+[2026.10.30-07.53.17:455][326]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.53.17:455][326]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.53.17:455][326]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.53.17:455][326]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.53.17:455][326]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.53.17:455][326]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.53.17:455][326]AssetCheck: /Game/Assets/hat Validating asset
+[2026.10.30-07.53.17:485][326]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.30-07.53.17:825][337]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.53.17:889][337]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/jester_bell] ([1] browsable assets)...
+[2026.10.30-07.53.17:897][337]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/jester_bell.jester_bell]
+[2026.10.30-07.53.17:897][337]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/jester_bell]
+[2026.10.30-07.53.17:897][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/jester_bell" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/jester_bell.uasset" SILENT=true
+[2026.10.30-07.53.17:908][337]LogSavePackage: Moving output files for package: /Game/Assets/jester_bell
+[2026.10.30-07.53.17:908][337]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/jester_bellE3B7EF7C43B487BFABAC0C9BE9CE2133.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/jester_bell.uasset'
+[2026.10.30-07.53.17:923][337]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.862 ms (total: 3.44 sec)
+[2026.10.30-07.53.17:972][337]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.53.17:972][337]LogContentValidation: Enabled validators:
+[2026.10.30-07.53.17:972][337]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.53.17:972][337]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.53.17:972][337]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.53.17:972][337]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.53.17:972][337]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.53.17:972][337]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.53.17:972][337]AssetCheck: /Game/Assets/jester_bell Validating asset
+[2026.10.30-07.53.18:040][337]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.30-07.53.18:535][360]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/hat.hat
+[2026.10.30-07.53.18:538][360]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.10.30-07.53.19:085][360]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.53.19:085][360]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.53.19:085][360]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.53.19:085][360]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.53.19:085][360]MaterialEditorStats: Preshaders: 6  (6 param fetches, 13 ops)
+[2026.10.30-07.53.19:207][362]MaterialEditorStats: Base pass shader: 196 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.10.30-07.53.19:207][362]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.53.19:207][362]MaterialEditorStats: Texture samplers: 4/16
+[2026.10.30-07.53.19:207][362]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.53.19:207][362]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.53.19:207][362]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.53.19:207][362]MaterialEditorStats: Preshaders: 6  (6 param fetches, 13 ops)
+[2026.10.30-07.53.22:206][539]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.53.22:206][539]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.53.22:206][539]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.53.22:206][539]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.22:262][541]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.10.30-07.53.22:262][541]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.53.22:262][541]MaterialEditorStats: Texture samplers: 1/16
+[2026.10.30-07.53.22:262][541]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.53.22:262][541]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.53.22:262][541]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.31:088][ 85]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.53.31:088][ 85]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.53.31:088][ 85]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.53.31:088][ 85]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.31:159][ 86]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.10.30-07.53.31:159][ 86]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.53.31:159][ 86]MaterialEditorStats: Texture samplers: 1/16
+[2026.10.30-07.53.31:159][ 86]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.53.31:159][ 86]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.53.31:159][ 86]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.40:251][673]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw
+[2026.10.30-07.53.40:680][673]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.53.40:680][673]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.53.40:680][673]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.53.40:680][673]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.40:788][674]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.10.30-07.53.40:788][674]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.53.40:788][674]MaterialEditorStats: Texture samplers: 1/16
+[2026.10.30-07.53.40:788][674]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.53.40:788][674]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.53.40:788][674]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.44:349][947]LogTexture: Display: Building textures: /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 119.708323 MB), EncodeSpeed: Final
+[2026.10.30-07.53.44:355][947]LogMaterial: Warning: [AssetLog] C:\Users\bjmall-3-local\Documents\GitHub\DreamDodge\DreamDodge\Content\Assets\JesterMask\Materials\hat.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw
+
+[2026.10.30-07.53.44:369][947]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.53.44:369][947]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.53.44:369][947]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.53.44:369][947]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.44:483][949]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.10.30-07.53.44:483][949]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.53.44:483][949]MaterialEditorStats: Texture samplers: 1/16
+[2026.10.30-07.53.44:483][949]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.53.44:483][949]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.53.44:483][949]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.44:731][965]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.53.44:794][965]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/JesterMask/Materials/hat_Metallic_Raw] ([1] browsable assets)...
+[2026.10.30-07.53.44:797][965]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw]
+[2026.10.30-07.53.44:797][965]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/JesterMask/Materials/hat_Metallic_Raw]
+[2026.10.30-07.53.44:808][965]LogSavePackage: Moving output files for package: /Game/Assets/JesterMask/Materials/hat_Metallic_Raw
+[2026.10.30-07.53.44:809][965]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hat_Metallic_Raw216347BD45EE951AF22D8C90E5C0A444.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat_Metallic_Raw.uasset'
+[2026.10.30-07.53.44:821][965]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.787 ms (total: 3.53 sec)
+[2026.10.30-07.53.44:875][965]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.53.44:877][965]LogContentValidation: Enabled validators:
+[2026.10.30-07.53.44:877][965]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.53.44:877][965]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.53.44:877][965]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.53.44:877][965]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.53.44:877][965]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.53.44:877][965]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.53.44:877][965]AssetCheck: /Game/Assets/JesterMask/Materials/hat_Metallic_Raw Validating asset
+[2026.10.30-07.53.51:249][433]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/JesterMask/Materials/hat.hat
+[2026.10.30-07.53.51:250][433]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw
+
+[2026.10.30-07.53.51:251][433]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.10.30-07.53.51:403][433]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw
+
+[2026.10.30-07.53.51:405][433]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw
+
+[2026.10.30-07.53.51:863][433]MaterialEditorStats: Error: [SM6] (Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw
+[2026.10.30-07.53.56:960][737]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.53.56:960][737]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.53.56:960][737]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.53.56:960][737]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.53.56:960][737]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.57:035][739]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.53.57:035][739]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.53.57:035][739]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.53.57:035][739]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.53.57:035][739]MaterialEditorStats: Shader Count: 2
+[2026.10.30-07.53.57:035][739]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.57:525][768]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.53.57:525][768]MaterialEditorStats: Texture samplers: 3/16
+[2026.10.30-07.53.57:525][768]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.53.57:525][768]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.53.57:525][768]MaterialEditorStats: Shader Count: 3
+[2026.10.30-07.53.57:525][768]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.57:718][780]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.53.57:718][780]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.53.57:718][780]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-07.53.57:718][780]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.53.57:718][780]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.53.57:718][780]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.53.57:718][780]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.53.59:668][900]LogMaterialEditor: Saving and Compiling material hat
+[2026.10.30-07.53.59:854][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2026.10.30-07.54.01:511][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.10.30-07.54.01:524][900]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.54.01:572][900]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/JesterMask/Materials/hat] ([1] browsable assets)...
+[2026.10.30-07.54.01:586][900]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/JesterMask/Materials/hat.hat]
+[2026.10.30-07.54.01:586][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/JesterMask/Materials/hat]
+[2026.10.30-07.54.01:586][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/JesterMask/Materials/hat" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat.uasset" SILENT=true
+[2026.10.30-07.54.01:598][900]LogSavePackage: Moving output files for package: /Game/Assets/JesterMask/Materials/hat
+[2026.10.30-07.54.01:598][900]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hat6A5A6ED145161054E3A42DAB4FC966C3.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat.uasset'
+[2026.10.30-07.54.01:610][900]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.743 ms (total: 3.61 sec)
+[2026.10.30-07.54.01:673][900]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.54.01:673][900]LogContentValidation: Enabled validators:
+[2026.10.30-07.54.01:673][900]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.54.01:673][900]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.54.01:673][900]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.54.01:673][900]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.54.01:673][900]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.54.01:673][900]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.54.01:674][900]AssetCheck: /Game/Assets/JesterMask/Materials/hat Validating asset
+[2026.10.30-07.54.01:684][900]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.54.01:684][900]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.54.01:684][900]MaterialEditorStats: Nanite Compute Shader: 850 instructions
+Stats: Resources Used: 13
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.54.01:684][900]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-07.54.01:684][900]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.54.01:684][900]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.01:684][900]MaterialEditorStats: Shader Count: 14
+[2026.10.30-07.54.01:684][900]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.02:898][960]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2026.10.30-07.54.02:898][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.54.02:942][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.10.30-07.54.08:971][335]LogMaterial: Warning: [AssetLog] /Engine/Transient.hat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw
+
+[2026.10.30-07.54.08:976][335]MaterialEditorStats: Error: [SM6] (Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw
+[2026.10.30-07.54.10:279][413]LogMaterial: Warning: [AssetLog] /Engine/Transient.hat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw
+
+[2026.10.30-07.54.13:922][642]LogMaterial: Warning: [AssetLog] /Engine/Transient.hat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Metallic_Raw.hat_Metallic_Raw
+
+[2026.10.30-07.54.18:899][952]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.54.18:899][952]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.54.18:899][952]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.18:899][952]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.54.18:899][952]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.18:953][954]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.10.30-07.54.18:953][954]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.54.18:953][954]MaterialEditorStats: Texture samplers: 4/16
+[2026.10.30-07.54.18:953][954]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.54.18:953][954]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.18:953][954]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.54.18:953][954]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.22:872][207]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+[2026.10.30-07.54.23:272][207]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.54.23:272][207]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.54.23:272][207]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.23:272][207]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.54.23:272][207]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.23:369][208]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.10.30-07.54.23:369][208]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.54.23:369][208]MaterialEditorStats: Texture samplers: 4/16
+[2026.10.30-07.54.23:369][208]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.54.23:369][208]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.23:369][208]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.54.23:369][208]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.25:341][356]LogTexture: Display: Building textures: /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 119.708323 MB), EncodeSpeed: Final
+[2026.10.30-07.54.25:345][356]LogMaterial: Warning: [AssetLog] C:\Users\bjmall-3-local\Documents\GitHub\DreamDodge\DreamDodge\Content\Assets\JesterMask\Materials\hat.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+
+[2026.10.30-07.54.25:349][356]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+
+[2026.10.30-07.54.25:362][356]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.54.25:362][356]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.54.25:362][356]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.25:362][356]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.54.25:362][356]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.25:468][358]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.10.30-07.54.25:468][358]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.54.25:468][358]MaterialEditorStats: Texture samplers: 4/16
+[2026.10.30-07.54.25:468][358]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.54.25:468][358]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.25:468][358]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.54.25:468][358]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.26:712][448]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.54.26:762][448]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/JesterMask/Materials/hat_Roughness_Raw] ([1] browsable assets)...
+[2026.10.30-07.54.26:764][448]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw]
+[2026.10.30-07.54.26:764][448]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/JesterMask/Materials/hat_Roughness_Raw]
+[2026.10.30-07.54.26:779][448]LogSavePackage: Moving output files for package: /Game/Assets/JesterMask/Materials/hat_Roughness_Raw
+[2026.10.30-07.54.26:780][448]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hat_Roughness_Raw9A3BEDCA439039A5C8BDDD95774591E8.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat_Roughness_Raw.uasset'
+[2026.10.30-07.54.26:791][448]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.420 ms (total: 3.69 sec)
+[2026.10.30-07.54.26:842][448]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.54.26:842][448]LogContentValidation: Enabled validators:
+[2026.10.30-07.54.26:842][448]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.54.26:842][448]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.54.26:842][448]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.54.26:842][448]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.54.26:842][448]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.54.26:842][448]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.54.26:842][448]AssetCheck: /Game/Assets/JesterMask/Materials/hat_Roughness_Raw Validating asset
+[2026.10.30-07.54.32:059][786]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.54.32:060][786]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.54.32:060][786]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.32:060][786]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.54.32:060][786]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.32:098][788]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.10.30-07.54.32:098][788]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.54.32:098][788]MaterialEditorStats: Texture samplers: 4/16
+[2026.10.30-07.54.32:098][788]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.54.32:098][788]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.32:098][788]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.54.32:098][788]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.35:677][ 11]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.54.35:677][ 11]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.54.35:677][ 11]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.35:677][ 11]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.54.35:677][ 11]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.35:740][ 13]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.54.35:740][ 13]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.54.35:740][ 13]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.54.35:740][ 13]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.35:740][ 13]MaterialEditorStats: Shader Count: 2
+[2026.10.30-07.54.35:740][ 13]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.36:305][ 46]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.54.36:305][ 46]MaterialEditorStats: Texture samplers: 3/16
+[2026.10.30-07.54.36:305][ 46]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.54.36:305][ 46]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.36:305][ 46]MaterialEditorStats: Shader Count: 3
+[2026.10.30-07.54.36:305][ 46]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.36:416][ 53]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.54.36:416][ 53]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.54.36:416][ 53]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-07.54.36:416][ 53]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.54.36:416][ 53]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.36:416][ 53]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.54.36:416][ 53]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.36:826][ 78]LogMaterialEditor: Saving and Compiling material hat
+[2026.10.30-07.54.36:963][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.10.30-07.54.38:663][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.10.30-07.54.38:675][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.54.38:737][ 78]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/hat] ([1] browsable assets)...
+[2026.10.30-07.54.38:748][ 78]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/hat.hat]
+[2026.10.30-07.54.38:748][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/hat]
+[2026.10.30-07.54.38:748][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/hat" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset" SILENT=true
+[2026.10.30-07.54.38:759][ 78]LogSavePackage: Moving output files for package: /Game/Assets/hat
+[2026.10.30-07.54.38:760][ 78]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hat6BEB33D74A159278FE13F1A933222AF3.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset'
+[2026.10.30-07.54.38:770][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.392 ms (total: 3.79 sec)
+[2026.10.30-07.54.38:803][ 78]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.54.38:803][ 78]LogContentValidation: Enabled validators:
+[2026.10.30-07.54.38:803][ 78]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.54.38:803][ 78]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.54.38:803][ 78]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.54.38:803][ 78]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.54.38:803][ 78]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.54.38:803][ 78]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.54.38:803][ 78]AssetCheck: /Game/Assets/hat Validating asset
+[2026.10.30-07.54.38:816][ 78]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.54.38:816][ 78]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.54.38:816][ 78]MaterialEditorStats: Nanite Compute Shader: 850 instructions
+Stats: Resources Used: 13
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.54.38:816][ 78]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-07.54.38:816][ 78]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.54.38:816][ 78]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.38:816][ 78]MaterialEditorStats: Shader Count: 14
+[2026.10.30-07.54.38:816][ 78]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.44:709][451]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.54.44:709][451]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.54.44:709][451]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.44:709][451]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.54.44:709][451]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.44:771][453]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.54.44:771][453]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.54.44:771][453]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-07.54.44:771][453]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.54.44:771][453]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.44:771][453]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.54.44:771][453]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.57:124][346]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.54.57:124][346]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.54.57:124][346]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.57:124][346]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.54.57:124][346]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.54.57:211][348]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.54.57:211][348]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.54.57:211][348]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-07.54.57:211][348]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.54.57:211][348]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.54.57:211][348]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.54.57:211][348]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.55.02:456][697]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.55.02:456][697]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.02:456][697]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.02:456][697]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.55.02:456][697]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.55.02:505][699]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.55.02:505][699]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.02:505][699]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-07.55.02:505][699]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.02:505][699]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.02:505][699]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.55.02:505][699]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.55.04:142][797]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.55.04:142][797]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.04:142][797]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.04:142][797]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.55.04:142][797]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.55.04:208][799]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.04:209][799]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.55.04:209][799]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.04:209][799]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.04:209][799]MaterialEditorStats: Shader Count: 2
+[2026.10.30-07.55.04:209][799]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.55.04:793][837]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.04:793][837]MaterialEditorStats: Texture samplers: 2/16
+[2026.10.30-07.55.04:793][837]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.04:794][837]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.04:794][837]MaterialEditorStats: Shader Count: 3
+[2026.10.30-07.55.04:794][837]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.55.04:942][841]MaterialEditorStats: Base pass shader: 185 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.10.30-07.55.04:942][841]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.04:942][841]MaterialEditorStats: Texture samplers: 4/16
+[2026.10.30-07.55.04:942][841]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.04:942][841]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.04:942][841]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.55.04:942][841]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-07.55.06:125][917]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.55.06:125][917]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.06:125][917]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.06:125][917]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.55.06:125][917]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.06:658][949]MaterialEditorStats: Texture samplers: 3/16
+[2026.10.30-07.55.06:658][949]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.06:658][949]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.06:658][949]MaterialEditorStats: Shader Count: 2
+[2026.10.30-07.55.06:658][949]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.06:753][955]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.06:753][955]MaterialEditorStats: Texture samplers: 3/16
+[2026.10.30-07.55.06:753][955]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.06:753][955]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.06:753][955]MaterialEditorStats: Shader Count: 3
+[2026.10.30-07.55.06:753][955]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.06:973][969]MaterialEditorStats: Base pass shader: 195 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.55.06:973][969]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.06:973][969]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-07.55.06:973][969]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.06:973][969]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.06:973][969]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.55.06:973][969]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.08:477][ 68]LogMaterialEditor: Saving and Compiling material hat
+[2026.10.30-07.55.08:592][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.10.30-07.55.10:332][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.10.30-07.55.10:346][ 68]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.55.10:397][ 68]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/hat] ([1] browsable assets)...
+[2026.10.30-07.55.10:410][ 68]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/hat.hat]
+[2026.10.30-07.55.10:410][ 68]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/hat]
+[2026.10.30-07.55.10:410][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/hat" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset" SILENT=true
+[2026.10.30-07.55.10:421][ 68]LogSavePackage: Moving output files for package: /Game/Assets/hat
+[2026.10.30-07.55.10:422][ 68]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hat53340A2D407875FC8FEB6585301E209A.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset'
+[2026.10.30-07.55.10:433][ 68]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.379 ms (total: 3.87 sec)
+[2026.10.30-07.55.10:495][ 68]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.55.10:495][ 68]LogContentValidation: Enabled validators:
+[2026.10.30-07.55.10:495][ 68]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.55.10:495][ 68]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.55.10:495][ 68]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.55.10:495][ 68]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.55.10:495][ 68]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.55.10:495][ 68]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.55.10:495][ 68]AssetCheck: /Game/Assets/hat Validating asset
+[2026.10.30-07.55.10:507][ 68]MaterialEditorStats: Base pass shader: 195 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.55.10:507][ 68]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.10:507][ 68]MaterialEditorStats: Nanite Compute Shader: 853 instructions
+Stats: Resources Used: 13
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.55.10:507][ 68]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-07.55.10:507][ 68]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.10:507][ 68]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.10:507][ 68]MaterialEditorStats: Shader Count: 14
+[2026.10.30-07.55.10:507][ 68]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.15:569][366]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/PlayerMaterial.PlayerMaterial
+[2026.10.30-07.55.15:571][366]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.10.30-07.55.16:148][366]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.55.16:148][366]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.55.16:148][366]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.55.16:148][366]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.16:228][368]MaterialEditorStats: Base pass shader: 177 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.10.30-07.55.16:228][368]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.16:228][368]MaterialEditorStats: Texture samplers: 1/16
+[2026.10.30-07.55.16:228][368]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.55.16:228][368]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.55.16:228][368]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.25:035][459]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-07.55.25:047][459]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.55.25:047][459]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.55.25:047][459]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.55.25:047][459]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.25:302][464]MaterialEditorStats: Base pass shader: 177 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.10.30-07.55.25:303][464]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.25:303][464]MaterialEditorStats: Texture samplers: 1/16
+[2026.10.30-07.55.25:303][464]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.55.25:303][464]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.55.25:303][464]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.30:059][580]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-07.55.30:070][580]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.55.30:070][580]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.30:070][580]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.30:070][580]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.55.30:070][580]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.30:164][584]MaterialEditorStats: Texture samplers: 3/16
+[2026.10.30-07.55.30:164][584]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.30:164][584]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.30:164][584]MaterialEditorStats: Shader Count: 2
+[2026.10.30-07.55.30:164][584]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.30:208][585]MaterialEditorStats: Base pass shader: 195 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.55.30:208][585]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.30:208][585]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-07.55.30:208][585]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.30:208][585]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.30:208][585]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.55.30:208][585]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.31:374][661]LogMaterialEditor: Saving and Compiling material hat
+[2026.10.30-07.55.31:512][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.30-07.55.31:695][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.10.30-07.55.31:709][661]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.55.31:763][661]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/hat] ([1] browsable assets)...
+[2026.10.30-07.55.31:772][661]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/hat.hat]
+[2026.10.30-07.55.31:772][661]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/hat]
+[2026.10.30-07.55.31:772][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/hat" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset" SILENT=true
+[2026.10.30-07.55.31:783][661]LogSavePackage: Moving output files for package: /Game/Assets/hat
+[2026.10.30-07.55.31:784][661]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hatAE36007041BFED7F5A7627A8CF371F49.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset'
+[2026.10.30-07.55.31:795][661]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.972 ms (total: 3.96 sec)
+[2026.10.30-07.55.31:831][661]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.55.31:831][661]LogContentValidation: Enabled validators:
+[2026.10.30-07.55.31:831][661]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.55.31:831][661]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.55.31:831][661]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.55.31:831][661]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.55.31:831][661]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.55.31:831][661]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.55.31:831][661]AssetCheck: /Game/Assets/hat Validating asset
+[2026.10.30-07.55.31:841][661]MaterialEditorStats: Base pass shader: 195 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.55.31:841][661]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.31:841][661]MaterialEditorStats: Nanite Compute Shader: 853 instructions
+Stats: Resources Used: 13
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-07.55.31:841][661]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-07.55.31:841][661]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-07.55.31:841][661]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.55.31:841][661]MaterialEditorStats: Shader Count: 14
+[2026.10.30-07.55.31:841][661]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.34:825][873]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.30-07.55.34:835][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.30-07.55.34:858][873]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.55.34:875][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017584s)
+[2026.10.30-07.55.34:875][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017628s)
+[2026.10.30-07.55.34:902][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.30-07.55.34:905][873]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.30-07.55.34:906][873]LogPlayLevel: PIE: World Init took: (0.001795s)
+[2026.10.30-07.55.34:907][873]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2026.10.30-07.55.34:907][873]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.30-07.55.34:907][873]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.30-07.55.34:907][873]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.30-07.55.34:907][873]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.30-07.55.34:907][873]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.30-07.55.34:907][873]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.30-07.55.34:907][873]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.30-07.55.34:907][873]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.30-07.55.34:907][873]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.30-07.55.34:907][873]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.30-07.55.34:907][873]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.30-07.55.34:909][873]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.30-07.55.34:928][873]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.30-07.55.34:928][873]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.30-07.55.34:928][873]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.30-07.55.34:928][873]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.30-07.55.34:929][873]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2026.10.30-07.55.34:929][873]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2026.10.30-07.55.34:932][873]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2026.10.30-07.55.34:932][873]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2026.10.30-07.55.34:932][873]LogInit: FAudioDevice initialized with ID 31.
+[2026.10.30-07.55.34:932][873]LogAudio: Display: Audio Device (ID: 31) registered with world 'MainLVL'.
+[2026.10.30-07.55.34:932][873]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2026.10.30-07.55.34:935][873]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.30-07.55.34:940][873]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.30-08.55.34
+[2026.10.30-07.55.34:940][873]LogWorld: Bringing up level for play took: 0.004103
+[2026.10.30-07.55.34:942][873]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2026.10.30-07.55.34:943][873]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.55.34:943][873]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.55.34:943][873]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.55.34:947][873]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.55.34:948][873]PIE: Server logged in
+[2026.10.30-07.55.34:950][873]PIE: Play in editor total start time 0.115 seconds.
+[2026.10.30-07.55.39:715][216]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2456.937744
+[2026.10.30-07.55.39:908][231]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.30-07.55.39:908][231]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2457.118408, Update Interval: 313.542908
+[2026.10.30-07.55.41:208][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.55.41:208][332]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.55.41:208][332]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.30-07.55.41:210][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.55.41:214][332]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.30-07.55.41:220][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.55.41:245][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.55.41:245][332]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2026.10.30-07.55.41:245][332]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31, StreamState=4
+[2026.10.30-07.55.41:249][332]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31, StreamState=2
+[2026.10.30-07.55.41:257][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.10.30-07.55.41:318][333]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2026.10.30-07.55.46:907][689]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.10.30-07.55.46:942][690]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2026.10.30-07.55.46:973][691]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2026.10.30-07.55.47:077][695]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2026.10.30-07.55.49:095][798]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_Bullet.BP_Bullet
+[2026.10.30-07.55.49:095][798]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2026.10.30-07.55.56:625][186]LogMaterial: Display: Material /Game/Materials/PlayerMaterial.PlayerMaterial needed to have new flag set bUsedWithNanite !
+[2026.10.30-07.55.56:625][186]LogMaterial: Display: Material /Engine/Transient.PlayerMaterial needed to have new flag set bUsedWithNanite !
+[2026.10.30-07.55.56:655][186]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.55.56:655][186]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.55.56:655][186]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.55.56:655][186]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.56:701][187]MaterialEditorStats: Base pass shader: 177 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.10.30-07.55.56:701][187]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.56:701][187]MaterialEditorStats: Texture samplers: 1/16
+[2026.10.30-07.55.56:701][187]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.55.56:701][187]MaterialEditorStats: Shader Count: 9
+[2026.10.30-07.55.56:701][187]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.55.58:587][279]MaterialEditorStats: Base pass shader: 177 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.10.30-07.55.58:587][279]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.55.58:587][279]MaterialEditorStats: Nanite Compute Shader: 804 instructions
+Stats: Resources Used: 9
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.10.30-07.55.58:587][279]MaterialEditorStats: Texture samplers: 1/16
+[2026.10.30-07.55.58:587][279]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.10.30-07.55.58:587][279]MaterialEditorStats: Shader Count: 14
+[2026.10.30-07.55.58:587][279]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.56.08:437][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.56.08:494][876]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/hat] ([1] browsable assets)...
+[2026.10.30-07.56.08:494][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/hat]
+[2026.10.30-07.56.08:494][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/hat" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset" SILENT=true
+[2026.10.30-07.56.08:506][876]LogSavePackage: Moving output files for package: /Game/Assets/hat
+[2026.10.30-07.56.08:506][876]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hatA455C6E748386A6E9A1754989AA8D508.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset'
+[2026.10.30-07.56.08:517][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.124 ms (total: 4.04 sec)
+[2026.10.30-07.56.08:576][876]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.56.08:576][876]LogContentValidation: Enabled validators:
+[2026.10.30-07.56.08:576][876]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.56.08:576][876]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.56.08:576][876]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.56.08:576][876]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.56.08:576][876]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.56.08:576][876]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.56.08:576][876]AssetCheck: /Game/Assets/hat Validating asset
+[2026.10.30-07.56.10:975][ 34]LogMaterialEditor: Saving and Compiling material PlayerMaterial
+[2026.10.30-07.56.11:119][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.10.30-07.56.11:295][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.10.30-07.56.11:309][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.56.11:364][ 34]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/PlayerMaterial] ([1] browsable assets)...
+[2026.10.30-07.56.11:373][ 34]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/PlayerMaterial.PlayerMaterial]
+[2026.10.30-07.56.11:373][ 34]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/PlayerMaterial]
+[2026.10.30-07.56.11:373][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PlayerMaterial" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Materials/PlayerMaterial.uasset" SILENT=true
+[2026.10.30-07.56.11:384][ 34]LogSavePackage: Moving output files for package: /Game/Materials/PlayerMaterial
+[2026.10.30-07.56.11:385][ 34]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/PlayerMaterial687E5C3445031A2D855058BE052BB080.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Materials/PlayerMaterial.uasset'
+[2026.10.30-07.56.11:395][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.026 ms (total: 4.13 sec)
+[2026.10.30-07.56.11:429][ 34]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.56.11:429][ 34]LogContentValidation: Enabled validators:
+[2026.10.30-07.56.11:429][ 34]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.56.11:429][ 34]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.56.11:429][ 34]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.56.11:429][ 34]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.56.11:429][ 34]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.56.11:429][ 34]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.56.11:429][ 34]AssetCheck: /Game/Materials/PlayerMaterial Validating asset
+[2026.10.30-07.56.15:454][273]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.56.15:517][273]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/BP_Bullet] ([2] browsable assets)...
+[2026.10.30-07.56.15:557][273]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/BP_Bullet.BP_Bullet]
+[2026.10.30-07.56.15:557][273]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_Bullet]
+[2026.10.30-07.56.15:557][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Bullet" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset" SILENT=true
+[2026.10.30-07.56.15:569][273]LogSavePackage: Moving output files for package: /Game/BluePrints/BP_Bullet
+[2026.10.30-07.56.15:570][273]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/BP_BulletEB80DA314BEE9F292A94EDAD4409C6B6.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset'
+[2026.10.30-07.56.15:582][273]LogFileHelpers: InternalPromptForCheckoutAndSave took 128.071 ms (total: 4.26 sec)
+[2026.10.30-07.56.15:615][273]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.56.15:615][273]LogContentValidation: Enabled validators:
+[2026.10.30-07.56.15:615][273]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.56.15:615][273]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.56.15:615][273]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.56.15:615][273]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.56.15:615][273]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.56.15:615][273]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.56.15:615][273]AssetCheck: /Game/BluePrints/BP_Bullet Validating asset
+[2026.10.30-07.56.31:279][211]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.56.31:329][211]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BP_Bullet] ([2] browsable assets)...
+[2026.10.30-07.56.31:329][211]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_Bullet]
+[2026.10.30-07.56.31:329][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Bullet" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset" SILENT=true
+[2026.10.30-07.56.31:342][211]LogSavePackage: Moving output files for package: /Game/BluePrints/BP_Bullet
+[2026.10.30-07.56.31:343][211]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/BP_BulletB3A8AFA44101EDF14086D58810C039C4.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset'
+[2026.10.30-07.56.31:354][211]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.192 ms (total: 4.33 sec)
+[2026.10.30-07.56.31:395][211]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.56.31:395][211]LogContentValidation: Enabled validators:
+[2026.10.30-07.56.31:395][211]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.56.31:395][211]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.56.31:395][211]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.56.31:395][211]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.56.31:395][211]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.56.31:395][211]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.56.31:396][211]AssetCheck: /Game/BluePrints/BP_Bullet Validating asset
+[2026.10.30-07.56.35:757][453]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.30-07.56.35:767][453]LogPlayLevel: [PlayLevel] Compiling BP_Bullet before play...
+[2026.10.30-07.56.35:851][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.10.30-07.56.35:854][453]LogPlayLevel: PlayLevel: Blueprint regeneration took 87 ms (1 blueprints)
+[2026.10.30-07.56.35:855][453]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.56.35:872][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017568s)
+[2026.10.30-07.56.35:872][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017608s)
+[2026.10.30-07.56.35:899][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.10.30-07.56.35:901][453]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.30-07.56.35:903][453]LogPlayLevel: PIE: World Init took: (0.001805s)
+[2026.10.30-07.56.35:904][453]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2026.10.30-07.56.35:904][453]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.30-07.56.35:904][453]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.30-07.56.35:904][453]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.30-07.56.35:904][453]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.30-07.56.35:904][453]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.30-07.56.35:904][453]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.30-07.56.35:904][453]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.30-07.56.35:904][453]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.30-07.56.35:904][453]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.30-07.56.35:904][453]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.30-07.56.35:904][453]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.30-07.56.35:906][453]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.30-07.56.35:924][453]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.30-07.56.35:924][453]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.30-07.56.35:924][453]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.30-07.56.35:924][453]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.30-07.56.35:924][453]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2026.10.30-07.56.35:924][453]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2026.10.30-07.56.35:928][453]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2026.10.30-07.56.35:928][453]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2026.10.30-07.56.35:928][453]LogInit: FAudioDevice initialized with ID 32.
+[2026.10.30-07.56.35:928][453]LogAudio: Display: Audio Device (ID: 32) registered with world 'MainLVL'.
+[2026.10.30-07.56.35:928][453]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2026.10.30-07.56.35:932][453]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.30-07.56.35:936][453]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.30-08.56.35
+[2026.10.30-07.56.35:936][453]LogWorld: Bringing up level for play took: 0.004068
+[2026.10.30-07.56.35:938][453]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2026.10.30-07.56.35:939][453]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.56.35:939][453]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.56.35:939][453]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.56.35:943][453]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.56.35:944][453]PIE: Server logged in
+[2026.10.30-07.56.35:946][453]PIE: Play in editor total start time 0.179 seconds.
+[2026.10.30-07.56.49:438][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.56.49:438][324]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.56.49:438][324]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.30-07.56.49:439][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.56.49:443][324]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.30-07.56.49:450][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.56.49:476][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.56.49:478][324]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2026.10.30-07.56.49:478][324]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32, StreamState=4
+[2026.10.30-07.56.49:480][324]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32, StreamState=2
+[2026.10.30-07.56.49:489][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.10.30-07.56.49:555][325]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2026.10.30-07.56.54:632][421]LogShaderCompilers: Display: ================================================
+[2026.10.30-07.56.54:632][421]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.30-07.56.54:632][421]LogShaderCompilers: Display: Total job queries 991, among them cache hits 625 (63.07%), DDC hits 230 (23.21%), Duplicates 86 (8.68%)
+[2026.10.30-07.56.54:632][421]LogShaderCompilers: Display: Tracking 280 distinct input hashes that result in 173 distinct outputs (61.79%)
+[2026.10.30-07.56.54:632][421]LogShaderCompilers: Display: RAM used: 1.41 MiB of 3.20 GiB budget. Usage: 0.04%
+[2026.10.30-07.56.54:632][421]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.30-07.56.54:632][421]LogShaderCompilers: Display: Shaders Compiled: 50
+[2026.10.30-07.56.54:632][421]LogShaderCompilers: Display: Jobs assigned 50, completed 50 (100%)
+[2026.10.30-07.56.54:632][421]LogShaderCompilers: Display: Average time worker was idle: 256.28 s
+[2026.10.30-07.56.54:632][421]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.22 s
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Job execution time: average 1.13 s, max 2.84 s
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Job life time (pending + execution): average 1.20 s, max 3.07
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Shader code size: total 636.453 KiB, numShaders 50, average 12.729 KiB, min 4.332 KiB, max 20.793 KiB
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 21.85 s
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Jobs were issued in 49 batches (46 local, 3 distributed), average 1.02 jobs/batch (1.00 jobs/local batch. 1.33 jobs/distributed batch)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Average processing rate: 2.29 jobs/sec
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Total thread time: 40.538 s
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Total thread preprocess time: 11.168 s
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Percentage time preprocessing: 27.55%
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Effective parallelization: 1.86 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    6 times, average 1.46 sec, max 1.64 sec, min 1.35 sec)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    6 times, average 1.45 sec, max 1.60 sec, min 1.37 sec)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    6 times, average 1.10 sec, max 1.22 sec, min 1.04 sec)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    8 times, average 0.91 sec, max 1.01 sec, min 0.76 sec)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.45 sec, max 0.55 sec, min 0.39 sec)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 21.63% of total time (compiled    6 times, average 1.46 sec, max 1.64 sec, min 1.35 sec)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 21.43% of total time (compiled    6 times, average 1.45 sec, max 1.60 sec, min 1.37 sec)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display:                                             FDebugViewModePS - 18.04% of total time (compiled    8 times, average 0.91 sec, max 1.01 sec, min 0.76 sec)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display:                                                 FLumenCardCS - 16.30% of total time (compiled    6 times, average 1.10 sec, max 1.22 sec, min 1.04 sec)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.81% of total time (compiled    8 times, average 0.45 sec, max 0.55 sec, min 0.39 sec)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: === Material stats ===
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Materials Translated:    329
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Material Translation Only: 0.06 s (43%)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: Material Cache Hits: 22 (7%)
+[2026.10.30-07.56.54:633][421]LogShaderCompilers: Display: ================================================
+[2026.10.30-07.57.05:810][468]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.30-07.57.05:819][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.30-07.57.05:820][468]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.57.05:837][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016941s)
+[2026.10.30-07.57.05:837][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.016978s)
+[2026.10.30-07.57.05:863][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.10.30-07.57.05:867][468]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.30-07.57.05:868][468]LogPlayLevel: PIE: World Init took: (0.001698s)
+[2026.10.30-07.57.05:869][468]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2026.10.30-07.57.05:869][468]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.30-07.57.05:869][468]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.30-07.57.05:869][468]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.30-07.57.05:869][468]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.30-07.57.05:869][468]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.30-07.57.05:869][468]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.30-07.57.05:869][468]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.30-07.57.05:869][468]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.30-07.57.05:869][468]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.30-07.57.05:869][468]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.30-07.57.05:869][468]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.30-07.57.05:871][468]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.30-07.57.05:888][468]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.30-07.57.05:889][468]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.30-07.57.05:889][468]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.30-07.57.05:889][468]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.30-07.57.05:889][468]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2026.10.30-07.57.05:889][468]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2026.10.30-07.57.05:892][468]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2026.10.30-07.57.05:892][468]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2026.10.30-07.57.05:892][468]LogInit: FAudioDevice initialized with ID 33.
+[2026.10.30-07.57.05:892][468]LogAudio: Display: Audio Device (ID: 33) registered with world 'MainLVL'.
+[2026.10.30-07.57.05:892][468]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2026.10.30-07.57.05:897][468]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.30-07.57.05:900][468]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.30-08.57.05
+[2026.10.30-07.57.05:901][468]LogWorld: Bringing up level for play took: 0.004068
+[2026.10.30-07.57.05:903][468]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2026.10.30-07.57.05:904][468]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.57.05:904][468]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.57.05:904][468]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.57.05:908][468]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.57.05:909][468]PIE: Server logged in
+[2026.10.30-07.57.05:911][468]PIE: Play in editor total start time 0.091 seconds.
+[2026.10.30-07.57.28:229][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.57.28:229][718]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.57.28:230][718]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.30-07.57.28:231][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.57.28:235][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.30-07.57.28:240][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.57.28:267][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.57.28:268][718]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2026.10.30-07.57.28:268][718]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33, StreamState=4
+[2026.10.30-07.57.28:270][718]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33, StreamState=2
+[2026.10.30-07.57.28:279][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.10.30-07.57.28:335][719]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2026.10.30-07.57.35:868][242]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.57.35:868][242]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.57.35:868][242]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.57.35:868][242]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.57.35:868][242]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.57.36:449][274]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.57.36:449][274]MaterialEditorStats: Texture samplers: 2/16
+[2026.10.30-07.57.36:449][274]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.57.36:449][274]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.57.36:449][274]MaterialEditorStats: Shader Count: 3
+[2026.10.30-07.57.36:449][274]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.57.36:653][288]MaterialEditorStats: Base pass shader: 191 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.10.30-07.57.36:653][288]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.57.36:653][288]MaterialEditorStats: Texture samplers: 4/16
+[2026.10.30-07.57.36:653][288]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.57.36:653][288]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.57.36:653][288]MaterialEditorStats: Shader Count: 4
+[2026.10.30-07.57.36:653][288]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.57.37:294][329]LogMaterialEditor: Saving and Compiling material hat
+[2026.10.30-07.57.37:412][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2026.10.30-07.57.39:247][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.10.30-07.57.39:261][329]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.57.39:319][329]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/hat] ([1] browsable assets)...
+[2026.10.30-07.57.39:332][329]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/hat.hat]
+[2026.10.30-07.57.39:332][329]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/hat]
+[2026.10.30-07.57.39:332][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/hat" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset" SILENT=true
+[2026.10.30-07.57.39:343][329]LogSavePackage: Moving output files for package: /Game/Assets/hat
+[2026.10.30-07.57.39:344][329]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hat1A12CC9448E0F0701275BDBEF709D732.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset'
+[2026.10.30-07.57.39:354][329]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.743 ms (total: 4.42 sec)
+[2026.10.30-07.57.39:434][329]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.57.39:434][329]LogContentValidation: Enabled validators:
+[2026.10.30-07.57.39:434][329]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.57.39:434][329]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.57.39:434][329]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.57.39:434][329]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.57.39:434][329]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.57.39:434][329]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.57.39:434][329]AssetCheck: /Game/Assets/hat Validating asset
+[2026.10.30-07.57.39:450][329]MaterialEditorStats: Base pass shader: 191 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.10.30-07.57.39:450][329]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.57.39:450][329]MaterialEditorStats: Nanite Compute Shader: 848 instructions
+Stats: Resources Used: 12
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.10.30-07.57.39:450][329]MaterialEditorStats: Texture samplers: 4/16
+[2026.10.30-07.57.39:450][329]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2026.10.30-07.57.39:450][329]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.57.39:450][329]MaterialEditorStats: Shader Count: 14
+[2026.10.30-07.57.39:450][329]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.57.39:858][347]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.30-07.57.39:868][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.30-07.57.39:868][347]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.57.39:885][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017599s)
+[2026.10.30-07.57.39:885][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017636s)
+[2026.10.30-07.57.39:912][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.10.30-07.57.39:914][347]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.30-07.57.39:916][347]LogPlayLevel: PIE: World Init took: (0.001731s)
+[2026.10.30-07.57.39:917][347]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2026.10.30-07.57.39:917][347]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.30-07.57.39:917][347]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.30-07.57.39:917][347]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.30-07.57.39:917][347]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.30-07.57.39:917][347]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.30-07.57.39:917][347]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.30-07.57.39:917][347]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.30-07.57.39:917][347]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.30-07.57.39:917][347]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.30-07.57.39:917][347]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.30-07.57.39:917][347]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.30-07.57.39:919][347]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.30-07.57.39:936][347]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.30-07.57.39:937][347]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.30-07.57.39:937][347]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.30-07.57.39:937][347]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.30-07.57.39:937][347]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2026.10.30-07.57.39:937][347]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2026.10.30-07.57.39:940][347]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2026.10.30-07.57.39:940][347]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2026.10.30-07.57.39:940][347]LogInit: FAudioDevice initialized with ID 34.
+[2026.10.30-07.57.39:940][347]LogAudio: Display: Audio Device (ID: 34) registered with world 'MainLVL'.
+[2026.10.30-07.57.39:940][347]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2026.10.30-07.57.39:944][347]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.30-07.57.39:948][347]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.30-08.57.39
+[2026.10.30-07.57.39:948][347]LogWorld: Bringing up level for play took: 0.004044
+[2026.10.30-07.57.39:950][347]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2026.10.30-07.57.39:951][347]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.57.39:951][347]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.57.39:951][347]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.57.39:955][347]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.57.39:956][347]PIE: Server logged in
+[2026.10.30-07.57.39:958][347]PIE: Play in editor total start time 0.091 seconds.
+[2026.10.30-07.57.49:399][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.57.49:399][978]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.57.49:399][978]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.30-07.57.49:400][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.57.49:404][978]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.30-07.57.49:410][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.57.49:435][978]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.30-07.57.49:435][978]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2026.10.30-07.57.49:435][978]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=4
+[2026.10.30-07.57.49:439][978]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=2
+[2026.10.30-07.57.49:444][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.57.49:449][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.10.30-07.57.49:496][979]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2026.10.30-07.58.22:809][214]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.58.22:854][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/BP_Bullet] ([2] browsable assets)...
+[2026.10.30-07.58.22:866][214]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/BP_Bullet.BP_Bullet]
+[2026.10.30-07.58.22:866][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_Bullet]
+[2026.10.30-07.58.22:866][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Bullet" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset" SILENT=true
+[2026.10.30-07.58.22:879][214]LogSavePackage: Moving output files for package: /Game/BluePrints/BP_Bullet
+[2026.10.30-07.58.22:880][214]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/BP_BulletCCDD13E54419FCED08942093AD00FFAF.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset'
+[2026.10.30-07.58.22:891][214]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.654 ms (total: 4.51 sec)
+[2026.10.30-07.58.22:953][214]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.58.22:953][214]LogContentValidation: Enabled validators:
+[2026.10.30-07.58.22:953][214]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.58.22:953][214]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.58.22:953][214]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.58.22:953][214]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.58.22:953][214]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.58.22:953][214]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.58.22:953][214]AssetCheck: /Game/BluePrints/BP_Bullet Validating asset
+[2026.10.30-07.58.33:655][849]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-07.58.33:655][849]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.10.30-07.58.33:655][849]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.58.33:655][849]MaterialEditorStats: Shader Count: 0
+[2026.10.30-07.58.33:655][849]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.58.34:224][881]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.58.34:224][881]MaterialEditorStats: Texture samplers: 1/16
+[2026.10.30-07.58.34:224][881]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.10.30-07.58.34:224][881]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.58.34:224][881]MaterialEditorStats: Shader Count: 3
+[2026.10.30-07.58.34:224][881]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.58.34:239][882]LogMaterialEditor: Saving and Compiling material hat
+[2026.10.30-07.58.34:357][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.10.30-07.58.36:193][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.10.30-07.58.36:207][882]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.58.36:249][882]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/hat] ([1] browsable assets)...
+[2026.10.30-07.58.36:279][882]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/hat.hat]
+[2026.10.30-07.58.36:279][882]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/hat]
+[2026.10.30-07.58.36:279][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/hat" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset" SILENT=true
+[2026.10.30-07.58.36:292][882]LogSavePackage: Moving output files for package: /Game/Assets/hat
+[2026.10.30-07.58.36:293][882]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hatFFCEA33B429E10F8912C7DAF905E73B0.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/hat.uasset'
+[2026.10.30-07.58.36:304][882]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.384 ms (total: 4.60 sec)
+[2026.10.30-07.58.36:382][882]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.58.36:382][882]LogContentValidation: Enabled validators:
+[2026.10.30-07.58.36:382][882]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.58.36:382][882]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.58.36:382][882]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.58.36:382][882]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.58.36:382][882]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.58.36:382][882]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.58.36:382][882]AssetCheck: /Game/Assets/hat Validating asset
+[2026.10.30-07.58.36:403][882]MaterialEditorStats: Base pass shader: 187 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.10.30-07.58.36:403][882]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-07.58.36:403][882]MaterialEditorStats: Nanite Compute Shader: 845 instructions
+Stats: Resources Used: 11
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.10.30-07.58.36:403][882]MaterialEditorStats: Texture samplers: 3/16
+[2026.10.30-07.58.36:403][882]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.10.30-07.58.36:403][882]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-07.58.36:403][882]MaterialEditorStats: Shader Count: 14
+[2026.10.30-07.58.36:403][882]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2026.10.30-07.58.37:867][967]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.30-07.58.37:877][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.30-07.58.37:898][967]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.58.37:915][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017221s)
+[2026.10.30-07.58.37:915][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017262s)
+[2026.10.30-07.58.37:940][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.10.30-07.58.37:943][967]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.30-07.58.37:945][967]LogPlayLevel: PIE: World Init took: (0.001874s)
+[2026.10.30-07.58.37:945][967]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2026.10.30-07.58.37:945][967]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.30-07.58.37:945][967]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.30-07.58.37:945][967]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.30-07.58.37:945][967]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.30-07.58.37:945][967]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.30-07.58.37:945][967]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.30-07.58.37:945][967]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.30-07.58.37:945][967]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.30-07.58.37:945][967]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.30-07.58.37:945][967]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.30-07.58.37:945][967]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.30-07.58.37:948][967]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.30-07.58.37:966][967]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.30-07.58.37:966][967]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.30-07.58.37:966][967]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.30-07.58.37:966][967]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.30-07.58.37:966][967]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2026.10.30-07.58.37:966][967]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2026.10.30-07.58.37:970][967]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2026.10.30-07.58.37:970][967]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2026.10.30-07.58.37:970][967]LogInit: FAudioDevice initialized with ID 35.
+[2026.10.30-07.58.37:970][967]LogAudio: Display: Audio Device (ID: 35) registered with world 'MainLVL'.
+[2026.10.30-07.58.37:970][967]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2026.10.30-07.58.37:974][967]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.30-07.58.37:978][967]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.30-08.58.37
+[2026.10.30-07.58.37:979][967]LogWorld: Bringing up level for play took: 0.004218
+[2026.10.30-07.58.37:981][967]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2026.10.30-07.58.37:982][967]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.58.37:982][967]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.58.37:982][967]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.58.37:986][967]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.58.37:986][967]PIE: Server logged in
+[2026.10.30-07.58.37:989][967]PIE: Play in editor total start time 0.111 seconds.
+[2026.10.30-07.58.54:808][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.58.54:808][103]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.58.54:808][103]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.30-07.58.54:810][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.58.54:814][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.30-07.58.54:820][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.58.54:846][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.58.54:847][103]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2026.10.30-07.58.54:847][103]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=4
+[2026.10.30-07.58.54:849][103]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=2
+[2026.10.30-07.58.54:858][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.10.30-07.58.54:907][104]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2026.10.30-07.59.24:948][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-07.59.25:005][ 42]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/BP_Bullet] ([2] browsable assets)...
+[2026.10.30-07.59.25:017][ 42]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/BP_Bullet.BP_Bullet]
+[2026.10.30-07.59.25:017][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_Bullet]
+[2026.10.30-07.59.25:017][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Bullet" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset" SILENT=true
+[2026.10.30-07.59.25:030][ 42]LogSavePackage: Moving output files for package: /Game/BluePrints/BP_Bullet
+[2026.10.30-07.59.25:030][ 42]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/BP_Bullet0E46031A4A45BCB9ADE951A8F611F0A4.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/BluePrints/BP_Bullet.uasset'
+[2026.10.30-07.59.25:041][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.038 ms (total: 4.70 sec)
+[2026.10.30-07.59.25:104][ 42]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-07.59.25:104][ 42]LogContentValidation: Enabled validators:
+[2026.10.30-07.59.25:104][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-07.59.25:104][ 42]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-07.59.25:104][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-07.59.25:104][ 42]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-07.59.25:104][ 42]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-07.59.25:104][ 42]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-07.59.25:104][ 42]AssetCheck: /Game/BluePrints/BP_Bullet Validating asset
+[2026.10.30-07.59.26:558][138]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.30-07.59.26:568][138]LogPlayLevel: [PlayLevel] Compiling BP_Bullet before play...
+[2026.10.30-07.59.26:652][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.10.30-07.59.26:658][138]LogPlayLevel: PlayLevel: Blueprint regeneration took 89 ms (1 blueprints)
+[2026.10.30-07.59.26:658][138]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.59.26:675][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017195s)
+[2026.10.30-07.59.26:675][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017232s)
+[2026.10.30-07.59.26:699][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.10.30-07.59.26:701][138]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.30-07.59.26:703][138]LogPlayLevel: PIE: World Init took: (0.001849s)
+[2026.10.30-07.59.26:703][138]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2026.10.30-07.59.26:703][138]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.30-07.59.26:703][138]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.30-07.59.26:703][138]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.30-07.59.26:703][138]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.30-07.59.26:703][138]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.30-07.59.26:703][138]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.30-07.59.26:704][138]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.30-07.59.26:704][138]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.30-07.59.26:704][138]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.30-07.59.26:704][138]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.30-07.59.26:704][138]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.30-07.59.26:706][138]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.30-07.59.26:723][138]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.30-07.59.26:723][138]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.30-07.59.26:723][138]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.30-07.59.26:723][138]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.30-07.59.26:724][138]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2026.10.30-07.59.26:724][138]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2026.10.30-07.59.26:727][138]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2026.10.30-07.59.26:727][138]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2026.10.30-07.59.26:727][138]LogInit: FAudioDevice initialized with ID 36.
+[2026.10.30-07.59.26:727][138]LogAudio: Display: Audio Device (ID: 36) registered with world 'MainLVL'.
+[2026.10.30-07.59.26:727][138]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2026.10.30-07.59.26:731][138]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.30-07.59.26:735][138]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.30-08.59.26
+[2026.10.30-07.59.26:736][138]LogWorld: Bringing up level for play took: 0.004122
+[2026.10.30-07.59.26:738][138]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2026.10.30-07.59.26:738][138]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.59.26:738][138]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.59.26:738][138]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.59.26:742][138]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.59.26:743][138]PIE: Server logged in
+[2026.10.30-07.59.26:745][138]PIE: Play in editor total start time 0.177 seconds.
+[2026.10.30-07.59.36:239][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.59.36:239][783]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.59.36:239][783]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.30-07.59.36:240][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.59.36:244][783]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.30-07.59.36:249][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-07.59.36:276][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.59.36:276][783]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2026.10.30-07.59.36:276][783]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36, StreamState=4
+[2026.10.30-07.59.36:279][783]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36, StreamState=2
+[2026.10.30-07.59.36:288][783]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.10.30-07.59.36:338][784]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2026.10.30-07.59.42:242][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.30-07.59.42:242][171]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.30-07.59.42:259][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017463s)
+[2026.10.30-07.59.42:259][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017507s)
+[2026.10.30-07.59.42:285][171]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.10.30-07.59.42:288][171]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.30-07.59.42:290][171]LogPlayLevel: PIE: World Init took: (0.001772s)
+[2026.10.30-07.59.42:291][171]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2026.10.30-07.59.42:291][171]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.30-07.59.42:291][171]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.30-07.59.42:291][171]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.30-07.59.42:291][171]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.30-07.59.42:291][171]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.30-07.59.42:291][171]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.30-07.59.42:291][171]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.30-07.59.42:291][171]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.30-07.59.42:291][171]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.30-07.59.42:291][171]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.30-07.59.42:291][171]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.30-07.59.42:293][171]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.30-07.59.42:310][171]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.30-07.59.42:310][171]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.30-07.59.42:310][171]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.30-07.59.42:310][171]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.30-07.59.42:311][171]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2026.10.30-07.59.42:311][171]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2026.10.30-07.59.42:314][171]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2026.10.30-07.59.42:314][171]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2026.10.30-07.59.42:314][171]LogInit: FAudioDevice initialized with ID 37.
+[2026.10.30-07.59.42:314][171]LogAudio: Display: Audio Device (ID: 37) registered with world 'MainLVL'.
+[2026.10.30-07.59.42:314][171]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2026.10.30-07.59.42:369][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-07.59.42:370][171]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.30-07.59.42:374][171]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.30-08.59.42
+[2026.10.30-07.59.42:374][171]LogWorld: Bringing up level for play took: 0.004347
+[2026.10.30-07.59.42:376][171]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2026.10.30-07.59.42:377][171]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.59.42:377][171]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-07.59.42:377][171]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.59.42:381][171]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-07.59.42:387][171]PIE: Server logged in
+[2026.10.30-07.59.42:391][171]PIE: Play in editor total start time 0.151 seconds.
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: ================================================
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: Total job queries 1,040, among them cache hits 648 (62.31%), DDC hits 231 (22.21%), Duplicates 92 (8.85%)
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: Tracking 300 distinct input hashes that result in 187 distinct outputs (62.33%)
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: RAM used: 1.57 MiB of 3.20 GiB budget. Usage: 0.05%
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: Shaders Compiled: 69
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: Jobs assigned 69, completed 69 (100%)
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: Average time worker was idle: 191.92 s
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.22 s
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: Job execution time: average 1.06 s, max 2.84 s
+[2026.10.30-07.59.54:645][473]LogShaderCompilers: Display: Job life time (pending + execution): average 1.12 s, max 3.07
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Shader code size: total 865.535 KiB, numShaders 69, average 12.544 KiB, min 4.332 KiB, max 20.793 KiB
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 26.66 s
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Jobs were issued in 68 batches (65 local, 3 distributed), average 1.01 jobs/batch (1.00 jobs/local batch. 1.33 jobs/distributed batch)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Average processing rate: 2.59 jobs/sec
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Total thread time: 54.008 s
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Total thread preprocess time: 11.757 s
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Percentage time preprocessing: 21.77%
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Effective parallelization: 2.03 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    8 times, average 1.44 sec, max 1.64 sec, min 1.35 sec)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    8 times, average 1.44 sec, max 1.60 sec, min 1.37 sec)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    8 times, average 1.10 sec, max 1.22 sec, min 1.04 sec)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   10 times, average 0.93 sec, max 1.04 sec, min 0.76 sec)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   10 times, average 0.45 sec, max 0.55 sec, min 0.39 sec)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 21.37% of total time (compiled    8 times, average 1.44 sec, max 1.64 sec, min 1.35 sec)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 21.29% of total time (compiled    8 times, average 1.44 sec, max 1.60 sec, min 1.37 sec)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display:                                             FDebugViewModePS - 17.22% of total time (compiled   10 times, average 0.93 sec, max 1.04 sec, min 0.76 sec)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display:                                                 FLumenCardCS - 16.23% of total time (compiled    8 times, average 1.10 sec, max 1.22 sec, min 1.04 sec)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.31% of total time (compiled   10 times, average 0.45 sec, max 0.55 sec, min 0.39 sec)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: === Material stats ===
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Materials Translated:    336
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Material Translation Only: 0.06 s (43%)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: Material Cache Hits: 22 (7%)
+[2026.10.30-07.59.54:646][473]LogShaderCompilers: Display: ================================================
+[2026.10.30-08.00.16:229][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-08.00.16:229][701]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.30-08.00.16:229][701]LogSlate: Window 'DreamDodge Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.10.30-08.00.16:240][701]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.30-08.00.16:241][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-08.00.16:245][701]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.30-08.00.16:251][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-08.00.16:281][701]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2026.10.30-08.00.16:281][701]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37, StreamState=4
+[2026.10.30-08.00.16:283][701]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37, StreamState=2
+[2026.10.30-08.00.16:293][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.10.30-08.00.16:342][702]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2026.10.30-08.00.35:263][659]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/JesterMask/Materials/hat.hat
+[2026.10.30-08.00.35:264][659]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_2: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+
+[2026.10.30-08.00.35:267][659]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2026.10.30-08.00.35:421][659]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_2: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+
+[2026.10.30-08.00.35:422][659]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_2: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+
+[2026.10.30-08.00.35:883][659]MaterialEditorStats: Error: [SM6] (Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+[2026.10.30-08.00.38:182][790]LogMaterialEditor: Saving and Compiling material hat
+[2026.10.30-08.00.38:185][790]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-08.00.38:232][790]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/JesterMask/Materials/hat] ([1] browsable assets)...
+[2026.10.30-08.00.38:242][790]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/JesterMask/Materials/hat.hat]
+[2026.10.30-08.00.38:242][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/JesterMask/Materials/hat]
+[2026.10.30-08.00.38:242][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/JesterMask/Materials/hat" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat.uasset" SILENT=true
+[2026.10.30-08.00.38:255][790]LogSavePackage: Moving output files for package: /Game/Assets/JesterMask/Materials/hat
+[2026.10.30-08.00.38:257][790]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hatF23693E94C11B9AF2CB7F794B9BC8FAB.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat.uasset'
+[2026.10.30-08.00.38:267][790]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.234 ms (total: 4.78 sec)
+[2026.10.30-08.00.38:316][790]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-08.00.38:316][790]LogContentValidation: Enabled validators:
+[2026.10.30-08.00.38:316][790]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-08.00.38:317][790]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-08.00.38:317][790]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-08.00.38:317][790]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-08.00.38:317][790]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-08.00.38:317][790]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-08.00.38:317][790]AssetCheck: /Game/Assets/JesterMask/Materials/hat Validating asset
+[2026.10.30-08.00.49:389][445]LogMaterial: Warning: [AssetLog] /Game/Assets/JesterMask/Materials/hat1.hat1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+
+[2026.10.30-08.00.51:266][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-08.00.51:327][519]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/JesterMask/Materials/hat1] ([1] browsable assets)...
+[2026.10.30-08.00.51:333][519]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/JesterMask/Materials/hat1.hat1]
+[2026.10.30-08.00.51:333][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/JesterMask/Materials/hat1]
+[2026.10.30-08.00.51:333][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/JesterMask/Materials/hat1" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat1.uasset" SILENT=true
+[2026.10.30-08.00.51:346][519]LogSavePackage: Moving output files for package: /Game/Assets/JesterMask/Materials/hat1
+[2026.10.30-08.00.51:346][519]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hat1F8DB55CB449E0F26050939B3FC4C3A6A.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat1.uasset'
+[2026.10.30-08.00.51:358][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 91.584 ms (total: 4.87 sec)
+[2026.10.30-08.00.51:410][519]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-08.00.51:410][519]LogContentValidation: Enabled validators:
+[2026.10.30-08.00.51:410][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-08.00.51:410][519]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-08.00.51:410][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-08.00.51:410][519]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-08.00.51:410][519]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-08.00.51:410][519]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-08.00.51:410][519]AssetCheck: /Game/Assets/JesterMask/Materials/hat1 Validating asset
+[2026.10.30-08.00.51:476][519]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.30-08.00.52:411][570]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/JesterMask/Materials/hat1.hat1
+[2026.10.30-08.00.52:412][570]LogMaterial: Warning: [AssetLog] /Engine/Transient.hat1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+
+[2026.10.30-08.00.52:413][570]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2026.10.30-08.00.52:570][570]LogMaterial: Warning: [AssetLog] /Engine/Transient.hat1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+
+[2026.10.30-08.00.52:571][570]LogMaterial: Warning: [AssetLog] /Engine/Transient.hat1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+
+[2026.10.30-08.00.53:079][570]MaterialEditorStats: Error: [SM6] (Node TextureSample) Sampler type is Color, should be Linear Color for /Game/Assets/JesterMask/Materials/hat_Roughness_Raw.hat_Roughness_Raw
+[2026.10.30-08.01.04:015][257]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-08.01.04:015][257]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-08.01.04:015][257]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-08.01.04:015][257]MaterialEditorStats: Shader Count: 0
+[2026.10.30-08.01.04:015][257]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-08.01.04:078][259]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-08.01.04:078][259]MaterialEditorStats: Texture samplers: 0/16
+[2026.10.30-08.01.04:078][259]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-08.01.04:078][259]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-08.01.04:078][259]MaterialEditorStats: Shader Count: 2
+[2026.10.30-08.01.04:078][259]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-08.01.04:601][289]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-08.01.04:601][289]MaterialEditorStats: Texture samplers: 3/16
+[2026.10.30-08.01.04:601][289]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-08.01.04:601][289]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-08.01.04:601][289]MaterialEditorStats: Shader Count: 3
+[2026.10.30-08.01.04:601][289]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-08.01.04:680][294]LogMaterialEditor: Saving and Compiling material hat1
+[2026.10.30-08.01.04:847][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.30-08.01.06:748][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.10.30-08.01.06:760][294]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-08.01.06:821][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/JesterMask/Materials/hat1] ([1] browsable assets)...
+[2026.10.30-08.01.06:835][294]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/JesterMask/Materials/hat1.hat1]
+[2026.10.30-08.01.06:835][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/JesterMask/Materials/hat1]
+[2026.10.30-08.01.06:835][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/JesterMask/Materials/hat1" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat1.uasset" SILENT=true
+[2026.10.30-08.01.06:846][294]LogSavePackage: Moving output files for package: /Game/Assets/JesterMask/Materials/hat1
+[2026.10.30-08.01.06:847][294]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hat1F7A311EF48880D5F5B69A38CEA23B3D1.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat1.uasset'
+[2026.10.30-08.01.06:857][294]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.272 ms (total: 4.97 sec)
+[2026.10.30-08.01.06:905][294]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-08.01.06:905][294]LogContentValidation: Enabled validators:
+[2026.10.30-08.01.06:905][294]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-08.01.06:905][294]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-08.01.06:905][294]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-08.01.06:905][294]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-08.01.06:905][294]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-08.01.06:905][294]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-08.01.06:905][294]AssetCheck: /Game/Assets/JesterMask/Materials/hat1 Validating asset
+[2026.10.30-08.01.06:926][294]MaterialEditorStats: Base pass shader: 192 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-08.01.06:926][294]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.10.30-08.01.06:926][294]MaterialEditorStats: Nanite Compute Shader: 850 instructions
+Stats: Resources Used: 13
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.10.30-08.01.06:926][294]MaterialEditorStats: Texture samplers: 5/16
+[2026.10.30-08.01.06:926][294]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2026.10.30-08.01.06:926][294]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.10.30-08.01.06:926][294]MaterialEditorStats: Shader Count: 14
+[2026.10.30-08.01.06:926][294]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.10.30-08.01.12:787][668]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.10.30-08.01.12:797][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.30-08.01.12:827][668]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.30-08.01.12:845][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017455s)
+[2026.10.30-08.01.12:845][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017501s)
+[2026.10.30-08.01.12:871][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.10.30-08.01.12:874][668]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.30-08.01.12:875][668]LogPlayLevel: PIE: World Init took: (0.001678s)
+[2026.10.30-08.01.12:876][668]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2026.10.30-08.01.12:876][668]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.30-08.01.12:876][668]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.30-08.01.12:876][668]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.30-08.01.12:876][668]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.30-08.01.12:876][668]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.30-08.01.12:876][668]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.30-08.01.12:876][668]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.30-08.01.12:876][668]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.30-08.01.12:876][668]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.30-08.01.12:876][668]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.30-08.01.12:876][668]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.30-08.01.12:878][668]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.30-08.01.12:898][668]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.30-08.01.12:898][668]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.30-08.01.12:898][668]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.30-08.01.12:898][668]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.30-08.01.12:898][668]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2026.10.30-08.01.12:898][668]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2026.10.30-08.01.12:901][668]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2026.10.30-08.01.12:901][668]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2026.10.30-08.01.12:901][668]LogInit: FAudioDevice initialized with ID 38.
+[2026.10.30-08.01.12:901][668]LogAudio: Display: Audio Device (ID: 38) registered with world 'MainLVL'.
+[2026.10.30-08.01.12:901][668]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2026.10.30-08.01.12:960][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-08.01.12:960][668]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.30-08.01.12:964][668]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.30-09.01.12
+[2026.10.30-08.01.12:964][668]LogWorld: Bringing up level for play took: 0.004269
+[2026.10.30-08.01.12:967][668]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2026.10.30-08.01.12:968][668]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-08.01.12:968][668]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-08.01.12:968][668]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-08.01.12:972][668]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-08.01.12:980][668]PIE: Server logged in
+[2026.10.30-08.01.12:986][668]PIE: Play in editor total start time 0.189 seconds.
+[2026.10.30-08.01.15:609][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-08.01.15:609][790]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.30-08.01.15:609][790]LogSlate: Window 'DreamDodge Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.10.30-08.01.15:615][790]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.30-08.01.15:616][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-08.01.15:619][790]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.30-08.01.15:625][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-08.01.15:652][790]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.30-08.01.15:652][790]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2026.10.30-08.01.15:653][790]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38, StreamState=4
+[2026.10.30-08.01.15:655][790]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38, StreamState=2
+[2026.10.30-08.01.15:665][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.10.30-08.01.15:713][791]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2026.10.30-08.01.28:844][490]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-08.01.28:907][490]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/JesterMask/Materials/hat1] ([1] browsable assets)...
+[2026.10.30-08.01.28:907][490]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/JesterMask/Materials/hat1]
+[2026.10.30-08.01.28:907][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/JesterMask/Materials/hat1" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat1.uasset" SILENT=true
+[2026.10.30-08.01.28:918][490]LogSavePackage: Moving output files for package: /Game/Assets/JesterMask/Materials/hat1
+[2026.10.30-08.01.28:919][490]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/hat13541BE9D47C0A7D7A0DCD2808A3A1B25.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/Assets/JesterMask/Materials/hat1.uasset'
+[2026.10.30-08.01.28:928][490]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.556 ms (total: 5.05 sec)
+[2026.10.30-08.01.28:990][490]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-08.01.28:991][490]LogContentValidation: Enabled validators:
+[2026.10.30-08.01.28:991][490]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-08.01.28:991][490]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-08.01.28:991][490]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-08.01.28:991][490]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-08.01.28:991][490]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-08.01.28:991][490]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-08.01.28:991][490]AssetCheck: /Game/Assets/JesterMask/Materials/hat1 Validating asset
+[2026.10.30-08.01.31:968][636]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.10.30-08.01.31:977][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.30-08.01.31:978][636]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.30-08.01.31:995][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017442s)
+[2026.10.30-08.01.31:995][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017483s)
+[2026.10.30-08.01.32:022][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.30-08.01.32:027][636]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.30-08.01.32:028][636]LogPlayLevel: PIE: World Init took: (0.001715s)
+[2026.10.30-08.01.32:029][636]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2026.10.30-08.01.32:029][636]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.30-08.01.32:029][636]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.30-08.01.32:029][636]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.30-08.01.32:029][636]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.30-08.01.32:029][636]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.30-08.01.32:029][636]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.30-08.01.32:029][636]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.30-08.01.32:029][636]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.30-08.01.32:029][636]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.30-08.01.32:029][636]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.30-08.01.32:029][636]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.30-08.01.32:031][636]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.30-08.01.32:049][636]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.30-08.01.32:050][636]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.30-08.01.32:050][636]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.30-08.01.32:050][636]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.30-08.01.32:050][636]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2026.10.30-08.01.32:050][636]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2026.10.30-08.01.32:053][636]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2026.10.30-08.01.32:053][636]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2026.10.30-08.01.32:053][636]LogInit: FAudioDevice initialized with ID 39.
+[2026.10.30-08.01.32:053][636]LogAudio: Display: Audio Device (ID: 39) registered with world 'MainLVL'.
+[2026.10.30-08.01.32:053][636]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2026.10.30-08.01.32:109][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-08.01.32:109][636]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.30-08.01.32:114][636]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.30-09.01.32
+[2026.10.30-08.01.32:114][636]LogWorld: Bringing up level for play took: 0.004276
+[2026.10.30-08.01.32:116][636]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2026.10.30-08.01.32:117][636]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-08.01.32:117][636]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-08.01.32:117][636]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-08.01.32:120][636]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-08.01.32:128][636]PIE: Server logged in
+[2026.10.30-08.01.32:135][636]PIE: Play in editor total start time 0.157 seconds.
+[2026.10.30-08.01.34:658][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-08.01.34:658][749]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.30-08.01.34:658][749]LogSlate: Window 'DreamDodge Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.10.30-08.01.34:671][749]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.30-08.01.34:672][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-08.01.34:675][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.30-08.01.34:682][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-08.01.34:709][749]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2026.10.30-08.01.34:709][749]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39, StreamState=4
+[2026.10.30-08.01.34:711][749]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39, StreamState=2
+[2026.10.30-08.01.34:720][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.10.30-08.01.34:787][750]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2026.10.30-08.01.37:133][873]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.10.30-08.01.37:143][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.30-08.01.37:167][873]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2026.10.30-08.01.37:184][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017116s)
+[2026.10.30-08.01.37:184][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.017160s)
+[2026.10.30-08.01.37:210][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2026.10.30-08.01.37:214][873]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLVL
+[2026.10.30-08.01.37:215][873]LogPlayLevel: PIE: World Init took: (0.001711s)
+[2026.10.30-08.01.37:217][873]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2026.10.30-08.01.37:217][873]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.30-08.01.37:217][873]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.30-08.01.37:217][873]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.30-08.01.37:217][873]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.30-08.01.37:217][873]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.30-08.01.37:217][873]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.30-08.01.37:217][873]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.30-08.01.37:217][873]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.30-08.01.37:217][873]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.30-08.01.37:217][873]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.30-08.01.37:217][873]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.30-08.01.37:218][873]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.30-08.01.37:237][873]LogAudioMixer: Display: Using Audio Hardware Device Headphones (G435 Bluetooth Gaming Headset)
+[2026.10.30-08.01.37:237][873]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.30-08.01.37:237][873]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.30-08.01.37:237][873]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.30-08.01.37:237][873]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2026.10.30-08.01.37:237][873]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2026.10.30-08.01.37:240][873]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2026.10.30-08.01.37:240][873]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2026.10.30-08.01.37:240][873]LogInit: FAudioDevice initialized with ID 40.
+[2026.10.30-08.01.37:240][873]LogAudio: Display: Audio Device (ID: 40) registered with world 'MainLVL'.
+[2026.10.30-08.01.37:240][873]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2026.10.30-08.01.37:295][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-08.01.37:297][873]LogLoad: Game class is 'BP_PlayerGameMode_C'
+[2026.10.30-08.01.37:300][873]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2026.10.30-09.01.37
+[2026.10.30-08.01.37:301][873]LogWorld: Bringing up level for play took: 0.004129
+[2026.10.30-08.01.37:303][873]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2026.10.30-08.01.37:304][873]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-08.01.37:304][873]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.10.30-08.01.37:304][873]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-08.01.37:308][873]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.10.30-08.01.37:315][873]PIE: Server logged in
+[2026.10.30-08.01.37:321][873]PIE: Play in editor total start time 0.178 seconds.
+[2026.10.30-08.01.51:977][312]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2829.178711
+[2026.10.30-08.01.52:187][323]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.30-08.01.52:187][323]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2829.370117, Update Interval: 318.957489
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: ================================================
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Total job queries 1,093, among them cache hits 690 (63.13%), DDC hits 232 (21.23%), Duplicates 95 (8.69%)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Tracking 308 distinct input hashes that result in 188 distinct outputs (61.04%)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: RAM used: 1.57 MiB of 3.20 GiB budget. Usage: 0.05%
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Shaders Compiled: 76
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Jobs assigned 76, completed 76 (100%)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Average time worker was idle: 182.88 s
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.22 s
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Job execution time: average 1.06 s, max 2.84 s
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Job life time (pending + execution): average 1.12 s, max 3.07
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Shader code size: total 963.949 KiB, numShaders 76, average 12.683 KiB, min 4.332 KiB, max 20.793 KiB
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 29.05 s
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Jobs were issued in 75 batches (72 local, 3 distributed), average 1.01 jobs/batch (1.00 jobs/local batch. 1.33 jobs/distributed batch)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Average processing rate: 2.62 jobs/sec
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Total thread time: 59.974 s
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Total thread preprocess time: 12.359 s
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Percentage time preprocessing: 20.61%
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Effective parallelization: 2.06 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    9 times, average 1.44 sec, max 1.64 sec, min 1.35 sec)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    9 times, average 1.43 sec, max 1.60 sec, min 1.37 sec)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    9 times, average 1.09 sec, max 1.22 sec, min 1.04 sec)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   11 times, average 0.94 sec, max 1.04 sec, min 0.76 sec)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   11 times, average 0.45 sec, max 0.55 sec, min 0.39 sec)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 21.60% of total time (compiled    9 times, average 1.44 sec, max 1.64 sec, min 1.35 sec)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 21.48% of total time (compiled    9 times, average 1.43 sec, max 1.60 sec, min 1.37 sec)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display:                                             FDebugViewModePS - 17.17% of total time (compiled   11 times, average 0.94 sec, max 1.04 sec, min 0.76 sec)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display:                                                 FLumenCardCS - 16.37% of total time (compiled    9 times, average 1.09 sec, max 1.22 sec, min 1.04 sec)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.22% of total time (compiled   11 times, average 0.45 sec, max 0.55 sec, min 0.39 sec)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: === Material stats ===
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Materials Translated:    363
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Material Total Translate Time: 0.14 s
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Material Translation Only: 0.06 s (44%)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: Material Cache Hits: 22 (6%)
+[2026.10.30-08.02.54:645][627]LogShaderCompilers: Display: ================================================
+[2026.10.30-08.03.05:139][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.30-08.03.05:139][111]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLVL
+[2026.10.30-08.03.05:139][111]LogSlate: Window 'DreamDodge Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.10.30-08.03.05:145][111]LogWorld: UWorld::CleanupWorld for MainLVL, bSessionEnded=true, bCleanupResources=true
+[2026.10.30-08.03.05:146][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-08.03.05:150][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.30-08.03.05:156][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.30-08.03.05:184][111]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2026.10.30-08.03.05:184][111]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40, StreamState=4
+[2026.10.30-08.03.05:187][111]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40, StreamState=2
+[2026.10.30-08.03.05:195][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.10.30-08.03.05:259][112]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2026.10.30-08.03.46:350][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.10.30-08.03.46:354][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/Autosaves/Game/MainLVL_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2026.10.30-08.03.46:404][281]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MainLVL_Auto1
+[2026.10.30-08.03.46:405][281]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/MainLVL_Auto1C960489A4225A1745EE8D4AD685AF1D3.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/Autosaves/Game/MainLVL_Auto1.umap'
+[2026.10.30-08.03.46:407][281]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLVL' took 0.087
+[2026.10.30-08.03.46:407][281]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.087
+[2026.10.30-08.07.51:047][225]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3188.251709
+[2026.10.30-08.07.52:048][228]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.30-08.07.52:048][228]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3188.917725, Update Interval: 358.509460
+[2026.10.30-08.09.53:418][596]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-08.09.53:473][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/MainLVL.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.30-08.09.53:534][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.10.30-08.09.53:587][596]LogSavePackage: Moving output files for package: /Game/MainLVL
+[2026.10.30-08.09.53:588][596]LogSavePackage: Moving '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Saved/MainLVL5A1FDF53495AFC1F87158E9FA83B6202.tmp' to '../../../../../../Documents/GitHub/DreamDodge/DreamDodge/Content/MainLVL.umap'
+[2026.10.30-08.09.53:605][596]LogFileHelpers: Saving map 'MainLVL' took 0.133
+[2026.10.30-08.09.53:618][596]LogFileHelpers: InternalPromptForCheckoutAndSave took 201.104 ms (total: 5.25 sec)
+[2026.10.30-08.09.53:653][596]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-08.09.53:653][596]LogContentValidation: Enabled validators:
+[2026.10.30-08.09.53:653][596]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-08.09.53:653][596]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-08.09.53:653][596]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-08.09.53:653][596]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-08.09.53:653][596]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-08.09.53:653][596]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-08.09.53:653][596]AssetCheck: /Game/MainLVL Validating asset
