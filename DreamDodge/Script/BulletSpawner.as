@@ -128,6 +128,7 @@ class ABulletSpawner : AActor{
         }else{
             
             System::ClearTimer(this, "SpawnBullet");
+            CurrentPatternIndex = 0;
         }
         
     }

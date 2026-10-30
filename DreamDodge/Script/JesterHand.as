@@ -4,6 +4,8 @@ class AJesterHand : AActor{
     UPROPERTY(DefaultComponent)
     UStaticMeshComponent HandMesh;
     UPROPERTY(DefaultComponent)
+    UStaticMeshComponent DreamHandMesh;
+    UPROPERTY(DefaultComponent)
     UBoxComponent OverlapArea;
 
     //bools
@@ -42,7 +44,7 @@ class AJesterHand : AActor{
 
     //managers and player acces
     APlayer Player;
-
+    AGameManager GameManager;
 
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
@@ -50,6 +52,10 @@ class AJesterHand : AActor{
         TArray<APlayer> players;
         GetAllActorsOfClass(APlayer,players);
         Player = players[0];
+
+        TArray<AGameManager> GameManagers;
+        GetAllActorsOfClass(AGameManager,GameManagers);
+        GameManager = GameManagers[0];
     }
 
     UFUNCTION(BlueprintOverride)
@@ -197,13 +203,26 @@ class AJesterHand : AActor{
             SetActorLocation(ActorLocation -FVector(0,0,1)*15);
             TotalUnitsDown -= 15;
             if(TotalUnitsDown <= 0){
-                CurrentHandAttack= "";
+                CurrentHandAttack= "None";
                 PositionalQueue.Add(HandDefaultPosition);
                 HandSpeed = 10+ 5*PhaseOfBoss;
                 MoveJesterHands();
             }
             
         }
+        
+    }
+
+    UFUNCTION()
+    void SwapMesh(EDimension NewDimension, FString Hand){
+        if(NewDimension == EDimension::Dream){
+            DreamHandMesh.SetVisibility(true);
+            HandMesh.SetVisibility(false);
+        }else if (NewDimension == EDimension::Nightmare){
+            DreamHandMesh.SetVisibility(false);
+            HandMesh.SetVisibility(true);
+        }
+        
         
     }
 }

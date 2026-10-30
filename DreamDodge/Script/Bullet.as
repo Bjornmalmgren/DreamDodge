@@ -117,7 +117,7 @@ class ABullet : AActor{
 
     UFUNCTION()
     void StartDestructionTimer(){
-        System::SetTimer(this, n"Destroy",5,false,false);
+        System::SetTimer(this, n"Destroy",10,false,false);
     }
 
     UFUNCTION()

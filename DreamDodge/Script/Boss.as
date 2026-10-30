@@ -11,6 +11,8 @@ class AJesterBoss :AActor{
     UPROPERTY(DefaultComponent)
     UStaticMeshComponent JesterBody;
     UPROPERTY(DefaultComponent)
+    UStaticMeshComponent DreamJesterBody;
+    UPROPERTY(DefaultComponent)
     UHealComponent Health;
 
     FAttack Left;
@@ -158,6 +160,16 @@ class AJesterBoss :AActor{
         JesterHandLeft.SetActorLocation(JesterHandLeft.HandDefaultPosition);
         JesterHandRight.SetActorLocation(JesterHandRight.HandDefaultPosition);
         //OmegaAttack();
+
+        
+        DreamJesterBody.SetWorldScale3D(JesterBody.GetWorldScale()/8);
+        FRotator Rotation;
+        Rotation.Yaw = 0;
+        DreamJesterBody.SetWorldRotation(Rotation);
+        JesterBody.SetVisibility(false);
+
+        JesterHandLeft.SwapMesh(EDimension::Dream, "Left");
+        JesterHandRight.SwapMesh(EDimension::Dream, "Right");
     }
 
 
@@ -298,6 +310,7 @@ class AJesterBoss :AActor{
         }
 
         OmegaSpawners = tempOmega;
+
         
     }
 
@@ -438,10 +451,10 @@ class AJesterBoss :AActor{
         //really really stupid and hardcoded
         float Side = Math::RandRange(0.0f, 100.0f);
         if(Side < 50.0f){
-            JesterHandLeft.HandSlamAttack(TopSpawners,2,2,2,"Up",TopSlamTemplate,true,FVector(0,0,600),FVector(0,0,100),4);
+            JesterHandLeft.HandSlamAttack(TopSpawners,2,2,2,"Up",TopSlamTemplate,true,FVector(0,0,600),FVector(0,0,0),4);
             JesterHandLeft.CurrentlyAttacking = true;
         }else{
-            JesterHandRight.HandSlamAttack(TopSpawners,7,2,2,"Up",TopSlamTemplate,true,FVector(0,0,600),FVector(0,0,100),4);
+            JesterHandRight.HandSlamAttack(TopSpawners,7,2,2,"Up",TopSlamTemplate,true,FVector(0,0,600),FVector(0,0,0),4);
             JesterHandRight.CurrentlyAttacking = true;
         }
         
@@ -454,19 +467,19 @@ class AJesterBoss :AActor{
         //same as up but defies gravity
         float Side = Math::RandRange(0.0f, 90.0f);
         if(Side < 30.0f){
-            JesterHandLeft.HandSlamAttack(BottomSpawners,0,1,0,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+            JesterHandLeft.HandSlamAttack(BottomSpawners,0,1,0,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,0),4);
             JesterHandLeft.CurrentlyAttacking = true;
         }else if(Side < 60.0f){
             float WhichHand = Math::RandRange(0.0f, 100.0f);
             if(WhichHand < 50.0f){
-                 JesterHandLeft.HandSlamAttack(BottomSpawners,3,2,1,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+                 JesterHandLeft.HandSlamAttack(BottomSpawners,3,2,1,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,0),4);
                  JesterHandLeft.CurrentlyAttacking = true;
             }else{
-                JesterHandRight.HandSlamAttack(BottomSpawners,3,2,1,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+                JesterHandRight.HandSlamAttack(BottomSpawners,3,2,1,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,0),4);
                 JesterHandRight.CurrentlyAttacking = true;
             }
         }else{
-            JesterHandRight.HandSlamAttack(BottomSpawners,6,1,0,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,-100),4);
+            JesterHandRight.HandSlamAttack(BottomSpawners,6,1,0,"Down",BottomSlamTemplate,true,FVector(0,0,-600),FVector(0,0,0),4);
             JesterHandRight.CurrentlyAttacking = true;
         }
         SetActorLocation(JesterUp.ActorLocation);
@@ -618,11 +631,25 @@ class AJesterBoss :AActor{
             float StopTime = Audio.Sound.Duration*PlayBackDuration;
             Audio.Sound = GameManager.DreamMusic[PhaseOfBoss-1];
             Audio.Play(StopTime);
+
+  
+            DreamJesterBody.SetVisibility(true);
+            JesterBody.SetVisibility(false);
+
+            JesterHandLeft.SwapMesh(NewDimension,"Left");
+            JesterHandRight.SwapMesh(NewDimension,"Right");
+
         }else if(NewDimension == EDimension::Nightmare){
             Audio.Stop();
             float StopTime = Audio.Sound.Duration *PlayBackDuration;
             Audio.Sound = GameManager.NightmareMusic[PhaseOfBoss-1];
             Audio.Play(StopTime);
+  
+            DreamJesterBody.SetVisibility(false);
+            JesterBody.SetVisibility(true);
+
+            JesterHandLeft.SwapMesh(NewDimension,"Left");
+            JesterHandRight.SwapMesh(NewDimension,"Right");
         }
     }
 

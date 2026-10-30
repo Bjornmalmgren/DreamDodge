@@ -13,6 +13,23 @@ class AGameManager : AActor{
     UPROPERTY()
     TArray<USoundWave> NightmareMusic;
 
+    UPROPERTY()
+    UStaticMesh DreamMask;
+    UPROPERTY()
+    UStaticMesh NightmareMask;
+
+    UPROPERTY()
+    UStaticMesh NightMareGlove;
+    UPROPERTY()
+    UStaticMesh DreamGlove;
+
+    UPROPERTY()
+    UMaterial LeftMaterial;
+    UPROPERTY()
+    UMaterial RightMaterial;
+    UPROPERTY()
+    UMaterial DreamHandMaterial;
+
     AEnviormentManager EnviormentManager;
     AJesterBoss Boss;
     APlayer Player;
